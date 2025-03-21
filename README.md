@@ -14,6 +14,13 @@ Questions:
 
 3. Based on your ranking of institutions, create a set of aspirant peer institutions for Towson University and explain why they are included in your set (such as, due to exhibiting certain characteristics which you view as important)
 
+## Dependencies
+
+[Install `uv`](https://docs.astral.sh/uv/getting-started/installation/)
+
+1. `uv venv` to create a virtual environment
+2. `uv sync` to install dependencies
+
 ## Use of AI
 
 - Create a function to perform fuzzy merging
