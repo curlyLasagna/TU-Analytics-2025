@@ -1,0 +1,120 @@
+﻿VariableName,Value,ValueLabel
+State abbreviation (HD2023),AL,Alabama
+State abbreviation (HD2023),AK,Alaska
+State abbreviation (HD2023),AZ,Arizona
+State abbreviation (HD2023),AR,Arkansas
+State abbreviation (HD2023),CA,California
+State abbreviation (HD2023),CO,Colorado
+State abbreviation (HD2023),CT,Connecticut
+State abbreviation (HD2023),DE,Delaware
+State abbreviation (HD2023),DC,District of Columbia
+State abbreviation (HD2023),FL,Florida
+State abbreviation (HD2023),GA,Georgia
+State abbreviation (HD2023),HI,Hawaii
+State abbreviation (HD2023),ID,Idaho
+State abbreviation (HD2023),IL,Illinois
+State abbreviation (HD2023),IN,Indiana
+State abbreviation (HD2023),IA,Iowa
+State abbreviation (HD2023),KS,Kansas
+State abbreviation (HD2023),KY,Kentucky
+State abbreviation (HD2023),LA,Louisiana
+State abbreviation (HD2023),ME,Maine
+State abbreviation (HD2023),MD,Maryland
+State abbreviation (HD2023),MA,Massachusetts
+State abbreviation (HD2023),MI,Michigan
+State abbreviation (HD2023),MN,Minnesota
+State abbreviation (HD2023),MS,Mississippi
+State abbreviation (HD2023),MO,Missouri
+State abbreviation (HD2023),MT,Montana
+State abbreviation (HD2023),NE,Nebraska
+State abbreviation (HD2023),NV,Nevada
+State abbreviation (HD2023),NH,New Hampshire
+State abbreviation (HD2023),NJ,New Jersey
+State abbreviation (HD2023),NM,New Mexico
+State abbreviation (HD2023),NY,New York
+State abbreviation (HD2023),NC,North Carolina
+State abbreviation (HD2023),ND,North Dakota
+State abbreviation (HD2023),OH,Ohio
+State abbreviation (HD2023),OK,Oklahoma
+State abbreviation (HD2023),OR,Oregon
+State abbreviation (HD2023),PA,Pennsylvania
+State abbreviation (HD2023),RI,Rhode Island
+State abbreviation (HD2023),SC,South Carolina
+State abbreviation (HD2023),SD,South Dakota
+State abbreviation (HD2023),TN,Tennessee
+State abbreviation (HD2023),TX,Texas
+State abbreviation (HD2023),UT,Utah
+State abbreviation (HD2023),VT,Vermont
+State abbreviation (HD2023),VA,Virginia
+State abbreviation (HD2023),WA,Washington
+State abbreviation (HD2023),WV,West Virginia
+State abbreviation (HD2023),WI,Wisconsin
+State abbreviation (HD2023),WY,Wyoming
+Historically Black College or University (HD2023),1,Yes
+Historically Black College or University (HD2023),2,No
+Institution grants a medical degree (HD2023),1,Yes
+Institution grants a medical degree (HD2023),2,No
+Institution grants a medical degree (HD2023),-2,Not applicable
+Tribal college (HD2023),1,Yes
+Tribal college (HD2023),2,No
+Primary public control (IC2023),1,Federal
+Primary public control (IC2023),2,State
+Primary public control (IC2023),3,Territorial
+Primary public control (IC2023),4,School district
+Primary public control (IC2023),5,County
+Primary public control (IC2023),7,City
+Primary public control (IC2023),8,Special district
+Primary public control (IC2023),9,Other
+Carnegie Classification 2021: Undergraduate Profile (HD2023),1,"Two-year, higher part-time"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),2,"Two-year, mixed part/full-time"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),3,"Two-year, medium full-time"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),5,"Four-year, higher part-time"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),6,"Four-year, medium full-time, inclusive, lower transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),7,"Four-year, medium full-time, inclusive, higher transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),8,"Four-year, medium full-time, selective, lower transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),9,"Four-year, medium full-time , selective, higher transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),10,"Four-year, full-time, inclusive, lower transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),11,"Four-year, full-time, inclusive, higher transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),12,"Four-year, full-time, selective, lower transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),13,"Four-year, full-time, selective, higher transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),14,"Four-year, full-time, more selective, lower transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),15,"Four-year, full-time, more selective, higher transfer-in"
+Carnegie Classification 2021: Undergraduate Profile (HD2023),-2,"Not applicable, not in Carnegie universe (not accredited or nondegree-granting)"
+Carnegie Classification 2021: Basic (HD2023),1,Associate's Colleges: High Transfer-High Traditional
+Carnegie Classification 2021: Basic (HD2023),2,Associate's Colleges: High Transfer-Mixed Traditional/Nontraditional
+Carnegie Classification 2021: Basic (HD2023),3,Associate's Colleges: High Transfer-High Nontraditional
+Carnegie Classification 2021: Basic (HD2023),4,Associate's Colleges: Mixed Transfer/Career & Technical-High Traditional
+Carnegie Classification 2021: Basic (HD2023),5,Associate's Colleges: Mixed Transfer/Career & Technical-Mixed Traditional/Nontraditional
+Carnegie Classification 2021: Basic (HD2023),6,Associate's Colleges: Mixed Transfer/Career & Technical-High Nontraditional
+Carnegie Classification 2021: Basic (HD2023),7,Associate's Colleges: High Career & Technical-High Traditional
+Carnegie Classification 2021: Basic (HD2023),8,Associate's Colleges: High Career & Technical-Mixed Traditional/Nontraditional
+Carnegie Classification 2021: Basic (HD2023),9,Associate's Colleges: High Career & Technical-High Nontraditional
+Carnegie Classification 2021: Basic (HD2023),14,Baccalaureate/Associate's Colleges: Associate's Dominant
+Carnegie Classification 2021: Basic (HD2023),15,"Doctoral Universities: Very High Research Activity
+"
+Carnegie Classification 2021: Basic (HD2023),16,"Doctoral Universities: High Research Activity
+"
+Carnegie Classification 2021: Basic (HD2023),17,"Doctoral/Professional Universities
+"
+Carnegie Classification 2021: Basic (HD2023),18,Master's Colleges & Universities: Larger Programs
+Carnegie Classification 2021: Basic (HD2023),19,Master's Colleges & Universities: Medium Programs
+Carnegie Classification 2021: Basic (HD2023),20,Master's Colleges & Universities: Small Programs
+Carnegie Classification 2021: Basic (HD2023),21,Baccalaureate Colleges: Arts & Sciences Focus
+Carnegie Classification 2021: Basic (HD2023),22,Baccalaureate Colleges: Diverse Fields
+Carnegie Classification 2021: Basic (HD2023),23,Baccalaureate/Associate's Colleges: Mixed Baccalaureate/Associate's
+Carnegie Classification 2021: Basic (HD2023),26,Special Focus Four-Year: Other Health Professions Schools
+Carnegie Classification 2021: Basic (HD2023),30,"Special Focus Four-Year: Arts, Music & Design Schools"
+Carnegie Classification 2021: Basic (HD2023),33,Tribal Colleges
+Carnegie Classification 2021: Basic (HD2023),-2,"Not applicable, not in Carnegie universe (not accredited or nondegree-granting)"
+"Yellow Ribbon Program (officially known as Post-9/11 GI Bill, Yellow Ribbon Program) (IC2023)",1,Yes
+"Yellow Ribbon Program (officially known as Post-9/11 GI Bill, Yellow Ribbon Program) (IC2023)",0,Implied no
+Credit for military training (IC2023),1,Yes
+Credit for military training (IC2023),0,Implied no
+"Dedicated point of contact for support services for veterans, military servicemembers, and their families (IC2023)",1,Yes
+"Dedicated point of contact for support services for veterans, military servicemembers, and their families (IC2023)",0,Implied no
+Recognized student veteran organization (IC2023),1,Yes
+Recognized student veteran organization (IC2023),0,Implied no
+Member of Department of Defense Voluntary Educational Partnership Memorandum of Understanding (IC2023),1,Yes
+Member of Department of Defense Voluntary Educational Partnership Memorandum of Understanding (IC2023),0,Implied no
+Percent indicator of undergraduates formally registered as students with disabilities (IC2023),1,3 percent or less
+Percent indicator of undergraduates formally registered as students with disabilities (IC2023),2,More than 3 percent
