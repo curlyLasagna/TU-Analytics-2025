@@ -21,7 +21,14 @@ Questions:
 1. `uv venv` to create a virtual environment
 2. `uv sync` to install dependencies
 
+## Running the notebook
+
+I've entirely given up on Jupyter notebooks. I'm officially Marimo-pilled
+
+To run the Marimo notebook: `marimo edit main.py`
+
 ## Use of AI
 
 - Create a function to perform fuzzy merging
 - Explaination of Learning To Rank models and how to implement it
+
