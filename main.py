@@ -259,22 +259,28 @@ def _(mo):
 
 
 @app.cell
-def _(alt, col_sel, pl):
-    def TU_Compare(df: pl.DataFrame, rank_dif: int, cols):
+def _(col_sel, cols, df, pl, rank_dif):
+    sorted_rank = df.sort(by="Ranking").with_row_index()
+
+    TU_index = sorted_rank.filter(
+        pl.col("Institution Name") == "Towson University"
+    ).item(0, "index")
+
+    sorted_rank = sorted_rank[
+        TU_index - rank_dif : TU_index + rank_dif
+    ].select("Institution Name", "Ranking", col_sel[cols])
+
+    return TU_index, sorted_rank
+
+
+@app.cell
+def _(alt, pl):
+    def TU_Compare(df: pl.DataFrame):
         """
-        Returns a chart to compare TU with institutions based on ranking from the dataframe passed
+        Returns a chart to compare TU with a list of institutions
         """
-        sorted_rank = df.sort(by="Ranking").with_row_index()
-
-        TU_index = sorted_rank.filter(
-            pl.col("Institution Name") == "Towson University"
-        ).item(0, "index")
-
-        sorted_rank = sorted_rank[
-            TU_index - rank_dif : TU_index + rank_dif
-        ].select("Institution Name", "Ranking", col_sel[cols])
-
-        df_melted = sorted_rank.unpivot(index="Institution Name").filter(
+    
+        df_melted = df.unpivot(index="Institution Name").filter(
             pl.col("variable") != "Ranking"
         )
         return (
@@ -294,12 +300,6 @@ def _(alt, col_sel, pl):
             .properties(width=1500, height=900)
         )
     return (TU_Compare,)
-
-
-@app.cell
-def _(TU_Compare, merged_forbes):
-    TU_Compare(merged_forbes, 20, "Admissions")
-    return
 
 
 @app.cell
@@ -363,12 +363,14 @@ def _(mo):
 
 @app.cell
 def _(pl):
+    # These ranges will only work within the original data_df columns.
+    # Will require joining
     column_ranges = {
-        "Degrees Conferred": (16, 21),
+        "Degrees Conferred": (15, 20),
         "Financial Aid": (21, 27),
-        "fin_perc": (21, 23),
-        "fin_avg": (23, 25),
-        "Student Success": (28, 32),
+        "fin_perc": (20, 22),
+        "fin_avg": (22, 24),
+        "Student Success": (27, 32),
         "Revenues": (32, 46),
         "Expenditures": (46, 61),
         "Library": (64, 71),
@@ -376,6 +378,7 @@ def _(pl):
         "Race": (87, 96),
         "Population": (81, 84),
         "Graduation Rate": (29, 32),
+        "Other success" : (103, 105)
     }
 
     col_sel = {k: pl.nth(range(*v)) for k, v in column_ranges.items()}
@@ -384,7 +387,7 @@ def _(pl):
 
 @app.cell
 def _(col_sel, data_df):
-    data_df.select("Institution Name", col_sel["Admissions"])
+    data_df.select("Institution Name", col_sel["Other success"])
     return
 
 
@@ -471,7 +474,7 @@ def _(col_sel, merged_niche, pl):
 
 @app.cell
 def _(col_sel, data_df):
-    data_df.select(col_sel["Financial Aid"]).describe()
+    data_df.select(col_sel["fin_avg"]).describe()
     return
 
 
@@ -505,11 +508,11 @@ def _(mo):
 
 
 @app.cell
-def _(data_df, pl):
+def _(TU_Compare, col_sel, data_df, pl):
     TU_population = 19527
     TU_admission_rate = 0.83
 
-    data_df.with_columns(
+    TU_peers = data_df.with_columns(
         (
             pl.col("Admissions total (ADM2023)")
             / pl.col("Applicants total (ADM2023)")
@@ -523,17 +526,12 @@ def _(data_df, pl):
         & (pl.col("Admission Rate").is_between(
             TU_admission_rate - 0.10, TU_admission_rate + 0.10
         ))
-    )
-    return TU_admission_rate, TU_population
+    ).select("Institution Name", col_sel["Student Success"])
 
+    # TU_peers
+    TU_Compare(TU_peers)
 
-@app.cell
-def _(data_df, pl):
-    data_df.filter(
-        pl.col("Carnegie Classification 2021: Basic (HD2023)")
-        == "Master's Colleges & Universities: Larger Programs"
-    )
-    return
+    return TU_admission_rate, TU_peers, TU_population
 
 
 @app.cell(hide_code=True)
