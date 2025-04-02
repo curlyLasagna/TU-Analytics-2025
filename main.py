@@ -22,19 +22,8 @@ def _(mo):
 def _():
     import altair as alt
     import polars as pl
-    return alt, pl
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(
-        r"""
-        ## Mapping labels with string classification
-
-        Un-doing the categorical encoding already presented to get a better understanding of the data.
-        """
-    )
-    return
+    from pprint import pprint
+    return alt, pl, pprint
 
 
 @app.cell
@@ -73,11 +62,23 @@ def _(labels_df, pl):
     return data_df, mapping_dict
 
 
+@app.cell
+def _(data_df, pl):
+    data_df.filter(pl.col("Institution Name") == "Towson University")["Carnegie Classification 2021: Undergraduate Profile (HD2023)"]
+    return
+
+
+@app.cell
+def _(data_df):
+    data_df.columns
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(
         r"""
-        ## Add real world rankings
+        ## Use of real work rankings
 
         Add columns on where an institution ranks
 
@@ -178,69 +179,10 @@ def _(pl):
 
 
 @app.cell
-def _(data_df, forbes_df, highered_df, niche_df, pl):
-    from thefuzz import fuzz
-
-
-    def fuzzy_join(
-        left_df: pl.DataFrame,
-        right_df: pl.DataFrame,
-        left_on: str = "Institution Name",
-        right_on: str = "Institution",
-        threshold: int = 97,
-    ) -> pl.DataFrame:
-        """
-        Perform a fuzzy join between two Polars DataFrames using token_sort_ratio.
-        Parameters:
-        -----------
-        left_df : pl.DataFrame
-            The left DataFrame to join
-        right_df : pl.DataFrame
-            The right DataFrame to join
-        left_on : str
-            The column name in the left DataFrame to match
-        right_on : str
-            The column name in the right DataFrame to match
-        threshold : int, optional (default=80)
-            Minimum similarity score to consider a match (0-100)
-
-        Returns:
-        --------
-        pl.DataFrame
-            Joined DataFrame with matches above the similarity threshold
-        """
-        # Create cartesian product of DataFrames
-        cross_df = left_df.join(right_df, how="cross")
-
-        # Apply fuzzy matching using token_sort_ratio
-        matched_df = cross_df.with_columns(
-            [
-                pl.struct([pl.col(left_on), pl.col(right_on)])
-                .map_elements(
-                    lambda x: fuzz.token_sort_ratio(
-                        str(x[left_on]), str(x[right_on])
-                    ),
-                    return_dtype=pl.Int64,
-                )
-                .alias("similarity_score")
-            ]
-        ).filter(pl.col("similarity_score") >= threshold)
-
-        return matched_df
-
-
-    # Map the rankings from external sources with the original data
-    merged_niche = fuzzy_join(data_df, niche_df)
-    merged_forbes = fuzzy_join(data_df, forbes_df)
-    merged_highered = fuzzy_join(data_df, highered_df)
-    return fuzz, fuzzy_join, merged_forbes, merged_highered, merged_niche
-
-
-@app.cell
 def _(mo):
     mo.md(
         r"""
-        ### Financial Aid
+        ### Comparison by Financial Aid
 
         I'm going to guess that TU excels at financial aid
 
@@ -266,40 +208,10 @@ def _(col_sel, cols, df, pl, rank_dif):
         pl.col("Institution Name") == "Towson University"
     ).item(0, "index")
 
-    sorted_rank = sorted_rank[
-        TU_index - rank_dif : TU_index + rank_dif
-    ].select("Institution Name", "Ranking", col_sel[cols])
-
+    sorted_rank = sorted_rank[TU_index - rank_dif : TU_index + rank_dif].select(
+        "Institution Name", "Ranking", col_sel[cols]
+    )
     return TU_index, sorted_rank
-
-
-@app.cell
-def _(alt, pl):
-    def TU_Compare(df: pl.DataFrame):
-        """
-        Returns a chart to compare TU with a list of institutions
-        """
-    
-        df_melted = df.unpivot(index="Institution Name").filter(
-            pl.col("variable") != "Ranking"
-        )
-        return (
-            alt.Chart(df_melted)
-            .mark_bar()
-            .encode(
-                x=alt.X(
-                    "Institution Name:N",
-                    title="Institution Name",
-                    sort=alt.EncodingSortField(field="Ranking", order="ascending"),
-                ),
-                y=alt.Y("value:Q", title="Value"),
-                xOffset="variable:N",
-                color=alt.Color("variable:N", title="Category"),
-                tooltip=["Institution Name", "variable", "value"],
-            )
-            .properties(width=1500, height=900)
-        )
-    return (TU_Compare,)
 
 
 @app.cell
@@ -316,73 +228,6 @@ def _(merged_niche, peers, pl):
         pl.col("Institution Name").is_in(peers + ["Towson University"])
     ).select(["Ranking", "Institution Name"])
     return
-
-
-@app.cell
-def _(mo):
-    mo.md(
-        r"""
-        According to https://www.towson.edu/ir/reports.html the following are the peer institutions that TU leadership would like to compete with. 
-
-        For the competition, we have to create our own list of institutions.
-        """
-    )
-    return
-
-
-@app.cell
-def _():
-    peers = [
-        "Appalachian State University",
-        "California State University-Fullerton",
-        "Indiana University of Pennsylvania-Main Campus",
-        "James Madison University",
-        "Minnesota State University-Mankato",
-        "Montclair State University",
-        "University of Massachusetts-Dartmouth",
-        "University of North Carolina at Charlotte",
-        "University of North Carolina Wilmington",
-        "West Chester University of Pennsylvania",
-        "Western Washington University",
-    ]
-    return (peers,)
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(
-        r"""
-        ## Column Groupings
-
-        To avoid the possibility of carpal tunnel, we group the columns.
-        It's a (-2, +1) column ranges
-        """
-    )
-    return
-
-
-@app.cell
-def _(pl):
-    # These ranges will only work within the original data_df columns.
-    # Will require joining
-    column_ranges = {
-        "Degrees Conferred": (15, 20),
-        "Financial Aid": (21, 27),
-        "fin_perc": (20, 22),
-        "fin_avg": (22, 24),
-        "Student Success": (27, 32),
-        "Revenues": (32, 46),
-        "Expenditures": (46, 61),
-        "Library": (64, 71),
-        "Admissions": (71, 74),
-        "Race": (87, 96),
-        "Population": (81, 84),
-        "Graduation Rate": (29, 32),
-        "Other success" : (103, 105)
-    }
-
-    col_sel = {k: pl.nth(range(*v)) for k, v in column_ranges.items()}
-    return col_sel, column_ranges
 
 
 @app.cell
@@ -473,21 +318,41 @@ def _(col_sel, merged_niche, pl):
 
 
 @app.cell
-def _(col_sel, data_df):
-    data_df.select(col_sel["fin_avg"]).describe()
+def _(mo):
+    mo.md(
+        r"""
+        ## How TU ranks nationally compares
+
+        We want to assign weights of each ranking
+        """
+    )
     return
 
 
 @app.cell
-def _(data_df, pl):
-    f"""TU is slightly above average in terms of federal pell grant awarded to UG students at
-    {
-        data_df.filter(pl.col("Institution Name") == "Towson University").item(
-            0,
-            "Average amount Federal Pell grant aid awarded to undergraduate students (SFA2223)",
-        )
-    }
-    """
+def _(mo):
+    mo.md(r"""### Affordability""")
+    return
+
+
+@app.cell
+def _(col_sel, data_df, pl):
+    no_brokeAss_colleges = data_df.filter(pl.col("Carnegie Classification 2021: Undergraduate Profile (HD2023)") == "Four-year, full-time, selective, higher transfer-in")
+    no_brokeAss_colleges.select(col_sel["Financial Aid"]).describe()
+    return (no_brokeAss_colleges,)
+
+
+@app.cell
+def _(col_sel, no_brokeAss_colleges, pl):
+    no_brokeAss_colleges.filter(pl.col("Institution Name") == "Towson University").select(
+        col_sel["Financial Aid"]
+    )
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""### """)
     return
 
 
@@ -495,7 +360,7 @@ def _(data_df, pl):
 def _(mo):
     mo.md(
         r"""
-        ### Peer Institutions
+        ## Our list of peer Institutions
 
         Peer institutions will have similar:
 
@@ -512,31 +377,40 @@ def _(TU_Compare, col_sel, data_df, pl):
     TU_population = 19527
     TU_admission_rate = 0.83
 
-    TU_peers = data_df.with_columns(
-        (
-            pl.col("Admissions total (ADM2023)")
-            / pl.col("Applicants total (ADM2023)")
-        ).alias("Admission Rate")
-    ).filter(
-        (pl.col("Carnegie Classification 2021: Basic (HD2023)")
-        == "Master's Colleges & Universities: Larger Programs")
-        & (pl.col("Grand total (EF2023  All students total)").is_between(
-            TU_population - 8000, TU_population + 8000
-        ))
-        & (pl.col("Admission Rate").is_between(
-            TU_admission_rate - 0.10, TU_admission_rate + 0.10
-        ))
-    ).select("Institution Name", col_sel["Student Success"])
+    TU_peers = (
+        data_df.with_columns(
+            (
+                pl.col("Admissions total (ADM2023)")
+                / pl.col("Applicants total (ADM2023)")
+            ).alias("Admission Rate")
+        )
+        .filter(
+            (
+                pl.col("Carnegie Classification 2021: Basic (HD2023)")
+                == "Master's Colleges & Universities: Larger Programs"
+            )
+            & (
+                pl.col("Grand total (EF2023  All students total)").is_between(
+                    TU_population - 8000, TU_population + 8000
+                )
+            )
+            & (
+                pl.col("Admission Rate").is_between(
+                    TU_admission_rate - 0.10, TU_admission_rate + 0.10
+                )
+            )
+        )
+        .select("Institution Name", col_sel["Student Success"])
+    )
 
     # TU_peers
     TU_Compare(TU_peers)
-
     return TU_admission_rate, TU_peers, TU_population
 
 
 @app.cell(hide_code=True)
 def _(mo):
-    mo.md(r"""## Data Preprocessing""")
+    mo.md(r"""## Learning To Rank""")
     return
 
 
@@ -544,11 +418,9 @@ def _(mo):
 def _(mo):
     mo.md(
         r"""
-        ### Weights of each different types of expenses
+        ### Data pre-processing
 
-        Use a learning to rank model to rank each institution
-
-        Get the weights of the greatest accuracy
+        Standardize data
         """
     )
     return
@@ -573,9 +445,187 @@ def _(col_sel, column_ranges, merged_forbes, pl):
 
 
 @app.cell
+def _(mo):
+    mo.md(r"""## Functions""")
+    return
+
+
+@app.cell
 def _():
     import marimo as mo
     return (mo,)
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""### Fuzzy Merge""")
+    return
+
+
+@app.cell
+def _(data_df, forbes_df, highered_df, niche_df, pl):
+    from thefuzz import fuzz
+
+
+    def fuzzy_join(
+        left_df: pl.DataFrame,
+        right_df: pl.DataFrame,
+        left_on: str = "Institution Name",
+        right_on: str = "Institution",
+        threshold: int = 97,
+    ) -> pl.DataFrame:
+        """
+        Perform a fuzzy join between two Polars DataFrames using token_sort_ratio.
+        Parameters:
+        -----------
+        left_df : pl.DataFrame
+            The left DataFrame to join
+        right_df : pl.DataFrame
+            The right DataFrame to join
+        left_on : str
+            The column name in the left DataFrame to match
+        right_on : str
+            The column name in the right DataFrame to match
+        threshold : int, optional (default=80)
+            Minimum similarity score to consider a match (0-100)
+
+        Returns:
+        --------
+        pl.DataFrame
+            Joined DataFrame with matches above the similarity threshold
+        """
+        # Create cartesian product of DataFrames
+        cross_df = left_df.join(right_df, how="cross")
+
+        # Apply fuzzy matching using token_sort_ratio
+        matched_df = cross_df.with_columns(
+            [
+                pl.struct([pl.col(left_on), pl.col(right_on)])
+                .map_elements(
+                    lambda x: fuzz.token_sort_ratio(
+                        str(x[left_on]), str(x[right_on])
+                    ),
+                    return_dtype=pl.Int64,
+                )
+                .alias("similarity_score")
+            ]
+        ).filter(pl.col("similarity_score") >= threshold)
+
+        return matched_df
+
+
+    # Map the rankings from external sources with the original data
+    merged_niche = fuzzy_join(data_df, niche_df)
+    merged_forbes = fuzzy_join(data_df, forbes_df)
+    merged_highered = fuzzy_join(data_df, highered_df)
+    return fuzz, fuzzy_join, merged_forbes, merged_highered, merged_niche
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""### Bar chart generator""")
+    return
+
+
+@app.cell
+def _(alt, pl):
+    def TU_Compare(df: pl.DataFrame):
+        """
+        Returns a chart to compare TU with a list of institutions
+        """
+
+        df_melted = df.unpivot(index="Institution Name").filter(
+            pl.col("variable") != "Ranking"
+        )
+        return (
+            alt.Chart(df_melted)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "Institution Name:N",
+                    title="Institution Name",
+                    sort=alt.EncodingSortField(field="Ranking", order="ascending"),
+                ),
+                y=alt.Y("value:Q", title="Value"),
+                xOffset="variable:N",
+                color=alt.Color("variable:N", title="Category"),
+                tooltip=["Institution Name", "variable", "value"],
+            )
+            .properties(width=1500, height=900)
+        )
+    return (TU_Compare,)
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""## Variables""")
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""### Column groups""")
+    return
+
+
+@app.cell
+def _(col_sel, data_df):
+    data_df.select("Institution Name",col_sel["Degrees Conferred"])
+    return
+
+
+@app.cell
+def _(pl):
+    column_ranges = {
+        "Degrees Conferred": (15, 20),
+        "Financial Aid": (21, 27),
+        "fin_perc": (20, 22),
+        "fin_avg": (22, 24),
+        "Student Success": (27, 32),
+        "Revenues": (32, 46),
+        "Expenditures": (46, 61),
+        "Library": (64, 71),
+        "Admissions": (71, 74),
+        "Race": (87, 96),
+        "Population": (81, 84),
+        "Graduation Rate": (29, 32),
+        "Other success": (103, 105),
+    }
+
+    col_sel = {k: pl.nth(range(*v)) for k, v in column_ranges.items()}
+    return col_sel, column_ranges
+
+
+@app.cell
+def _(mo):
+    mo.md(
+        r"""
+        ### Real world peers
+
+        According to https://www.towson.edu/ir/reports.html the following are the peer institutions that TU leadership would like to compete with. 
+
+        For the competition, we have to create our own list of institutions.
+        """
+    )
+    return
+
+
+@app.cell
+def _():
+    peers = [
+        "Appalachian State University",
+        "California State University-Fullerton",
+        "Indiana University of Pennsylvania-Main Campus",
+        "James Madison University",
+        "Minnesota State University-Mankato",
+        "Montclair State University",
+        "University of Massachusetts-Dartmouth",
+        "University of North Carolina at Charlotte",
+        "University of North Carolina Wilmington",
+        "West Chester University of Pennsylvania",
+        "Western Washington University",
+    ]
+    return (peers,)
 
 
 if __name__ == "__main__":
