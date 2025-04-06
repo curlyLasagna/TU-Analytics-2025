@@ -329,7 +329,15 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    mo.md(r"""### Affordability""")
+    mo.md(
+        r"""
+        ### Affordability and social mobility
+
+        See if TU has good social mobility
+
+        Look at the percent of pell grant undergrads, avg amount of federal pell grant awareded, and cost to go to school 
+        """
+    )
     return
 
 
@@ -447,7 +455,7 @@ def _(TU_Compare, TU_dict, col_sel, data_df, pl):
                 )
             )
         )
-        .select("Institution Name", col_sel["Student Success"])
+        .select("Institution Name", col_sel["fin_perc"])
     )
     print(TU_peers.select("Institution Name"))
     # TU_peers
@@ -489,6 +497,44 @@ def _(col_sel, column_ranges, merged_forbes, pl):
     )
     scaled_df
     return MinMaxScaler, scaled_df, scaler
+
+
+@app.cell
+def _(data_df, merged_forbes, pl):
+    import polars.selectors as cs
+    from sklearn.ensemble import RandomForestClassifier
+
+    model = RandomForestClassifier()
+    train_data_df = data_df.select(cs.numeric()).filter(pl.all_horizontal(pl.all().is_nan()))
+
+    train_forbes = merged_forbes.select(cs.numeric()).filter(
+            ~pl.all_horizontal(pl.all().is_nan()))
+
+    # Sort institution name since it matches by position
+    # model.fit(
+    #     train_data_df, train_forbes
+    # )
+
+    # model.feature_importances_
+    return RandomForestClassifier, cs, model, train_data_df, train_forbes
+
+
+@app.cell
+def _(train_data_df):
+    train_data_df
+    return
+
+
+@app.cell
+def _(cs, data_df):
+    data_df.select(cs.numeric())
+    return
+
+
+@app.cell
+def _(cs, merged_forbes):
+    merged_forbes.select(cs.numeric())
+    return
 
 
 @app.cell
@@ -569,6 +615,12 @@ def _(data_df, forbes_df, highered_df, niche_df, pl):
 
 
 @app.cell
+def _(mo):
+    mo.md(r"""###Averaging out""")
+    return
+
+
+@app.cell
 def _(merged_forbes, merged_highered, merged_niche):
     merged_highered.select("Ranking", "Institution Name").rename(
         {"Ranking": "HigherEd Ranking"}
@@ -578,11 +630,17 @@ def _(merged_forbes, merged_highered, merged_niche):
         ),
         on="Institution Name",
     ).join(
-        merged_niche.select("Ranking", "Insitution Name").rename(
+        merged_niche.select("Ranking", "Institution Name").rename(
             {"Ranking": "HigherEd Ranking"}
         ),
-        on="Institution Name"
+        on="Institution Name",
     )
+    return
+
+
+@app.cell
+def _(merged_niche):
+    merged_niche
     return
 
 
