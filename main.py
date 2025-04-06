@@ -36,6 +36,12 @@ def _(pl):
     return (labels_df,)
 
 
+@app.cell
+def _(data_df):
+    data_df
+    return
+
+
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""## Data decoding""")
@@ -46,7 +52,7 @@ def _(mo):
 def _(labels_df, pl):
     data_df = pl.read_csv("data.csv").drop(
         "UnitID", "Institution (entity) name (HD2023)"
-    )
+    ).filter(~pl.col("Carnegie Classification 2021: Undergraduate Profile (HD2023)") <= 2)
 
     mapping_dict = {
         var: dict(zip(sub_df["Value"], sub_df["ValueLabel"]))
@@ -60,6 +66,12 @@ def _(labels_df, pl):
         ]
     )
     return data_df, mapping_dict
+
+
+@app.cell
+def _(data_df):
+    data_df
+    return
 
 
 @app.cell
@@ -342,14 +354,11 @@ def _(mo):
 
 
 @app.cell
-def _(TU_dict, col_sel, data_df, pl):
-    no_brokeAss_colleges = data_df.filter(
-        pl.col("Carnegie Classification 2021: Undergraduate Profile (HD2023)")
-        == TU_dict["Carnegie Classification 2021: Undergraduate Profile (HD2023)"]
+def _(TU_Compare, TU_peers, col_sel):
+    TU_Compare(
+       TU_peers.select("Institution Name", col_sel["Graduation Rate"], "Academic support expenses as a percent of total core expenses (GASB) (DRVF2023)").sort(by="Graduation rate - Bachelor degree within 4 years  total (DRVGR2023)") 
     )
-
-    no_brokeAss_colleges.select(col_sel["Financial Aid"]).describe()
-    return (no_brokeAss_colleges,)
+    return
 
 
 @app.cell
@@ -408,10 +417,15 @@ def _(mo):
         Peer institutions will have similar characteristics:
 
         - Carnegie classification, undergraduate
+        - Ratio between undergrad and grad*
         - Population size
             - $\pm$ 7000
         - Admissions rate
             - $\pm$ 10%
+        - Pell Grant
+            - Students who are doing well financially can finish college sooner
+            - This could be due to having to work to make ends meet
+            - $\pm$ 5% 
         """
     )
     return
@@ -424,7 +438,7 @@ def _(TU_Compare, TU_dict, col_sel, data_df, pl):
         TU_dict["Admissions total (ADM2023)"]
         / TU_dict["Applicants total (ADM2023)"]
     )
-    tolerance_range = {"population": 7000, "admission_rate": 0.08}
+    tolerance_range = {"population": 10000, "admission_rate": 0.08, "pell grant perc" : 5}
 
     TU_peers = (
         data_df.with_columns(
@@ -454,13 +468,23 @@ def _(TU_Compare, TU_dict, col_sel, data_df, pl):
                     TU_admission_rate + tolerance_range["admission_rate"],
                 )
             )
+            & 
+        (
+                pl.col("Percent of undergraduate students awarded Federal Pell grants (SFA2223)").is_between(
+                    TU_dict["Percent of undergraduate students awarded Federal Pell grants (SFA2223)"] - tolerance_range["pell grant perc"], TU_dict["Percent of undergraduate students awarded Federal Pell grants (SFA2223)"] + tolerance_range["pell grant perc"]
+                )
+            )
         )
-        .select("Institution Name", col_sel["fin_perc"])
     )
-    print(TU_peers.select("Institution Name"))
     # TU_peers
-    TU_Compare(TU_peers)
+    TU_Compare(TU_peers.select("Institution Name", col_sel["fin_perc"]))
     return TU_admission_rate, TU_peers, TU_population, tolerance_range
+
+
+@app.cell
+def _(TU_peers):
+    TU_peers
+    return
 
 
 @app.cell(hide_code=True)
@@ -705,7 +729,7 @@ def _(mo):
 
 @app.cell
 def _(col_sel, data_df):
-    data_df.select("Institution Name", col_sel["Degrees Conferred"])
+    data_df.select("Institution Name", col_sel["Graduation Rate"])
     return
 
 
@@ -723,7 +747,7 @@ def _(pl):
         "Admissions": (71, 74),
         "Race": (87, 96),
         "Population": (81, 84),
-        "Graduation Rate": (29, 32),
+        "Graduation Rate": (27, 32),
         "Other success": (103, 105),
     }
 
@@ -737,7 +761,9 @@ def _(mo):
         r"""
         ### Real world peers
 
-        According to https://www.towson.edu/ir/reports.html the following are the peer institutions that TU leadership would like to compete with. 
+        According to https://www.towson.edu/ir/reports.html the following are the peer institutions that TU leadership would like to compete with.
+
+        This list of peers are from 2015, so it's a little outdated
 
         For the competition, we have to create our own list of institutions.
         """
