@@ -63,12 +63,6 @@ def _(labels_df, pl):
 
 
 @app.cell
-def _(data_df, pl):
-    data_df.filter(pl.col("Institution Name") == "Towson University")["Carnegie Classification 2021: Undergraduate Profile (HD2023)"]
-    return
-
-
-@app.cell
 def _(data_df):
     data_df.columns
     return
@@ -201,30 +195,34 @@ def _(mo):
 
 
 @app.cell
-def _(col_sel, cols, df, pl, rank_dif):
-    sorted_rank = df.sort(by="Ranking").with_row_index()
+def _(TU_dict, merged_forbes, pl):
+    # Sort by external rankings and include a row index. This will be used as a relative ranking
+    sorted_rank = merged_forbes.sort(by="Ranking").with_row_index()
 
+    rank_dif = 30
+
+    # Get the relative ranking of TU
     TU_index = sorted_rank.filter(
         pl.col("Institution Name") == "Towson University"
     ).item(0, "index")
 
-    sorted_rank = sorted_rank[TU_index - rank_dif : TU_index + rank_dif].select(
-        "Institution Name", "Ranking", col_sel[cols]
-    )
-    return TU_index, sorted_rank
+
+    sorted_rank = sorted_rank.filter(
+        pl.col("Carnegie Classification 2021: Basic (HD2023)")
+        == TU_dict["Carnegie Classification 2021: Basic (HD2023)"]
+    )[TU_index - rank_dif : TU_index + rank_dif]
+    return TU_index, rank_dif, sorted_rank
+
+
+@app.cell
+def _(sorted_rank):
+    sorted_rank
+    return
 
 
 @app.cell
 def _(merged_forbes, peers, pl):
     merged_forbes.filter(
-        pl.col("Institution Name").is_in(peers + ["Towson University"])
-    ).select(["Ranking", "Institution Name"])
-    return
-
-
-@app.cell
-def _(merged_niche, peers, pl):
-    merged_niche.filter(
         pl.col("Institution Name").is_in(peers + ["Towson University"])
     ).select(["Ranking", "Institution Name"])
     return
@@ -323,7 +321,7 @@ def _(mo):
         r"""
         ## How TU ranks nationally compares
 
-        We want to assign weights of each ranking
+        We want to assign weights for each ranking
         """
     )
     return
@@ -336,23 +334,60 @@ def _(mo):
 
 
 @app.cell
-def _(col_sel, data_df, pl):
-    no_brokeAss_colleges = data_df.filter(pl.col("Carnegie Classification 2021: Undergraduate Profile (HD2023)") == "Four-year, full-time, selective, higher transfer-in")
+def _(TU_dict, col_sel, data_df, pl):
+    no_brokeAss_colleges = data_df.filter(
+        pl.col("Carnegie Classification 2021: Undergraduate Profile (HD2023)")
+        == TU_dict["Carnegie Classification 2021: Undergraduate Profile (HD2023)"]
+    )
+
     no_brokeAss_colleges.select(col_sel["Financial Aid"]).describe()
     return (no_brokeAss_colleges,)
 
 
 @app.cell
-def _(col_sel, no_brokeAss_colleges, pl):
-    no_brokeAss_colleges.filter(pl.col("Institution Name") == "Towson University").select(
-        col_sel["Financial Aid"]
-    )
+def _():
     return
 
 
 @app.cell
 def _(mo):
-    mo.md(r"""### """)
+    mo.md(r"""### Diversity and Equity""")
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(
+        r"""
+        ### Graduate Experience
+
+        - Many graduate students depend on stipend and assistantship to continue their graudate studies
+        - Stipend and assistantship comes from research expense but funding could come from other sources
+        """
+    )
+    return
+
+
+@app.cell
+def _(TU_dict):
+    f"TU invests {TU_dict['Research expenses as a percent of total core expenses (GASB) (DRVF2023)']}% of their expenses on research"
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(r"""### Retention Rate""")
+    return
+
+
+@app.cell
+def _(col_sel, data_df):
+    data_df.select(col_sel["Other success"]).describe()
     return
 
 
@@ -362,20 +397,26 @@ def _(mo):
         r"""
         ## Our list of peer Institutions
 
-        Peer institutions will have similar:
+        Peer institutions will have similar characteristics:
 
-        - Carnegie classification
+        - Carnegie classification, undergraduate
         - Population size
+            - $\pm$ 7000
         - Admissions rate
+            - $\pm$ 10%
         """
     )
     return
 
 
 @app.cell
-def _(TU_Compare, col_sel, data_df, pl):
-    TU_population = 19527
-    TU_admission_rate = 0.83
+def _(TU_Compare, TU_dict, col_sel, data_df, pl):
+    TU_population = TU_dict["Grand total (EF2023A  All students total)"]
+    TU_admission_rate = (
+        TU_dict["Admissions total (ADM2023)"]
+        / TU_dict["Applicants total (ADM2023)"]
+    )
+    tolerance_range = {"population": 7000, "admission_rate": 0.08}
 
     TU_peers = (
         data_df.with_columns(
@@ -386,26 +427,32 @@ def _(TU_Compare, col_sel, data_df, pl):
         )
         .filter(
             (
-                pl.col("Carnegie Classification 2021: Basic (HD2023)")
-                == "Master's Colleges & Universities: Larger Programs"
+                pl.col(
+                    "Carnegie Classification 2021: Undergraduate Profile (HD2023)"
+                )
+                == TU_dict[
+                    "Carnegie Classification 2021: Undergraduate Profile (HD2023)"
+                ]
             )
             & (
                 pl.col("Grand total (EF2023  All students total)").is_between(
-                    TU_population - 8000, TU_population + 8000
+                    TU_population - tolerance_range["population"],
+                    TU_population + tolerance_range["population"],
                 )
             )
             & (
                 pl.col("Admission Rate").is_between(
-                    TU_admission_rate - 0.10, TU_admission_rate + 0.10
+                    TU_admission_rate - tolerance_range["admission_rate"],
+                    TU_admission_rate + tolerance_range["admission_rate"],
                 )
             )
         )
         .select("Institution Name", col_sel["Student Success"])
     )
-
+    print(TU_peers.select("Institution Name"))
     # TU_peers
     TU_Compare(TU_peers)
-    return TU_admission_rate, TU_peers, TU_population
+    return TU_admission_rate, TU_peers, TU_population, tolerance_range
 
 
 @app.cell(hide_code=True)
@@ -522,6 +569,36 @@ def _(data_df, forbes_df, highered_df, niche_df, pl):
 
 
 @app.cell
+def _(merged_forbes, merged_highered, merged_niche):
+    merged_highered.select("Ranking", "Institution Name").rename(
+        {"Ranking": "HigherEd Ranking"}
+    ).join(
+        merged_forbes.select("Ranking", "Institution Name").rename(
+            {"Ranking": "Forbes Ranking"}
+        ),
+        on="Institution Name",
+    ).join(
+        merged_niche.select("Ranking", "Insitution Name").rename(
+            {"Ranking": "HigherEd Ranking"}
+        ),
+        on="Institution Name"
+    )
+    return
+
+
+@app.cell
+def _(merged_forbes):
+    merged_forbes.select("Ranking", "Institution Name")
+    return
+
+
+@app.cell
+def _(merged_niche):
+    merged_niche.select("Ranking", "Institution Name")
+    return
+
+
+@app.cell
 def _(mo):
     mo.md(r"""### Bar chart generator""")
     return
@@ -570,7 +647,7 @@ def _(mo):
 
 @app.cell
 def _(col_sel, data_df):
-    data_df.select("Institution Name",col_sel["Degrees Conferred"])
+    data_df.select("Institution Name", col_sel["Degrees Conferred"])
     return
 
 
@@ -626,6 +703,44 @@ def _():
         "Western Washington University",
     ]
     return (peers,)
+
+
+@app.cell
+def _(TU_Compare, col_sel, data_df, peers, pl):
+    TU_Compare(
+        data_df.filter(
+            pl.col("Institution Name").is_in(peers + ["Towson University"])
+        ).select(col_sel["Graduation Rate"], "Institution Name")
+    )
+    return
+
+
+@app.cell
+def _(mo):
+    mo.md(f"""
+    ### TU values
+    """)
+    return
+
+
+@app.cell
+def _(data_df, pl):
+    TU_dict = dict(
+        zip(
+            data_df.filter(
+                pl.col("Institution Name") == "Towson University"
+            ).columns,
+            data_df.filter(pl.col("Institution Name") == "Towson University").row(
+                0
+            ),
+        )
+    )
+    return (TU_dict,)
+
+
+@app.cell
+def _():
+    return
 
 
 if __name__ == "__main__":

@@ -19,7 +19,8 @@ Questions:
 [Install `uv`](https://docs.astral.sh/uv/getting-started/installation/)
 
 1. `uv venv` to create a virtual environment
-2. `uv sync` to install dependencies
+2. `source .venv/bin/activate` to your desired shell. If you're on Windows, do `.venv\Scripts\activate`  
+3. `uv sync` to install dependencies
 
 ## Running the notebook
 
