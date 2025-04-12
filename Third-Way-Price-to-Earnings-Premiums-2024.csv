@@ -6,12 +6,12 @@
 187967,265400,2654,New Mexico Institute of Mining and Technology,NM,Public,21764,76489,"32,566 ",0.5,12508,77986,32566,0.28,No,No,No,No,No,Yes,No,www.nmt.edu/
 243744,130500,1305,Stanford University,CA,Private non-profit,43404,124080,"38,446 ",0.51,-5544,122170,38446,-0.07,No,No,No,No,No,No,No,www.stanford.edu/
 190594,268900,2689,CUNY Hunter College,NY,Public,13184,63163,"38,037 ",0.52,5632,61190,38037,0.24,No,No,No,No,Yes,Yes,No,www.hunter.cuny.edu/
-441609,3496300,34963,Yeshiva Shaarei Torah of Rockland,NY,Private non-profit,31720,89548,"38,037 ",0.62,0,0,38037,0,No,No,No,No,No,No,No,www.yst.edu/
+441609,3496300,34963,Yeshiva Shaarei Torah of Rockland,NY,Private non-profit,31720,89548,"38,037 ",0.62,,,38037,,No,No,No,No,No,No,No,www.yst.edu/
 484473,153500,1535,University of Florida-Online,FL,Public,24288,71588,"33,773 ",0.64,7444,68870,33773,0.21,No,No,No,No,No,No,No,https://www.ufl.edu/
 190549,268700,2687,CUNY Brooklyn College,NY,Public,14800,60752,"38,037 ",0.65,9220,58923,38037,0.44,No,No,No,No,Yes,No,No,www.brooklyn.cuny.edu/
 134130,153500,1535,University of Florida,FL,Public,25100,71588,"33,773 ",0.66,8132,68870,33773,0.23,No,No,No,No,No,No,No,https://www.ufl.edu/
-110404,113100,1131,California Institute of Technology,CA,Private non-profit,66200,128566,"38,446 ",0.73,0,0,38446,0,No,No,No,No,No,No,No,www.caltech.edu/
-163532,208700,2087,Ner Israel Rabbinical College,MD,Private non-profit,17976,66330,"42,031 ",0.74,0,0,42031,0,No,No,No,No,No,No,No,https://nirc.edu/
+110404,113100,1131,California Institute of Technology,CA,Private non-profit,66200,128566,"38,446 ",0.73,,,38446,,No,No,No,No,No,No,No,www.caltech.edu/
+163532,208700,2087,Ner Israel Rabbinical College,MD,Private non-profit,17976,66330,"42,031 ",0.74,,,42031,,No,No,No,No,No,No,No,https://nirc.edu/
 190664,269000,2690,CUNY Queens College,NY,Public,19684,62763,"38,037 ",0.8,12504,60655,38037,0.55,No,No,No,No,Yes,Yes,No,https://www.qc.cuny.edu/
 190637,702200,7022,CUNY Lehman College,NY,Public,16136,58013,"38,037 ",0.81,10796,55655,38037,0.61,No,No,No,No,No,Yes,No,www.lehman.edu/
 166683,217800,2178,Massachusetts Institute of Technology,MA,Private non-profit,81352,143372,"43,492 ",0.81,21388,151864,43492,0.2,No,No,No,No,No,No,No,web.mit.edu/
@@ -20,7 +20,7 @@
 110547,114100,1141,California State University-Dominguez Hills,CA,Public,16232,57162,"38,446 ",0.87,12084,55181,38446,0.72,No,No,No,No,No,Yes,No,https://www.csudh.edu/
 134097,148900,1489,Florida State University,FL,Public,25800,61675,"33,773 ",0.92,12220,58378,33773,0.5,No,No,No,No,No,No,No,https://www.fsu.edu/
 110495,115700,1157,California State University-Stanislaus,CA,Public,23008,63188,"38,446 ",0.93,14052,62146,38446,0.59,No,No,No,No,Yes,Yes,No,https://www.csustan.edu/
-451398,4131100,41311,Yeshiva Toras Chaim,NJ,Private non-profit,22948,62526,"39,913 ",1.01,0,0,39913,0,No,No,No,No,No,No,No,https://ytclakewood.com/
+451398,4131100,41311,Yeshiva Toras Chaim,NJ,Private non-profit,22948,62526,"39,913 ",1.01,,,39913,,No,No,No,No,No,No,No,https://ytclakewood.com/
 219639,3440300,34403,Baptist Health Sciences University,TN,Private non-profit,38596,72529,"34,967 ",1.03,17956,68408,34967,0.54,No,Yes,No,No,No,No,No,www.baptistu.edu/
 110592,114000,1140,California State University-Los Angeles,CA,Public,21540,59211,"38,446 ",1.04,14868,58186,38446,0.75,No,No,No,No,Yes,Yes,No,https://www.calstatela.edu/
 227757,360400,3604,Rice University,TX,Private non-profit,60364,89718,"35,753 ",1.12,21168,93158,35753,0.37,No,No,No,No,No,No,No,www.rice.edu/
@@ -32,13 +32,13 @@
 190691,475900,4759,CUNY York College,NY,Public,22272,56945,"38,037 ",1.18,17236,56260,38037,0.95,No,Yes,No,No,Yes,Yes,No,www.york.cuny.edu/
 110556,114700,1147,California State University-Fresno,CA,Public,26976,61244,"38,446 ",1.18,18552,58874,38446,0.91,No,No,No,No,Yes,Yes,No,www.fresnostate.edu/
 436818,141704,1417,University of Connecticut-Waterbury Campus,CT,Public,38100,73997,"42,224 ",1.2,20948,66740,42224,0.85,No,No,No,No,Yes,Yes,No,waterbury.uconn.edu/
-441982,3946300,39463,Franklin W Olin College of Engineering,MA,Private non-profit,103696,129455,"43,492 ",1.21,0,0,43492,0,No,No,No,No,No,No,No,www.olin.edu/
+441982,3946300,39463,Franklin W Olin College of Engineering,MA,Private non-profit,103696,129455,"43,492 ",1.21,,,43492,,No,No,No,No,No,No,No,www.olin.edu/
 426314,147900,1479,Embry-Riddle Aeronautical University-Worldwide,FL,Private non-profit,60944,84131,"33,773 ",1.21,57256,75740,33773,1.36,No,No,No,No,No,No,No,worldwide.erau.edu/
 377564,379801,3798,University of Washington-Tacoma Campus,WA,Public,43588,78466,"42,614 ",1.22,21012,74610,42614,0.66,No,No,No,No,Yes,No,No,https://www.tacoma.uw.edu/
 179265,250400,2504,University of Health Sciences and Pharmacy in St. Louis,MO,Private non-profit,123636,137047,"35,770 ",1.22,115820,131906,35770,1.2,No,No,No,No,No,No,No,www.uhsp.edu/
 110565,113700,1137,California State University-Fullerton,CA,Public,29940,62951,"38,446 ",1.22,17544,62023,38446,0.74,No,No,No,No,Yes,Yes,No,www.fullerton.edu/
 188526,288500,2885,Albany College of Pharmacy and Health Sciences,NY,Private non-profit,114288,131426,"38,037 ",1.22,79908,143524,38037,0.76,No,No,No,No,No,No,No,www.acphs.edu/
-156295,195500,1955,Berea College,KY,Private non-profit,10404,43150,"34,705 ",1.23,0,0,34705,0,No,No,No,No,No,No,No,https://www.berea.edu/
+156295,195500,1955,Berea College,KY,Private non-profit,10404,43150,"34,705 ",1.23,,,34705,,No,No,No,No,No,No,No,https://www.berea.edu/
 442569,4122300,41223,University of Arkansas Grantham,AR,Public,36700,63496,"34,070 ",1.25,35244,38880,34070,7.33,No,No,No,No,No,No,No,https://www.uagrantham.edu/
 130794,142600,1426,Yale University,CT,Private non-profit,74140,100533,"42,224 ",1.27,1364,99674,42224,0.02,No,No,No,No,No,No,No,https://www.yale.edu/
 190372,271000,2710,The Cooper Union for the Advancement of Science and Art,NY,Private non-profit,58320,83847,"38,037 ",1.27,16296,55809,38037,0.92,No,No,No,No,No,No,No,https://www.cooper.edu/
@@ -76,12 +76,12 @@
 110510,114200,1142,California State University-San Bernardino,CA,Public,32860,59977,"38,446 ",1.53,23796,58362,38446,1.19,No,No,No,No,No,Yes,No,www.csusb.edu/
 137351,153700,1537,University of South Florida,FL,Public,36812,57743,"33,773 ",1.54,19280,55901,33773,0.87,No,No,No,No,No,No,No,www.usf.edu/
 190558,269800,2698,College of Staten Island CUNY,NY,Public,24028,53501,"38,037 ",1.55,17648,48859,38037,1.63,No,No,No,No,Yes,Yes,No,www.csi.cuny.edu/
-451370,4123400,41234,Yeshivas Be'er Yitzchok,NJ,Private non-profit,66500,82560,"39,913 ",1.56,0,0,39913,0,No,No,No,No,No,No,No,https://yeshivasbeeryitzchok.org/
+451370,4123400,41234,Yeshivas Be'er Yitzchok,NJ,Private non-profit,66500,82560,"39,913 ",1.56,,,39913,,No,No,No,No,No,No,No,https://yeshivasbeeryitzchok.org/
 142522,162500,1625,Brigham Young University-Idaho,ID,Private non-profit,27872,53406,"35,563 ",1.56,13848,56911,35563,0.65,No,No,No,No,No,No,No,www.byui.edu/
 136172,984100,9841,University of North Florida,FL,Public,35408,56343,"33,773 ",1.57,23560,55098,33773,1.1,No,No,No,No,No,No,No,https://www.unf.edu/
 157447,927500,9275,Northern Kentucky University,KY,Public,24348,50220,"34,705 ",1.57,1864,45945,34705,0.17,No,No,No,No,No,No,No,www.nku.edu/
 436827,141705,1417,University of Connecticut-Avery Point,CT,Public,49916,73997,"42,224 ",1.57,30436,66740,42224,1.24,No,No,No,No,No,No,No,averypoint.uconn.edu/
-115409,117100,1171,Harvey Mudd College,CA,Private non-profit,158684,138687,"38,446 ",1.58,0,0,38446,0,No,No,No,No,No,No,No,https://www.hmc.edu/
+115409,117100,1171,Harvey Mudd College,CA,Private non-profit,158684,138687,"38,446 ",1.58,,,38446,,No,No,No,No,No,No,No,https://www.hmc.edu/
 243780,182500,1825,Purdue University-Main Campus,IN,Public,56000,72424,"37,447 ",1.6,21912,66974,37447,0.74,No,No,No,No,No,No,No,https://www.purdue.edu/
 161299,204400,2044,Maine Maritime Academy,ME,Public,85540,89964,"36,542 ",1.6,51320,59967,36542,2.19,No,No,No,No,No,No,No,https://mainemaritime.edu/
 161004,203800,2038,Bowdoin College,ME,Private non-profit,74132,82735,"36,542 ",1.6,10824,88880,36542,0.21,No,No,No,No,No,No,No,https://www.bowdoin.edu/
@@ -95,7 +95,7 @@
 110617,115000,1150,California State University-Sacramento,CA,Public,43644,64876,"38,446 ",1.65,31600,63578,38446,1.26,No,No,No,No,Yes,Yes,No,https://www.csus.edu/
 476975,4208700,42087,Colorado State University Global,CO,Public,59304,76813,"41,596 ",1.68,59512,55652,41596,4.23,No,No,No,No,No,No,No,https://csuglobal.edu/
 229018,993000,9930,The University of Texas Permian Basin,TX,Public,34404,56073,"35,753 ",1.69,21188,53037,35753,1.23,No,No,No,No,No,Yes,No,https://www.utpb.edu/
-123952,2075800,20758,Southern California Institute of Architecture,CA,Private non-profit,56696,71909,"38,446 ",1.69,0,0,38446,0,No,No,No,No,No,No,No,www.sciarc.edu/
+123952,2075800,20758,Southern California Institute of Architecture,CA,Private non-profit,56696,71909,"38,446 ",1.69,,,38446,,No,No,No,No,No,No,No,www.sciarc.edu/
 110705,132000,1320,University of California-Santa Barbara,CA,Public,61928,74915,"38,446 ",1.7,35356,70146,38446,1.12,No,No,No,No,Yes,Yes,No,www.ucsb.edu/
 198385,291800,2918,Davidson College,NC,Private non-profit,80140,81400,"34,303 ",1.7,30188,75787,34303,0.73,No,No,No,No,No,No,No,https://davidson.edu/
 450933,4121500,41215,Columbia Southern University,AL,Private for-profit,49464,63534,"34,470 ",1.7,47532,46327,34470,4.01,No,No,No,No,No,No,No,www.columbiasouthern.edu/
@@ -158,7 +158,7 @@
 228787,974100,9741,The University of Texas at Dallas,TX,Public,67948,68227,"35,753 ",2.09,45372,64332,35753,1.59,No,No,No,No,No,No,No,www.utdallas.edu/
 226833,359200,3592,Midwestern State University,TX,Public,41856,55747,"35,753 ",2.09,30468,53458,35753,1.72,No,No,No,No,No,No,No,www.msutexas.edu/
 229179,364600,3646,Texas Woman's University,TX,Public,43712,56544,"35,753 ",2.1,33788,53072,35753,1.95,No,No,No,No,No,Yes,No,www.twu.edu/
-149028,998700,9987,Saint Anthony College of Nursing,IL,Private non-profit,84180,77709,"37,706 ",2.1,0,0,37706,0,No,No,No,No,No,No,No,https://www.sacn.edu/
+149028,998700,9987,Saint Anthony College of Nursing,IL,Private non-profit,84180,77709,"37,706 ",2.1,,,37706,,No,No,No,No,No,No,No,https://www.sacn.edu/
 217156,340100,3401,Brown University,RI,Private non-profit,108628,93487,"41,968 ",2.11,18964,88912,41968,0.4,No,No,No,No,No,No,No,www.brown.edu/
 123572,115600,1156,Sonoma State University,CA,Public,58112,65986,"38,446 ",2.11,37112,63601,38446,1.48,No,No,No,No,No,Yes,No,https://sonoma.edu/
 145725,169100,1691,Illinois Institute of Technology,IL,Private non-profit,94952,82592,"37,706 ",2.12,75260,81196,37706,1.73,No,No,No,No,No,No,No,https://www.iit.edu/
@@ -184,7 +184,7 @@
 409698,3260300,32603,California State University-Monterey Bay,CA,Public,46596,59247,"38,446 ",2.24,27740,58307,38446,1.4,No,No,No,No,No,Yes,No,https://csumb.edu/
 174066,396900,3969,University of Minnesota-Twin Cities,MN,Public,65272,69020,"39,969 ",2.25,27732,63838,39969,1.16,No,No,No,No,Yes,No,No,https://twin-cities.umn.edu/
 169983,226200,2262,Kettering University,MI,Private non-profit,134708,94823,"35,052 ",2.25,98016,84938,35052,1.96,No,No,No,No,No,No,No,https://www.kettering.edu/
-162061,143600,1436,Capitol Technology University,MD,Private non-profit,96960,85035,"42,031 ",2.25,0,0,42031,0,No,No,No,No,No,No,No,www.captechu.edu/
+162061,143600,1436,Capitol Technology University,MD,Private non-profit,96960,85035,"42,031 ",2.25,,,42031,,No,No,No,No,No,No,No,www.captechu.edu/
 196264,1028600,10286,Empire State University,NY,Public,36364,54080,"38,037 ",2.27,28520,45571,38037,3.79,No,No,No,No,No,No,No,www.esc.edu/
 196237,710900,7109,SUNY College at Old Westbury,NY,Public,46556,58526,"38,037 ",2.27,32192,55387,38037,1.86,No,No,No,No,Yes,Yes,No,www.oldwestbury.edu/
 196060,283500,2835,SUNY at Albany,NY,Public,68204,67979,"38,037 ",2.28,45780,61872,38037,1.92,No,No,No,No,No,No,No,www.albany.edu/
@@ -198,7 +198,7 @@
 171146,232700,2327,University of Michigan-Flint,MI,Public,42632,53230,"35,052 ",2.35,18552,47241,35052,1.52,No,No,No,No,No,No,No,www.umflint.edu/
 225502,1323100,13231,University of Houston-Victoria,TX,Public,43964,54467,"35,753 ",2.35,35796,52330,35753,2.16,No,No,No,No,No,Yes,No,www.uhv.edu/
 110714,132100,1321,University of California-Santa Cruz,CA,Public,70404,68396,"38,446 ",2.35,41376,67816,38446,1.41,No,No,No,No,Yes,Yes,No,www.ucsc.edu/
-459949,4248500,42485,Texas A&M University-San Antonio,TX,Public,43692,54338,"35,753 ",2.35,0,0,35753,0,No,No,No,No,No,Yes,No,www.tamusa.edu/
+459949,4248500,42485,Texas A&M University-San Antonio,TX,Public,43692,54338,"35,753 ",2.35,,,35753,,No,No,No,No,No,Yes,No,www.tamusa.edu/
 236939,380000,3800,Washington State University,WA,Public,61936,68905,"42,614 ",2.36,32128,65601,42614,1.4,No,No,No,No,No,No,No,https://wsu.edu/
 192703,275800,2758,Manhattan College,NY,Private non-profit,114360,86316,"38,037 ",2.37,101212,84979,38037,2.16,No,No,No,No,No,Yes,No,www.manhattan.edu/
 237792,382200,3822,Shepherd University,WV,Public,33672,49358,"35,146 ",2.37,1700,46457,35146,0.15,No,No,No,No,No,No,No,www.shepherd.edu/
@@ -226,7 +226,7 @@
 191515,272800,2728,Hamilton College,NY,Private non-profit,99348,78411,"38,037 ",2.46,20588,61428,38037,0.88,No,No,No,No,No,No,No,https://www.hamilton.edu/
 159416,201300,2013,Louisiana State University-Shreveport,LA,Public,31172,47477,"34,837 ",2.47,23584,44168,34837,2.53,No,No,No,No,No,No,No,www.lsus.edu/
 440828,321001,3210,Oregon State University-Cascades Campus,OR,Public,67344,64010,"36,722 ",2.47,40144,57728,36722,1.91,No,No,No,No,No,No,No,https://osucascades.edu/
-101453,2199700,21997,Heritage Christian University,AL,Private non-profit,20080,42597,"34,470 ",2.47,0,0,34470,0,No,No,No,No,No,No,No,www.hcu.edu/
+101453,2199700,21997,Heritage Christian University,AL,Private non-profit,20080,42597,"34,470 ",2.47,,,34470,,No,No,No,No,No,No,No,www.hcu.edu/
 122436,1039500,10395,University of San Diego,CA,Private non-profit,118900,86522,"38,446 ",2.47,78636,81025,38446,1.85,No,No,No,No,No,No,No,www.sandiego.edu/
 153603,186900,1869,Iowa State University,IA,Public,61976,63386,"38,538 ",2.49,30128,58795,38538,1.49,No,No,No,No,No,No,No,www.iastate.edu/
 122931,132600,1326,Santa Clara University,CA,Private non-profit,176532,109183,"38,446 ",2.5,117208,96559,38446,2.02,No,No,No,No,No,No,No,www.scu.edu/
@@ -246,9 +246,9 @@
 196167,284500,2845,SUNY College at Geneseo,NY,Public,75800,67316,"38,037 ",2.59,42820,67284,38037,1.46,No,No,No,No,No,No,No,https://www.geneseo.edu/
 215770,336700,3367,Saint Joseph's University,PA,Private non-profit,127576,86881,"37,689 ",2.59,112404,70715,37689,3.4,No,No,No,No,No,No,No,https://www.sju.edu/
 193399,270300,2703,College of Mount Saint Vincent,NY,Private non-profit,72036,65756,"38,037 ",2.6,66052,60702,38037,2.91,No,No,No,No,No,Yes,No,www.mountsaintvincent.edu/
-128780,3234300,32343,Charter Oak State College,CT,Public,57152,64209,"42,224 ",2.6,0,0,42224,0,No,No,No,No,No,No,No,https://www.charteroak.edu/
+128780,3234300,32343,Charter Oak State College,CT,Public,57152,64209,"42,224 ",2.6,,,42224,,No,No,No,No,No,No,No,https://www.charteroak.edu/
 215275,337904,3379,University of Pittsburgh-Greensburg,PA,Public,73948,66125,"37,689 ",2.6,43676,55458,37689,2.46,No,No,No,No,No,No,No,www.greensburg.pitt.edu/
-166692,218100,2181,Massachusetts Maritime Academy,MA,Public,101176,82392,"43,492 ",2.6,0,0,43492,0,No,No,No,No,No,No,No,https://www.maritime.edu/
+166692,218100,2181,Massachusetts Maritime Academy,MA,Public,101176,82392,"43,492 ",2.6,,,43492,,No,No,No,No,No,No,No,https://www.maritime.edu/
 169910,226000,2260,Ferris State University,MI,Public,51248,54735,"35,052 ",2.6,25060,47260,35052,2.05,No,No,No,No,No,No,No,www.ferris.edu/
 151111,181300,1813,Indiana University-Purdue University-Indianapolis,IN,Public,46308,55198,"37,447 ",2.61,24000,52687,37447,1.57,No,No,No,No,No,No,No,www.iupui.edu/
 181297,640400,6404,Nebraska Methodist College of Nursing & Allied Health,NE,Private non-profit,72800,65071,"37,196 ",2.61,47680,65946,37196,1.66,No,No,No,No,No,No,No,www.methodistcollege.edu/
@@ -416,7 +416,7 @@
 207351,317400,3174,Oklahoma Panhandle State University,OK,Public,31248,44933,"35,412 ",3.28,31140,42790,35412,4.22,No,No,No,No,No,Yes,No,www.opsu.edu/
 218539,344500,3445,Presbyterian College,SC,Private non-profit,84628,60194,"34,412 ",3.28,70876,54020,34412,3.61,No,No,No,No,No,No,No,https://www.presby.edu/
 121691,132200,1322,University of Redlands,CA,Private non-profit,112808,72690,"38,446 ",3.29,81404,65673,38446,2.99,No,No,No,No,No,Yes,No,www.redlands.edu/
-161235,204100,2041,University of Maine at Fort Kent,ME,Public,47928,51077,"36,542 ",3.3,0,0,36542,0,No,No,No,No,No,No,No,www.umfk.maine.edu/
+161235,204100,2041,University of Maine at Fort Kent,ME,Public,47928,51077,"36,542 ",3.3,,,36542,,No,No,No,No,No,No,No,www.umfk.maine.edu/
 180106,252600,2526,Carroll College,MT,Private non-profit,89880,61772,"34,557 ",3.3,67808,57368,34557,2.97,No,No,No,No,No,No,No,www.carroll.edu/
 219790,353600,3536,Bryan College-Dayton,TN,Private non-profit,64340,54434,"34,967 ",3.31,50168,48791,34967,3.63,No,No,No,No,No,No,No,www.bryan.edu/
 190725,280800,2808,Daemen University,NY,Private non-profit,78632,61808,"38,037 ",3.31,55272,50268,38037,4.52,No,No,No,No,No,No,No,www.daemen.edu/
@@ -437,7 +437,7 @@
 132408,2159600,21596,The Baptist College of Florida,FL,Private non-profit,30376,42836,"33,773 ",3.35,32976,40545,33773,4.87,No,No,No,No,No,No,No,www.baptistcollege.edu/
 240268,391700,3917,University of Wisconsin-Eau Claire,WI,Public,65740,58561,"38,969 ",3.36,38608,53291,38969,2.7,No,No,No,No,No,No,No,www.uwec.edu/
 151379,181700,1817,Indiana University-Southeast,IN,Public,34064,47596,"37,447 ",3.36,18404,43960,37447,2.83,No,No,No,No,No,No,No,https://ius.edu/
-134510,2188900,21889,Hobe Sound Bible College,FL,Private non-profit,20444,39863,"33,773 ",3.36,0,0,33773,0,No,No,No,No,No,No,No,www.hsbc.edu/
+134510,2188900,21889,Hobe Sound Bible College,FL,Private non-profit,20444,39863,"33,773 ",3.36,,,33773,,No,No,No,No,No,No,No,www.hsbc.edu/
 196185,284700,2847,SUNY Oneonta,NY,Public,75028,60386,"38,037 ",3.36,47784,54680,38037,2.87,No,No,No,No,No,No,No,https://suny.oneonta.edu/
 180416,253100,2531,Montana Technological University,MT,Public,66392,54329,"34,557 ",3.36,54568,42812,34557,6.61,No,No,No,No,No,No,No,https://www.mtech.edu/
 217165,340200,3402,Bryant University,RI,Private non-profit,161324,90008,"41,968 ",3.36,138768,113937,41968,1.93,No,No,No,No,No,No,No,https://www.bryant.edu/
@@ -477,7 +477,7 @@
 224554,356500,3565,Texas A & M University-Commerce,TX,Public,50816,50296,"35,753 ",3.49,40676,47068,35753,3.59,No,No,No,No,No,No,No,www.tamuc.edu/
 230995,369200,3692,Norwich University,VT,Private non-profit,92348,65575,"39,151 ",3.49,63372,60071,39151,3.03,No,No,No,No,No,No,No,www.norwich.edu/
 216524,338500,3385,Ursinus College,PA,Private non-profit,125972,73721,"37,689 ",3.5,98960,75323,37689,2.63,No,No,No,No,No,No,No,www.ursinus.edu/
-167996,221700,2217,Stonehill College,MA,Private non-profit,119808,77745,"43,492 ",3.5,0,0,43492,0,No,No,No,No,No,No,No,https://www.stonehill.edu/
+167996,221700,2217,Stonehill College,MA,Private non-profit,119808,77745,"43,492 ",3.5,,,43492,,No,No,No,No,No,No,No,https://www.stonehill.edu/
 240471,392300,3923,University of Wisconsin-River Falls,WI,Public,54324,54458,"38,969 ",3.51,35524,49618,38969,3.34,No,No,No,No,No,No,No,https://www.uwrf.edu/
 217420,340700,3407,Rhode Island College,RI,Public,50396,56318,"41,968 ",3.51,36588,58619,41968,2.2,No,No,No,No,No,No,No,www.ric.edu/
 156125,195000,1950,Wichita State University,KS,Public,53196,51532,"36,397 ",3.51,38592,47493,36397,3.48,No,No,No,No,No,No,No,www.wichita.edu/
@@ -492,18 +492,18 @@
 105330,108200,1082,Northern Arizona University,AZ,Public,62132,54384,"36,792 ",3.53,45716,52230,36792,2.96,No,No,No,No,No,Yes,No,https://nau.edu/
 234827,377100,3771,Central Washington University,WA,Public,67072,61580,"42,614 ",3.54,41884,59170,42614,2.53,No,No,No,No,No,No,No,www.cwu.edu/
 168148,221900,2219,Tufts University,MA,Private non-profit,140492,83214,"43,492 ",3.54,36892,72336,43492,1.28,No,No,No,No,No,No,No,https://www.tufts.edu/
-192040,274000,2740,Jewish Theological Seminary of America,NY,Private non-profit,193608,92751,"38,037 ",3.54,0,0,38037,0,No,No,No,No,No,No,No,www.jtsa.edu/
+192040,274000,2740,Jewish Theological Seminary of America,NY,Private non-profit,193608,92751,"38,037 ",3.54,,,38037,,No,No,No,No,No,No,No,www.jtsa.edu/
 132471,146600,1466,Barry University,FL,Private non-profit,78656,55966,"33,773 ",3.54,69896,52679,33773,3.7,No,No,No,No,No,Yes,No,www.barry.edu/
 230728,367700,3677,Utah State University,UT,Public,50480,54022,"39,805 ",3.55,31924,52966,39805,2.43,No,No,No,No,No,No,No,https://www.usu.edu/
 160977,203600,2036,Bates College,ME,Private non-profit,117364,69498,"36,542 ",3.56,18048,68228,36542,0.57,No,No,No,No,No,No,No,www.bates.edu/
-457226,4140500,41405,Horizon University,IN,Private non-profit,101240,65875,"37,447 ",3.56,0,0,37447,0,No,No,No,No,No,No,No,www.horizonuniversity.edu/
+457226,4140500,41405,Horizon University,IN,Private non-profit,101240,65875,"37,447 ",3.56,,,37447,,No,No,No,No,No,No,No,www.horizonuniversity.edu/
 222983,354300,3543,Austin College,TX,Private non-profit,91056,61296,"35,753 ",3.56,73952,61375,35753,2.89,No,No,No,No,Yes,No,No,www.austincollege.edu/
 231174,369600,3696,University of Vermont,VT,Public,83180,62472,"39,151 ",3.57,49532,56618,39151,2.84,No,No,No,No,No,No,No,www.uvm.edu/
 441900,4114300,41143,Nevada State College,NV,Public,55464,53166,"37,646 ",3.57,44264,47320,37646,4.58,No,No,No,No,Yes,Yes,No,https://nsc.edu/
 240189,392600,3926,University of Wisconsin-Whitewater,WI,Public,58592,55356,"38,969 ",3.58,35088,51094,38969,2.89,No,No,No,No,No,No,No,www.uww.edu/
 181002,254200,2542,Creighton University,NE,Private non-profit,131336,73911,"37,196 ",3.58,98968,71816,37196,2.86,No,No,No,No,No,No,No,https://www.creighton.edu/
 168430,219000,2190,Worcester State University,MA,Public,61300,60624,"43,492 ",3.58,39552,53534,43492,3.94,No,No,No,No,No,No,No,https://www.worcester.edu/
-130697,142400,1424,Wesleyan University,CT,Private non-profit,113360,73897,"42,224 ",3.58,0,0,42224,0,No,No,No,No,No,No,No,www.wesleyan.edu/
+130697,142400,1424,Wesleyan University,CT,Private non-profit,113360,73897,"42,224 ",3.58,,,42224,,No,No,No,No,No,No,No,www.wesleyan.edu/
 176628,244900,2449,Avila University,MO,Private non-profit,60880,52773,"35,770 ",3.58,45280,47790,35770,3.77,No,No,No,No,No,No,No,https://www.avila.edu/
 143118,163400,1634,Aurora University,IL,Private non-profit,75260,58709,"37,706 ",3.58,60088,55621,37706,3.35,No,No,No,No,No,Yes,No,https://aurora.edu/
 119173,124300,1243,Mount Saint Mary's University,CA,Private non-profit,121704,72379,"38,446 ",3.59,112248,66950,38446,3.94,No,No,No,No,Yes,Yes,No,https://www.msmu.edu/
@@ -529,7 +529,7 @@
 196176,284600,2846,State University of New York at New Paltz,NY,Public,73432,58073,"38,037 ",3.67,43540,56233,38037,2.39,No,No,No,No,No,No,No,www.newpaltz.edu/
 218070,343400,3434,Furman University,SC,Private non-profit,125428,68635,"34,412 ",3.67,77372,65130,34412,2.52,No,No,No,No,No,No,No,www.furman.edu/
 128106,136500,1365,Colorado State University Pueblo,CO,Public,51260,55563,"41,596 ",3.67,37872,50802,41596,4.11,No,No,No,No,No,Yes,No,https://www.csupueblo.edu/
-164562,211800,2118,Assumption University,MA,Private non-profit,115284,74895,"43,492 ",3.67,0,0,43492,0,No,No,No,No,No,No,No,https://www.assumption.edu/
+164562,211800,2118,Assumption University,MA,Private non-profit,115284,74895,"43,492 ",3.67,,,43492,,No,No,No,No,No,No,No,https://www.assumption.edu/
 139764,157300,1573,Georgia Southwestern State University,GA,Public,49548,48757,"35,289 ",3.68,42876,44106,35289,4.86,No,No,No,No,No,No,No,https://gsw.edu/
 237011,380200,3802,Western Washington University,WA,Public,73492,62569,"42,614 ",3.68,46052,61710,42614,2.41,No,No,No,No,No,No,No,wwu.edu/
 214713,332920,3329,Pennsylvania State University-Penn State Harrisburg,PA,Public,94820,63435,"37,689 ",3.68,72944,52313,37689,4.99,No,No,No,No,No,No,No,https://harrisburg.psu.edu/
@@ -585,7 +585,7 @@
 192819,276500,2765,Marist College,NY,Private non-profit,152804,77819,"38,037 ",3.84,99120,70041,38037,3.1,No,No,No,No,No,No,No,www.marist.edu/
 101879,101600,1016,University of North Alabama,AL,Public,42108,45415,"34,470 ",3.85,31688,41319,34470,4.63,No,No,No,No,No,No,No,www.una.edu/
 174251,238900,2389,University of Minnesota-Morris,MN,Public,42164,50919,"39,969 ",3.85,2736,44626,39969,0.59,No,No,No,No,No,No,Yes,https://morris.umn.edu/
-152798,3069100,30691,Allen College,IA,Private non-profit,126036,71261,"38,538 ",3.85,0,0,38538,0,No,No,No,No,No,No,No,www.allencollege.edu/
+152798,3069100,30691,Allen College,IA,Private non-profit,126036,71261,"38,538 ",3.85,,,38538,,No,No,No,No,No,No,No,www.allencollege.edu/
 175005,234200,2342,St Catherine University,MN,Private non-profit,74444,59282,"39,969 ",3.85,62464,55521,39969,4.02,No,No,No,No,Yes,No,No,https://www.stkate.edu/
 214704,332906,3329,Pennsylvania State University-Penn State Berks,PA,Public,99244,63435,"37,689 ",3.85,70172,52313,37689,4.8,No,No,No,No,No,No,No,https://berks.psu.edu/
 206613,307801,3078,Wright State University-Lake Campus,OH,Public,49176,49500,"36,811 ",3.88,33536,44273,36811,4.49,No,No,No,No,No,No,No,https://lake.wright.edu/
@@ -602,7 +602,7 @@
 159382,201100,2011,Louisiana State University-Alexandria,LA,Public,29004,42205,"34,837 ",3.94,22232,37156,34837,9.59,No,No,No,No,No,No,Yes,www.lsua.edu/
 147129,622800,6228,Methodist College,IL,Private non-profit,126608,69800,"37,706 ",3.94,95352,69389,37706,3.01,No,No,No,No,No,No,No,www.methodistcol.edu/
 240277,389900,3899,University of Wisconsin-Green Bay,WI,Public,53616,52528,"38,969 ",3.95,37584,50802,38969,3.18,No,No,No,No,No,No,No,www.uwgb.edu/
-130776,138000,1380,Western Connecticut State University,CT,Public,66828,59115,"42,224 ",3.96,0,0,42224,0,No,No,No,No,No,Yes,No,https://www.wcsu.edu/
+130776,138000,1380,Western Connecticut State University,CT,Public,66828,59115,"42,224 ",3.96,,,42224,,No,No,No,No,No,Yes,No,https://www.wcsu.edu/
 159993,202000,2020,University of Louisiana at Monroe,LA,Public,47252,46769,"34,837 ",3.96,41952,43505,34837,4.84,No,No,No,No,No,No,No,www.ulm.edu/
 190761,271300,2713,Dominican University New York,NY,Private non-profit,91680,61171,"38,037 ",3.96,81140,60115,38037,3.68,No,No,No,No,No,Yes,No,www.duny.edu/
 215798,336800,3368,Saint Vincent College,PA,Private non-profit,88436,59982,"37,689 ",3.97,58836,50512,37689,4.59,No,No,No,No,No,No,No,https://www.stvincent.edu/
@@ -672,7 +672,7 @@
 212115,332000,3320,East Stroudsburg University of Pennsylvania,PA,Public,76736,56148,"37,689 ",4.16,61836,49051,37689,5.44,No,No,No,No,No,No,No,https://www.esu.edu/
 102553,1146200,11462,University of Alaska Anchorage,AK,Public,43912,51871,"41,338 ",4.17,25800,45720,41338,5.89,No,No,No,No,Yes,No,No,www.uaa.alaska.edu/
 224545,3170300,31703,Texas A&M University-Texarkana,TX,Public,40756,45515,"35,753 ",4.17,31448,42301,35753,4.8,No,No,No,No,No,No,No,www.tamut.edu/
-206279,1092300,10923,Union Institute & University,OH,Private non-profit,113852,64080,"36,811 ",4.18,0,0,36811,0,No,No,No,No,No,Yes,No,https://www.myunion.edu/
+206279,1092300,10923,Union Institute & University,OH,Private non-profit,113852,64080,"36,811 ",4.18,,,36811,,No,No,No,No,No,Yes,No,https://www.myunion.edu/
 199102,290500,2905,North Carolina A & T State University,NC,Public,42328,44440,"34,303 ",4.18,30424,41554,34303,4.2,Yes,No,No,No,No,No,No,www.ncat.edu/
 155061,191500,1915,Fort Hays State University,KS,Public,52384,48928,"36,397 ",4.18,38684,42404,36397,6.44,No,No,No,No,No,No,No,www.fhsu.edu/
 211352,324100,3241,Cabrini University,PA,Private non-profit,89280,59038,"37,689 ",4.18,66360,55075,37689,3.82,No,No,No,No,No,No,No,www.cabrini.edu/
@@ -718,12 +718,12 @@
 167783,220800,2208,Simmons University,MA,Private non-profit,86644,63494,"43,492 ",4.33,51532,63151,43492,2.62,No,No,No,No,No,No,No,www.simmons.edu/
 443410,3724300,37243,DigiPen Institute of Technology,WA,Private for-profit,161568,79878,"42,614 ",4.34,131208,77463,42614,3.77,No,No,No,No,No,No,No,https://www.digipen.edu/
 208646,319300,3193,Eastern Oregon University,OR,Public,58128,50112,"36,722 ",4.34,43760,43528,36722,6.43,No,No,No,No,No,No,No,www.eou.edu/
-149639,177800,1778,VanderCook College of Music,IL,Private non-profit,44232,47863,"37,706 ",4.35,0,0,37706,0,No,No,No,No,No,Yes,No,www.vandercook.edu/
+149639,177800,1778,VanderCook College of Music,IL,Private non-profit,44232,47863,"37,706 ",4.35,,,37706,,No,No,No,No,No,Yes,No,www.vandercook.edu/
 195526,281400,2814,Skidmore College,NY,Private non-profit,136660,69363,"38,037 ",4.36,41120,66496,38037,1.44,No,No,No,No,No,No,No,www.skidmore.edu/
 133650,148000,1480,Florida Agricultural and Mechanical University,FL,Public,46232,44349,"33,773 ",4.37,29336,43206,33773,3.11,Yes,No,No,No,No,No,No,www.famu.edu/
 206589,303700,3037,The College of Wooster,OH,Private non-profit,99980,59629,"36,811 ",4.38,58788,52188,36811,3.82,No,No,No,No,No,No,No,https://www.wooster.edu/
 151360,181500,1815,Indiana University-Northwest,IN,Public,25952,43361,"37,447 ",4.39,14212,38084,37447,22.31,No,No,No,No,No,Yes,No,www.iun.edu/
-449339,3819300,38193,American Public University System,WV,Private for-profit,40672,44409,"35,146 ",4.39,39376,33313,35146,0,No,No,No,No,No,No,No,https://www.apus.edu/
+449339,3819300,38193,American Public University System,WV,Private for-profit,40672,44409,"35,146 ",4.39,39376,33313,35146,,No,No,No,No,No,No,No,https://www.apus.edu/
 191649,273200,2732,Hofstra University,NY,Private non-profit,136608,69039,"38,037 ",4.41,115468,63104,38037,4.61,No,No,No,No,No,No,No,www.hofstra.edu/
 202523,304200,3042,Denison University,OH,Private non-profit,136536,67753,"36,811 ",4.41,58600,57409,36811,2.84,No,No,No,No,No,No,No,https://www.denison.edu/
 157401,197700,1977,Murray State University,KY,Public,44288,44737,"34,705 ",4.41,34740,40053,34705,6.5,No,No,No,No,No,No,No,www.murraystate.edu/
@@ -798,7 +798,7 @@
 164270,210900,2109,McDaniel College,MD,Private non-profit,88424,60663,"42,031 ",4.75,54416,55025,42031,4.19,No,No,No,No,No,No,No,www.mcdaniel.edu/
 157818,198700,1987,Transylvania University,KY,Private non-profit,94936,54705,"34,705 ",4.75,86848,44956,34705,8.47,No,No,No,No,No,No,No,https://www.transy.edu/
 226231,358400,3584,LeTourneau University,TX,Private non-profit,101376,57103,"35,753 ",4.75,72512,47344,35753,6.26,No,No,No,No,No,No,No,www.letu.edu/
-126076,2262400,22624,Yeshiva Ohr Elchonon Chabad West Coast Talmudical Seminary,CA,Private non-profit,47208,48361,"38,446 ",4.76,0,0,38446,0,No,No,No,No,No,No,No,www.yoec.edu/
+126076,2262400,22624,Yeshiva Ohr Elchonon Chabad West Coast Talmudical Seminary,CA,Private non-profit,47208,48361,"38,446 ",4.76,,,38446,,No,No,No,No,No,No,No,www.yoec.edu/
 228875,363600,3636,Texas Christian University,TX,Private non-profit,157084,68424,"35,753 ",4.81,112624,62890,35753,4.15,No,No,No,No,No,No,No,https://www.tcu.edu/
 181446,255500,2555,Nebraska Wesleyan University,NE,Private non-profit,92468,56405,"37,196 ",4.81,79044,51487,37196,5.53,No,No,No,No,No,No,No,https://www.nebrwesleyan.edu/
 232609,372000,3720,University of Lynchburg,VA,Private non-profit,88416,56380,"38,032 ",4.82,75232,50184,38032,6.19,No,No,No,No,No,No,No,www.lynchburg.edu/
@@ -825,7 +825,7 @@
 238193,383200,3832,Alverno College,WI,Private non-profit,69712,53145,"38,969 ",4.92,66044,46483,38969,8.79,No,No,No,No,No,Yes,No,https://www.alverno.edu/
 176372,244100,2441,University of Southern Mississippi,MS,Public,54976,44140,"32,974 ",4.92,48728,40043,32974,6.89,No,No,No,No,No,No,No,https://www.usm.edu/
 152567,183900,1839,Trine University,IN,Private non-profit,97104,57165,"37,447 ",4.92,69932,46285,37447,7.91,No,No,No,No,No,No,No,www.trine.edu/
-165671,214700,2147,Emmanuel College,MA,Private non-profit,121948,68245,"43,492 ",4.93,0,0,43492,0,No,No,No,No,No,No,No,www.emmanuel.edu/
+165671,214700,2147,Emmanuel College,MA,Private non-profit,121948,68245,"43,492 ",4.93,,,43492,,No,No,No,No,No,No,No,www.emmanuel.edu/
 162584,207200,2072,Frostburg State University,MD,Public,66324,55493,"42,031 ",4.93,45968,49856,42031,5.87,No,No,No,No,No,No,No,www.frostburg.edu/
 201654,302500,3025,Cedarville University,OH,Private non-profit,92384,55443,"36,811 ",4.96,68608,49400,36811,5.45,No,No,No,No,No,No,No,https://www.cedarville.edu/
 206084,313100,3131,University of Toledo,OH,Public,68568,50632,"36,811 ",4.96,51596,41380,36811,11.29,No,No,No,No,No,No,No,www.utoledo.edu/
@@ -835,7 +835,7 @@
 221661,351800,3518,Southern Adventist University,TN,Private non-profit,93756,53723,"34,967 ",5,71812,52636,34967,4.06,No,No,No,No,Yes,Yes,No,www.southern.edu/
 214777,332900,3329,Pennsylvania State University-Main Campus,PA,Public,128892,63435,"37,689 ",5.01,81876,52313,37689,5.6,No,No,No,No,No,No,No,https://www.psu.edu/
 214777,332900,3329,Pennsylvania State University-World Campus,PA,Public,128892,63435,"37,689 ",5.01,81876,52313,37689,5.6,No,No,No,No,No,No,No,https://www.psu.edu/
-475608,4121800,41218,Criswell College,TX,Private non-profit,37216,43185,"35,753 ",5.01,0,0,35753,0,No,No,No,No,No,No,No,www.criswell.edu/
+475608,4121800,41218,Criswell College,TX,Private non-profit,37216,43185,"35,753 ",5.01,,,35753,,No,No,No,No,No,No,No,www.criswell.edu/
 206525,314300,3143,Wittenberg University,OH,Private non-profit,90916,54947,"36,811 ",5.01,69056,51542,36811,4.69,No,No,No,No,No,No,No,www.wittenberg.edu/
 207458,316600,3166,Oklahoma City University,OK,Private non-profit,96568,54655,"35,412 ",5.02,67688,56990,35412,3.14,No,No,No,No,No,No,No,www.okcu.edu/
 160065,202300,2023,University of Holy Cross,LA,Private non-profit,72692,49316,"34,837 ",5.02,67332,46440,34837,5.8,No,No,No,No,No,No,No,uhcno.edu/
@@ -921,7 +921,7 @@
 209056,319700,3197,Lewis & Clark College,OR,Private non-profit,135276,62205,"36,722 ",5.31,78304,61805,36722,3.12,No,No,No,No,No,No,No,www.lclark.edu/
 168281,222700,2227,Wheaton College (Massachusetts),MA,Private non-profit,128992,67725,"43,492 ",5.32,103624,66167,43492,4.57,No,No,No,No,No,No,No,www.wheatoncollege.edu/
 210146,321900,3219,Southern Oregon University,OR,Public,66308,49175,"36,722 ",5.32,48248,45536,36722,5.47,No,No,No,No,No,No,No,www.sou.edu/
-176770,2068200,20682,Cox College,MO,Private non-profit,112496,56867,"35,770 ",5.33,0,0,35770,0,No,No,No,No,No,No,No,https://coxcollege.edu/
+176770,2068200,20682,Cox College,MO,Private non-profit,112496,56867,"35,770 ",5.33,,,35770,,No,No,No,No,No,No,No,https://coxcollege.edu/
 227526,363000,3630,Prairie View A & M University,TX,Public,51556,45411,"35,753 ",5.34,37716,43214,35753,5.06,Yes,No,No,No,No,No,No,www.pvamu.edu/
 144971,167800,1678,Eureka College,IL,Private non-profit,74408,51641,"37,706 ",5.34,58560,48789,37706,5.28,No,No,No,No,No,No,No,www.eureka.edu/
 121309,126200,1262,Point Loma Nazarene University,CA,Private non-profit,136444,63998,"38,446 ",5.34,105924,58249,38446,5.35,No,No,No,No,No,No,No,www.pointloma.edu/
@@ -933,7 +933,7 @@
 195164,281700,2817,St Bonaventure University,NY,Private non-profit,102812,57214,"38,037 ",5.36,55208,53233,38037,3.63,No,No,No,No,No,No,No,https://www.sbu.edu/
 446048,3941300,39413,Ave Maria University,FL,Private non-profit,84524,49520,"33,773 ",5.37,71152,47509,33773,5.18,No,No,No,No,No,No,No,www.avemaria.edu/
 170967,228800,2288,Rochester University,MI,Private non-profit,73296,48707,"35,052 ",5.37,59524,41782,35052,8.84,No,No,No,No,No,No,No,rochesteru.edu/
-176789,245000,2450,Calvary University,MO,Private non-profit,51808,45421,"35,770 ",5.37,0,0,35770,0,No,No,No,No,No,No,No,www.calvary.edu/
+176789,245000,2450,Calvary University,MO,Private non-profit,51808,45421,"35,770 ",5.37,,,35770,,No,No,No,No,No,No,No,www.calvary.edu/
 157951,200200,2002,Western Kentucky University,KY,Public,49316,43889,"34,705 ",5.37,47380,39445,34705,10,No,No,No,No,No,No,No,www.wku.edu/
 233295,373300,3733,Randolph-Macon College,VA,Private non-profit,109848,58448,"38,032 ",5.38,85436,47141,38032,9.38,No,No,No,No,No,No,No,https://www.rmc.edu/
 151102,182800,1828,Purdue University Fort Wayne,IN,Public,45388,45872,"37,447 ",5.39,28684,41402,37447,7.25,No,No,No,No,No,No,No,www.pfw.edu/
@@ -946,7 +946,7 @@
 130253,140300,1403,Sacred Heart University,CT,Private non-profit,178216,75059,"42,224 ",5.43,151944,69916,42224,5.49,No,No,No,No,No,No,No,https://www.sacredheart.edu/
 204024,307700,3077,Miami University-Oxford,OH,Public,99164,55076,"36,811 ",5.43,67880,41265,36811,15.24,No,No,No,No,No,No,No,miamioh.edu/
 219091,346100,3461,Dakota Wesleyan University,SD,Private non-profit,91724,53728,"36,840 ",5.43,85288,45884,36840,9.43,No,No,No,No,No,No,No,www.dwu.edu/
-216807,339200,3392,Westminster College,PA,Private non-profit,87876,53861,"37,689 ",5.43,0,0,37689,0,No,No,No,No,No,No,No,www.westminster.edu/
+216807,339200,3392,Westminster College,PA,Private non-profit,87876,53861,"37,689 ",5.43,,,37689,,No,No,No,No,No,No,No,www.westminster.edu/
 144005,169400,1694,Chicago State University,IL,Public,27664,42778,"37,706 ",5.45,30128,39412,37706,17.66,No,Yes,No,No,No,No,No,www.csu.edu/
 188641,266800,2668,Alfred University,NY,Private non-profit,92152,54897,"38,037 ",5.47,69152,49982,38037,5.79,No,No,No,No,No,No,No,www.alfred.edu/
 239628,388400,3884,Ripon College,WI,Private non-profit,87300,54902,"38,969 ",5.48,66884,51014,38969,5.55,No,No,No,No,No,No,No,www.ripon.edu/
@@ -958,7 +958,7 @@
 136950,151500,1515,Rollins College,FL,Private non-profit,134844,58295,"33,773 ",5.5,111764,53646,33773,5.62,No,No,No,No,No,No,No,www.rollins.edu/
 238333,383500,3835,Beloit College,WI,Private non-profit,78688,53260,"38,969 ",5.51,54208,46249,38969,7.45,No,No,No,No,No,No,No,www.beloit.edu/
 198695,293300,2933,High Point University,NC,Private non-profit,149140,61389,"34,303 ",5.51,124156,46936,34303,9.83,No,No,No,No,No,No,No,www.highpoint.edu/
-188058,2083900,20839,Northern New Mexico College,NM,Public,30552,38112,"32,566 ",5.51,0,0,32566,0,No,No,No,No,No,Yes,No,https://nnmc.edu/
+188058,2083900,20839,Northern New Mexico College,NM,Public,30552,38112,"32,566 ",5.51,,,32566,,No,No,No,No,No,Yes,No,https://nnmc.edu/
 236328,379700,3797,University of Puget Sound,WA,Private non-profit,148656,69594,"42,614 ",5.51,106148,66626,42614,4.42,No,No,No,No,No,No,No,www.pugetsound.edu/
 228343,362000,3620,Southwestern University,TX,Private non-profit,116416,56878,"35,753 ",5.51,90668,55750,35753,4.53,No,No,No,No,No,Yes,No,https://www.southwestern.edu/
 232043,370800,3708,Eastern Mennonite University,VA,Private non-profit,92824,54869,"38,032 ",5.51,77492,49347,38032,6.85,No,No,No,No,No,No,No,https://emu.edu/
@@ -986,7 +986,7 @@
 214272,398800,3988,Neumann University,PA,Private non-profit,112964,57817,"37,689 ",5.61,104580,49045,37689,9.21,No,No,No,No,No,No,No,www.neumann.edu/
 176479,244700,2447,William Carey University,MS,Private non-profit,56800,43087,"32,974 ",5.62,48840,39254,32974,7.78,No,No,No,No,No,No,No,https://www.wmcarey.edu/
 155089,191800,1918,Friends University,KS,Private non-profit,88328,52113,"36,397 ",5.62,75380,42772,36397,11.82,No,No,No,No,No,No,No,www.friends.edu/
-178697,250000,2500,College of the Ozarks,MO,Private non-profit,32728,41592,"35,770 ",5.62,0,0,35770,0,No,No,No,No,No,No,No,www.cofo.edu/
+178697,250000,2500,College of the Ozarks,MO,Private non-profit,32728,41592,"35,770 ",5.62,,,35770,,No,No,No,No,No,No,No,www.cofo.edu/
 155900,194000,1940,Southwestern College,KS,Private non-profit,108212,55646,"36,397 ",5.62,90012,52465,36397,5.6,No,No,No,No,No,No,No,https://www.sckans.edu/
 228042,361000,3610,Schreiner University,TX,Private non-profit,92868,52228,"35,753 ",5.64,77656,49336,35753,5.72,No,No,No,No,No,Yes,No,www.schreiner.edu/
 137546,153100,1531,Stetson University,FL,Private non-profit,100996,51642,"33,773 ",5.65,85380,50085,33773,5.23,No,No,No,No,No,No,No,https://www.stetson.edu/
@@ -994,9 +994,9 @@
 161253,205300,2053,University of Maine,ME,Public,68700,48653,"36,542 ",5.67,48952,42405,36542,8.35,No,No,No,No,No,No,No,www.umaine.edu/
 148131,174500,1745,Quincy University,IL,Private non-profit,71916,50369,"37,706 ",5.68,52748,45464,37706,6.8,No,No,No,No,No,No,No,https://www.quincy.edu/
 363934,2559000,25590,University of Advancing Technology,AZ,Private for-profit,79136,50719,"36,792 ",5.68,69888,48797,36792,5.82,No,No,No,No,No,No,No,www.uat.edu/
-130314,140900,1409,University of Saint Joseph,CT,Private non-profit,100508,59908,"42,224 ",5.68,0,0,42224,0,No,No,No,No,No,No,No,https://www.usj.edu/
+130314,140900,1409,University of Saint Joseph,CT,Private non-profit,100508,59908,"42,224 ",5.68,,,42224,,No,No,No,No,No,No,No,https://www.usj.edu/
 209612,321200,3212,Pacific University,OR,Private non-profit,135720,60583,"36,722 ",5.69,99088,58810,36722,4.49,No,No,No,No,Yes,No,No,https://www.pacificu.edu/
-150172,183400,1834,Calumet College of Saint Joseph,IN,Private non-profit,54028,46945,"37,447 ",5.69,46552,36258,37447,0,No,No,No,No,No,Yes,No,www.ccsj.edu/
+150172,183400,1834,Calumet College of Saint Joseph,IN,Private non-profit,54028,46945,"37,447 ",5.69,46552,36258,37447,,No,No,No,No,No,Yes,No,www.ccsj.edu/
 183910,259800,2598,Caldwell University,NJ,Private non-profit,79244,53843,"39,913 ",5.69,60900,49135,39913,6.6,No,No,No,No,No,Yes,No,www.caldwell.edu/
 139940,157400,1574,Georgia State University,GA,Public,68808,47384,"35,289 ",5.69,61572,43132,35289,7.85,No,Yes,No,No,Yes,No,No,www.gsu.edu/
 181783,256600,2566,Wayne State College,NE,Public,56308,47075,"37,196 ",5.7,44364,42984,37196,7.66,No,No,No,No,No,No,No,https://www.wsc.edu/
@@ -1041,7 +1041,7 @@
 227331,359800,3598,Our Lady of the Lake University,TX,Private non-profit,76948,48675,"35,753 ",5.95,75704,45129,35753,8.07,No,No,No,No,No,Yes,No,https://www.ollusa.edu/
 213020,327700,3277,Indiana University of Pennsylvania-Main Campus,PA,Public,79472,51019,"37,689 ",5.96,62612,46246,37689,7.32,No,No,No,No,No,No,No,www.iup.edu/
 226471,358800,3588,University of Mary Hardin-Baylor,TX,Private non-profit,121564,56132,"35,753 ",5.97,113292,51945,35753,7,No,No,No,No,No,No,No,https://go.umhb.edu/
-128498,137400,1374,Albertus Magnus College,CT,Private non-profit,106940,60144,"42,224 ",5.97,0,0,42224,0,No,No,No,No,No,No,No,https://www.albertus.edu/
+128498,137400,1374,Albertus Magnus College,CT,Private non-profit,106940,60144,"42,224 ",5.97,,,42224,,No,No,No,No,No,No,No,https://www.albertus.edu/
 180489,253600,2536,The University of Montana,MT,Public,59424,44511,"34,557 ",5.97,51816,38729,34557,12.42,No,No,No,No,No,No,No,www.umt.edu/
 207324,316500,3165,Oklahoma Christian University,OK,Private non-profit,82344,49203,"35,412 ",5.97,72508,41857,35412,11.25,No,No,No,No,No,No,No,www.oc.edu/
 106245,110100,1101,University of Arkansas at Little Rock,AR,Public,66844,45265,"34,070 ",5.97,58712,41617,34070,7.78,No,No,No,No,No,No,No,ualr.edu/www/
@@ -1069,7 +1069,7 @@
 117751,122000,1220,The Master's University and Seminary,CA,Private non-profit,114716,57106,"38,446 ",6.15,95508,48676,38446,9.34,No,No,No,No,No,No,No,www.masters.edu/
 123457,129100,1291,Simpson University,CA,Private non-profit,97748,54340,"38,446 ",6.15,89900,49954,38446,7.81,No,No,No,No,No,No,No,www.simpsonu.edu/
 199209,295100,2951,North Carolina Wesleyan University,NC,Private non-profit,71204,45873,"34,303 ",6.15,62308,40633,34303,9.84,No,Yes,No,No,No,No,No,www.ncwc.edu/
-188182,265000,2650,University of the Southwest,NM,Private non-profit,79232,45389,"32,566 ",6.18,0,0,32566,0,No,No,No,No,No,Yes,No,www.usw.edu/
+188182,265000,2650,University of the Southwest,NM,Private non-profit,79232,45389,"32,566 ",6.18,,,32566,,No,No,No,No,No,Yes,No,www.usw.edu/
 165334,213900,2139,Clark University,MA,Private non-profit,117056,62381,"43,492 ",6.2,59748,64128,43492,2.9,No,No,No,No,No,No,No,www.clarku.edu/
 183080,259100,2591,Plymouth State University,NH,Public,80332,57304,"44,342 ",6.2,60888,53542,44342,6.62,No,No,No,No,No,No,No,www.plymouth.edu/
 141060,159400,1594,Spelman College,GA,Private non-profit,153276,59993,"35,289 ",6.2,139988,58322,35289,6.08,Yes,No,No,No,No,No,No,www.spelman.edu/
@@ -1089,7 +1089,7 @@
 138275,884800,8848,Warner University,FL,Private non-profit,78580,46086,"33,773 ",6.38,66804,43189,33773,7.09,No,No,No,No,No,No,No,www.warner.edu/academics/undergraduate_programs/admissions/criteria-for-admission/
 180948,253900,2539,Chadron State College,NE,Public,62736,47002,"37,196 ",6.4,49160,42394,37196,9.46,No,No,No,No,No,No,No,www.csc.edu/
 160755,202900,2029,Tulane University of Louisiana,LA,Private non-profit,182328,63268,"34,837 ",6.41,99032,49826,34837,6.61,No,No,No,No,No,No,No,https://tulane.edu/
-179946,252300,2523,Westminster College,MO,Private non-profit,105520,52199,"35,770 ",6.42,0,0,35770,0,No,No,No,No,No,No,No,www.wcmo.edu/
+179946,252300,2523,Westminster College,MO,Private non-profit,105520,52199,"35,770 ",6.42,,,35770,,No,No,No,No,No,No,No,www.wcmo.edu/
 211981,325200,3252,Delaware Valley University,PA,Private non-profit,116640,55838,"37,689 ",6.43,88844,53481,37689,5.63,No,No,No,No,No,No,No,www.delval.edu/
 219295,346700,3467,Presentation College,SD,Private non-profit,107100,53492,"36,840 ",6.43,95648,48271,36840,8.37,No,No,No,No,No,No,No,www.presentation.edu/
 201195,301400,3014,Baldwin Wallace University,OH,Private non-profit,111628,54122,"36,811 ",6.45,88644,52006,36811,5.83,No,No,No,No,No,No,No,https://www.bw.edu/
@@ -1097,7 +1097,7 @@
 139393,348400,3484,Covenant College,GA,Private non-profit,97784,50412,"35,289 ",6.47,58964,48369,35289,4.51,No,No,No,No,No,No,No,www.covenant.edu/
 199607,296000,2960,Salem College,NC,Private non-profit,66868,44640,"34,303 ",6.47,59896,42184,34303,7.6,No,No,No,No,No,No,No,www.salem.edu/
 199157,295000,2950,North Carolina Central University,NC,Public,56056,42968,"34,303 ",6.47,49024,40451,34303,7.97,Yes,No,No,No,No,No,No,https://www.nccu.edu/
-156417,2535600,25356,Clear Creek Baptist Bible College,KY,Private non-profit,44756,41623,"34,705 ",6.47,0,0,34705,0,No,No,No,No,No,No,No,https://ccbbc.edu/
+156417,2535600,25356,Clear Creek Baptist Bible College,KY,Private non-profit,44756,41623,"34,705 ",6.47,,,34705,,No,No,No,No,No,No,No,https://ccbbc.edu/
 153126,185200,1852,Clarke University,IA,Private non-profit,109100,55396,"38,538 ",6.47,99236,53090,38538,6.82,No,No,No,No,No,No,No,www.clarke.edu/
 150145,178700,1787,Bethel University,IN,Private non-profit,73872,48860,"37,447 ",6.47,54176,45500,37447,6.73,No,No,No,No,No,No,No,www.betheluniversity.edu/
 153162,185600,1856,Cornell College,IA,Private non-profit,96656,53460,"38,538 ",6.48,70864,47245,38538,8.14,No,No,No,No,No,No,No,www.cornellcollege.edu/
@@ -1111,12 +1111,12 @@
 140988,159100,1591,Shorter University,GA,Private non-profit,61084,44604,"35,289 ",6.56,59440,38613,35289,17.88,No,No,No,No,No,No,No,https://www.shorter.edu/
 174358,236700,2367,Minnesota State University Moorhead,MN,Public,69320,50527,"39,969 ",6.57,52000,50440,39969,4.97,No,No,No,No,No,No,No,https://www.mnstate.edu/
 127741,134900,1349,University of Northern Colorado,CO,Public,69860,52231,"41,596 ",6.57,59336,50573,41596,6.61,No,No,No,No,No,No,No,https://www.unco.edu/
-119775,3043900,30439,Newschool of Architecture and Design,CA,Private for-profit,200504,68891,"38,446 ",6.59,0,0,38446,0,No,No,No,No,No,No,No,www.newschoolarch.edu/
+119775,3043900,30439,Newschool of Architecture and Design,CA,Private for-profit,200504,68891,"38,446 ",6.59,,,38446,,No,No,No,No,No,No,No,www.newschoolarch.edu/
 197984,291000,2910,Belmont Abbey College,NC,Private non-profit,90132,47937,"34,303 ",6.61,71660,41277,34303,10.28,No,No,No,No,No,No,No,www.belmontabbeycollege.edu/
 239080,386100,3861,Marian University,WI,Private non-profit,96188,53501,"38,969 ",6.62,102216,44426,38969,18.73,No,No,No,No,No,No,No,https://www.marianuniversity.edu/
-462354,4193700,41937,John Paul the Great Catholic University,CA,Private non-profit,122380,56930,"38,446 ",6.62,0,0,38446,0,No,No,No,No,No,Yes,No,https://jpcatholic.edu/
+462354,4193700,41937,John Paul the Great Catholic University,CA,Private non-profit,122380,56930,"38,446 ",6.62,,,38446,,No,No,No,No,No,Yes,No,https://jpcatholic.edu/
 180258,252700,2527,University of Providence,MT,Private non-profit,91000,48296,"34,557 ",6.62,85872,42834,34557,10.37,No,No,No,No,No,No,No,www.uprovidence.edu/
-183275,3043100,30431,Thomas More College of Liberal Arts,NH,Private non-profit,61092,53565,"44,342 ",6.62,0,0,44342,0,No,No,No,No,No,No,No,www.thomasmorecollege.edu/
+183275,3043100,30431,Thomas More College of Liberal Arts,NH,Private non-profit,61092,53565,"44,342 ",6.62,,,44342,,No,No,No,No,No,No,No,www.thomasmorecollege.edu/
 454184,4095300,40953,The King's College,NY,Private non-profit,132876,58065,"38,037 ",6.63,121964,62227,38037,5.04,No,No,No,No,No,No,No,www.tkc.edu/
 217749,342100,3421,Bob Jones University,SC,Private non-profit,66024,44354,"34,412 ",6.64,50624,42442,34412,6.3,No,No,No,No,No,No,No,www.bju.edu/
 129525,142200,1422,University of Hartford,CT,Private non-profit,123544,60823,"42,224 ",6.64,108088,57498,42224,7.08,No,No,No,No,No,No,No,www.hartford.edu/
@@ -1124,7 +1124,7 @@
 176947,245300,2453,Central Methodist University-College of Graduate and Extended Studies,MO,Private non-profit,87972,48991,"35,770 ",6.65,81376,44021,35770,9.86,No,No,No,No,No,No,No,www.centralmethodist.edu/
 191621,273500,2735,Hilbert College,NY,Private non-profit,68428,48309,"38,037 ",6.66,50548,38051,38037,3610.57,No,No,No,No,No,No,No,www.hilbert.edu/
 201371,301600,3016,Bluffton University,OH,Private non-profit,84924,49547,"36,811 ",6.67,64120,45008,36811,7.82,No,No,No,No,No,No,No,www.bluffton.edu/
-164872,396600,3966,Boston Architectural College,MA,Private non-profit,124260,62123,"43,492 ",6.67,0,0,43492,0,No,No,No,No,No,No,No,www.the-bac.edu/
+164872,396600,3966,Boston Architectural College,MA,Private non-profit,124260,62123,"43,492 ",6.67,,,43492,,No,No,No,No,No,No,No,www.the-bac.edu/
 101480,102000,1020,Jacksonville State University,AL,Public,71916,45235,"34,470 ",6.68,64080,40482,34470,10.66,No,No,No,No,No,No,No,www.jsu.edu/
 207403,316400,3164,Oklahoma Baptist University,OK,Private non-profit,87060,48434,"35,412 ",6.69,66916,45563,35412,6.59,No,No,No,No,No,No,No,https://www.okbu.edu/
 102669,106100,1061,Alaska Pacific University,AK,Private non-profit,86604,54271,"41,338 ",6.7,78424,42498,41338,67.61,No,No,Yes,No,No,No,Yes,www.alaskapacific.edu/
@@ -1133,7 +1133,7 @@
 237066,380400,3804,Whitworth University-Adult Degree Programs,WA,Private non-profit,106944,58561,"42,614 ",6.71,67132,51070,42614,7.94,No,No,No,No,No,No,No,www.whitworth.edu/
 197230,290100,2901,Wells College,NY,Private non-profit,87640,51094,"38,037 ",6.71,69488,46850,38037,7.88,No,No,No,No,No,No,No,www.wells.edu/
 210331,133900,1339,Corban University,OR,Private non-profit,82260,48917,"36,722 ",6.75,56420,49754,36722,4.33,No,No,No,No,No,No,No,https://www.corban.edu/
-230852,368400,3684,Champlain College,VT,Private non-profit,129820,58386,"39,151 ",6.75,0,0,39151,0,No,No,No,No,No,No,No,www.champlain.edu/
+230852,368400,3684,Champlain College,VT,Private non-profit,129820,58386,"39,151 ",6.75,,,39151,,No,No,No,No,No,No,No,www.champlain.edu/
 197911,290800,2908,Barton College,NC,Private non-profit,92052,47913,"34,303 ",6.76,79892,42265,34303,10.03,No,No,No,No,No,No,No,https://www.barton.edu/
 154712,1025600,10256,Benedictine College,KS,Private non-profit,113596,53175,"36,397 ",6.77,88516,53294,36397,5.24,No,No,No,No,No,No,No,www.benedictine.edu/
 193584,277900,2779,Nazareth College,NY,Private non-profit,124872,56458,"38,037 ",6.78,86688,51925,38037,6.24,No,No,No,No,No,No,No,https://www2.naz.edu/
@@ -1156,8 +1156,8 @@
 133711,789300,7893,Flagler College,FL,Private non-profit,108840,49483,"33,773 ",6.93,86284,46471,33773,6.8,No,No,No,No,No,No,No,https://www.flagler.edu/
 188304,266400,2664,Western New Mexico University,NM,Public,45244,39095,"32,566 ",6.93,44568,34670,32566,21.18,No,No,No,No,No,Yes,No,www.wnmu.edu/
 207661,316800,3168,Rogers State University,OK,Public,53784,43166,"35,412 ",6.94,45308,37961,35412,17.77,No,No,No,No,No,No,Yes,https://www.rsu.edu/
-204501,308600,3086,Oberlin College,OH,Private non-profit,149508,58343,"36,811 ",6.94,0,0,36811,0,No,No,No,No,No,No,No,www.oberlin.edu/
-161226,204000,2040,University of Maine at Farmington,ME,Public,54792,44433,"36,542 ",6.94,41656,36064,36542,0,No,No,No,No,No,No,No,https://www.umf.maine.edu/
+204501,308600,3086,Oberlin College,OH,Private non-profit,149508,58343,"36,811 ",6.94,,,36811,,No,No,No,No,No,No,No,www.oberlin.edu/
+161226,204000,2040,University of Maine at Farmington,ME,Public,54792,44433,"36,542 ",6.94,41656,36064,36542,,No,No,No,No,No,No,No,https://www.umf.maine.edu/
 131450,144300,1443,Gallaudet University,DC,Private non-profit,48668,43101,"36,093 ",6.94,36508,40902,36093,7.59,No,No,No,No,No,No,No,www.gallaudet.edu/
 157757,196000,1960,Spalding University,KY,Private non-profit,102360,49438,"34,705 ",6.95,95360,42741,34705,11.87,No,No,No,No,No,No,No,https://www.spalding.edu/
 131399,144100,1441,University of the District of Columbia,DC,Public,56576,44236,"36,093 ",6.95,54832,40709,36093,11.88,Yes,No,No,No,No,No,No,www.udc.edu/
@@ -1167,7 +1167,7 @@
 217493,340900,3409,Rhode Island School of Design,RI,Private non-profit,182552,68140,"41,968 ",6.98,93832,60706,41968,5.01,No,No,No,No,No,No,No,www.risd.edu/
 152530,183800,1838,Taylor University,IN,Private non-profit,103260,52198,"37,447 ",7,57388,49238,37447,4.87,No,No,No,No,No,No,No,https://www.taylor.edu/
 165644,214500,2145,Eastern Nazarene College,MA,Private non-profit,78760,54727,"43,492 ",7.01,64560,51463,43492,8.1,No,No,No,No,No,No,No,https://www.enc.edu/
-183257,3101300,31013,Granite State College,NH,Public,48644,51254,"44,342 ",7.04,0,0,44342,0,No,No,No,No,No,No,No,https://www.granite.edu/
+183257,3101300,31013,Granite State College,NH,Public,48644,51254,"44,342 ",7.04,,,44342,,No,No,No,No,No,No,No,https://www.granite.edu/
 141237,159700,1597,Truett McConnell University,GA,Private non-profit,80428,46700,"35,289 ",7.05,69992,44294,35289,7.77,No,No,No,No,No,No,No,https://truett.edu/
 162283,206800,2068,Coppin State University,MD,Public,31460,46490,"42,031 ",7.06,30128,43022,42031,30.4,Yes,No,No,No,No,No,No,www.coppin.edu/
 147536,173300,1733,National Louis University,IL,Private non-profit,57160,45799,"37,706 ",7.06,55336,41352,37706,15.18,No,No,No,No,No,Yes,No,www.nl.edu/
@@ -1195,7 +1195,7 @@
 218441,344100,3441,North Greenville University,SC,Private non-profit,64040,43035,"34,412 ",7.43,52148,41873,34412,6.99,No,No,No,No,No,No,No,www.ngu.edu/
 136330,884900,8849,Palm Beach Atlantic University,FL,Private non-profit,115412,49232,"33,773 ",7.47,94816,45470,33773,8.11,No,No,No,No,No,No,No,www.pba.edu/
 205957,303600,3036,Franciscan University of Steubenville,OH,Private non-profit,99064,50030,"36,811 ",7.49,93156,47363,36811,8.83,No,No,No,No,No,No,No,www.franciscan.edu/
-117557,697500,6975,Lincoln University,CA,Private non-profit,114388,53695,"38,446 ",7.5,0,0,38446,0,No,No,No,No,No,No,No,https://lincolnuca.edu/
+117557,697500,6975,Lincoln University,CA,Private non-profit,114388,53695,"38,446 ",7.5,,,38446,,No,No,No,No,No,No,No,https://lincolnuca.edu/
 464226,193722,1937,Ottawa University-Surprise,AZ,Private non-profit,140868,55552,"36,792 ",7.51,131284,46525,36792,13.49,No,No,No,No,No,Yes,No,www.ottawa.edu/ouaz/home/
 183062,259000,2590,Keene State College,NH,Public,75300,54368,"44,342 ",7.51,52452,52643,44342,6.32,No,No,No,No,No,No,No,www.keene.edu/
 201441,301800,3018,Bowling Green State University-Main Campus,OH,Public,83516,47896,"36,811 ",7.53,61972,42035,36811,11.86,No,No,No,No,No,No,No,www.bgsu.edu/
@@ -1227,20 +1227,20 @@
 102368,104700,1047,Troy University,AL,Public,60008,42062,"34,470 ",7.9,55644,36725,34470,24.68,No,No,No,No,No,No,No,www.troy.edu/
 233718,374200,3742,Sweet Briar College,VA,Private non-profit,110540,51943,"38,032 ",7.95,90820,47007,38032,10.12,No,No,No,No,No,No,No,www.sbc.edu/
 206914,315000,3150,Cameron University,OK,Public,37836,40118,"35,412 ",8.04,31576,36383,35412,32.52,No,No,No,No,No,No,No,https://www.cameron.edu/
-154855,190800,1908,Central Christian College of Kansas,KS,Private non-profit,65076,44468,"36,397 ",8.06,66760,33455,36397,0,No,No,No,No,No,No,No,https://www.centralchristian.edu/
+154855,190800,1908,Central Christian College of Kansas,KS,Private non-profit,65076,44468,"36,397 ",8.06,66760,33455,36397,,No,No,No,No,No,No,No,https://www.centralchristian.edu/
 101693,102900,1029,University of Mobile,AL,Private non-profit,73764,43611,"34,470 ",8.07,66300,40941,34470,10.25,No,No,No,No,No,No,No,www.umobile.edu/
 165866,218500,2185,Framingham State University,MA,Public,71496,52349,"43,492 ",8.07,48968,47938,43492,11.01,No,No,No,No,No,No,No,www.framingham.edu/
 101709,100400,1004,University of Montevallo,AL,Public,68696,42957,"34,470 ",8.09,56472,40044,34470,10.13,No,No,No,No,No,No,No,www.montevallo.edu/
-161341,203300,2033,University of Maine at Presque Isle,ME,Public,35792,40956,"36,542 ",8.11,0,0,36542,0,No,No,No,No,No,No,No,www.umpi.edu/
+161341,203300,2033,University of Maine at Presque Isle,ME,Public,35792,40956,"36,542 ",8.11,,,36542,,No,No,No,No,No,No,No,www.umpi.edu/
 154101,188300,1883,Northwestern College,IA,Private non-profit,91396,49802,"38,538 ",8.11,77296,48847,38538,7.5,No,No,No,No,No,No,No,https://www.nwciowa.edu/
 203757,306900,3069,Lourdes University,OH,Private non-profit,92488,48150,"36,811 ",8.16,88820,42182,36811,16.54,No,No,No,No,No,No,No,www.lourdes.edu/
-167260,219700,2197,Nichols College,MA,Private non-profit,119180,58063,"43,492 ",8.18,0,0,43492,0,No,No,No,No,No,No,No,www.nichols.edu/
-497824,246300,2463,Evangel University-College of Online Learning,MO,Private non-profit,88884,46573,"35,770 ",8.23,NA,41617,35770,0,No,No,No,No,No,No,No,www.evangel.edu/
-170000,226500,2265,Grace Christian University,MI,Private non-profit,54520,41663,"35,052 ",8.25,0,0,35052,0,No,No,No,No,No,No,No,www.gracechristian.edu/
+167260,219700,2197,Nichols College,MA,Private non-profit,119180,58063,"43,492 ",8.18,,,43492,,No,No,No,No,No,No,No,www.nichols.edu/
+497824,246300,2463,Evangel University-College of Online Learning,MO,Private non-profit,88884,46573,"35,770 ",8.23,NA,41617,35770,,No,No,No,No,No,No,No,www.evangel.edu/
+170000,226500,2265,Grace Christian University,MI,Private non-profit,54520,41663,"35,052 ",8.25,,,35052,,No,No,No,No,No,No,No,www.gracechristian.edu/
 211556,324400,3244,Chatham University,PA,Private non-profit,121652,52410,"37,689 ",8.26,75172,44887,37689,10.44,No,No,No,No,No,No,No,www.chatham.edu/
 160621,202500,2025,Southern University and A & M College,LA,Public,70804,43371,"34,837 ",8.3,66560,40191,34837,12.43,Yes,No,No,No,No,No,No,www.subr.edu/
 160621,202500,2025,Southern University Law Center,LA,Public,70804,43371,"34,837 ",8.3,66560,40191,34837,12.43,Yes,No,No,No,No,No,No,www.subr.edu/
-209241,320300,3203,Mount Angel Seminary,OR,Private non-profit,173004,57436,"36,722 ",8.35,0,0,36722,0,No,No,No,No,No,No,No,https://www.mountangelabbey.org/seminary
+209241,320300,3203,Mount Angel Seminary,OR,Private non-profit,173004,57436,"36,722 ",8.35,,,36722,,No,No,No,No,No,No,No,https://www.mountangelabbey.org/seminary
 231554,370300,3703,Bluefield University,VA,Private non-profit,90804,48896,"38,032 ",8.36,85848,40852,38032,30.44,No,No,No,No,No,No,No,www.bluefield.edu/
 206507,314200,3142,Wilmington College,OH,Private non-profit,97628,48491,"36,811 ",8.36,88508,46069,36811,9.56,No,No,No,No,No,No,No,https://www.wilmington.edu/
 140553,158200,1582,Morehouse College,GA,Private non-profit,147344,52889,"35,289 ",8.37,132064,48874,35289,9.72,Yes,No,No,No,No,No,No,www.morehouse.edu/
@@ -1248,8 +1248,8 @@
 200226,299300,2993,Mayville State University,ND,Public,57192,47828,"41,039 ",8.42,39564,43920,41039,13.73,No,No,No,No,No,No,No,www.mayvillestate.edu/
 163338,210600,2106,University of Maryland Eastern Shore,MD,Public,47736,47697,"42,031 ",8.42,31420,44559,42031,12.43,Yes,No,No,No,No,No,No,www.umes.edu/
 166939,219200,2192,Mount Holyoke College,MA,Private non-profit,125776,58418,"43,492 ",8.43,71288,59391,43492,4.48,No,No,No,No,No,No,No,https://www.mtholyoke.edu/
-197674,1167000,11670,Yeshiva of Nitra Rabbinical College,NY,Private non-profit,31776,41785,"38,037 ",8.48,0,0,38037,0,No,No,No,No,No,No,No,yeshivaofnitra.org/
-199971,3570300,35703,Carolina Christian College,NC,Private non-profit,54112,40672,"34,303 ",8.5,0,0,34303,0,No,No,No,No,No,No,No,www.carolina.edu/
+197674,1167000,11670,Yeshiva of Nitra Rabbinical College,NY,Private non-profit,31776,41785,"38,037 ",8.48,,,38037,,No,No,No,No,No,No,No,yeshivaofnitra.org/
+199971,3570300,35703,Carolina Christian College,NC,Private non-profit,54112,40672,"34,303 ",8.5,,,34303,,No,No,No,No,No,No,No,www.carolina.edu/
 102377,105000,1050,Tuskegee University,AL,Private non-profit,129188,49641,"34,470 ",8.52,97920,46343,34470,8.25,Yes,No,No,No,No,No,No,www.tuskegee.edu/
 213303,328000,3280,Keystone College,PA,Private non-profit,62236,44976,"37,689 ",8.54,61840,43697,37689,10.29,No,No,No,No,No,No,No,https://www.keystone.edu/
 455664,2155300,21553,The Chicago School of Professional Psychology at Los Angeles,CA,Private non-profit,157604,56899,"38,446 ",8.54,152208,54410,38446,9.53,No,No,No,No,No,Yes,No,https://www.thechicagoschool.edu/los-angeles/
@@ -1272,7 +1272,7 @@
 174491,237100,2371,University of Northwestern-St Paul,MN,Private non-profit,97040,50755,"39,969 ",9,81976,48484,39969,9.63,No,No,No,No,No,No,No,https://www.unwsp.edu/
 221953,352700,3527,Tusculum University,TN,Private non-profit,85420,44367,"34,967 ",9.09,74208,39321,34967,17.04,No,No,No,No,No,No,No,www.tusculum.edu/
 120403,125100,1251,Otis College of Art and Design,CA,Private non-profit,179168,58152,"38,446 ",9.09,161256,59306,38446,7.73,No,No,No,No,Yes,No,No,www.otis.edu/
-443049,3689400,36894,Faith International University,WA,Private non-profit,76392,51006,"42,614 ",9.1,0,0,42614,0,No,No,No,No,Yes,No,No,https://www.faithiu.edu/
+443049,3689400,36894,Faith International University,WA,Private non-profit,76392,51006,"42,614 ",9.1,,,42614,,No,No,No,No,Yes,No,No,https://www.faithiu.edu/
 191676,273400,2734,Houghton University,NY,Private non-profit,79324,46721,"38,037 ",9.13,65968,49332,38037,5.84,No,No,No,No,No,No,No,www.houghton.edu/
 239390,386900,3869,Mount Mary University,WI,Private non-profit,89316,48745,"38,969 ",9.14,87412,44826,38969,14.92,No,No,No,No,No,Yes,No,www.mtmary.edu/
 175430,239800,2398,Blue Mountain Christian University,MS,Private non-profit,68300,40421,"32,974 ",9.17,58380,39212,32974,9.36,No,No,No,No,No,No,No,www.bmc.edu/
@@ -1291,7 +1291,7 @@
 132657,150500,1505,Lynn University,FL,Private non-profit,145436,49006,"33,773 ",9.55,129556,47561,33773,9.4,No,No,No,No,No,No,No,www.lynn.edu/
 141486,160500,1605,Chaminade University of Honolulu,HI,Private non-profit,110952,52343,"40,755 ",9.57,123248,48968,40755,15.01,No,No,Yes,No,Yes,No,No,https://www.chaminade.edu/
 222877,2081400,20814,Arlington Baptist University,TX,Private non-profit,85524,44644,"35,753 ",9.62,76716,40583,35753,15.88,No,No,No,No,No,Yes,No,https://abu.edu/
-146667,170800,1708,Lincoln Christian University,IL,Private non-profit,51644,43038,"37,706 ",9.69,38460,35935,37706,0,No,No,No,No,No,No,No,www.lincolnchristian.edu/
+146667,170800,1708,Lincoln Christian University,IL,Private non-profit,51644,43038,"37,706 ",9.69,38460,35935,37706,,No,No,No,No,No,No,No,www.lincolnchristian.edu/
 237358,381100,3811,Davis & Elkins College,WV,Private non-profit,80124,43411,"35,146 ",9.69,75392,41569,35146,11.74,No,No,No,No,No,No,No,www.dewv.edu/
 213987,329700,3297,Mercyhurst University,PA,Private non-profit,94664,47452,"37,689 ",9.7,82672,38837,37689,72.01,No,No,No,No,No,No,No,www.mercyhurst.edu/
 155937,194500,1945,Sterling College,KS,Private non-profit,91860,45846,"36,397 ",9.72,82468,43661,36397,11.35,No,No,No,No,No,No,No,www.sterling.edu/
@@ -1299,14 +1299,14 @@
 100654,100200,1002,Alabama A & M University,AL,Public,59928,40628,"34,470 ",9.73,56820,37848,34470,16.82,Yes,No,No,No,No,No,No,www.aamu.edu/
 107877,110600,1106,Williams Baptist University,AR,Private non-profit,42992,38484,"34,070 ",9.74,44032,37485,34070,12.89,No,No,No,No,No,No,No,https://williamsbaptistuniversity.com/
 196033,285600,2856,SUNY College of Agriculture and Technology at Cobleskill,NY,Public,68188,45030,"38,037 ",9.75,45704,40404,38037,19.31,No,No,No,No,No,No,No,www.cobleskill.edu/
-165936,215300,2153,Gordon College,MA,Private non-profit,84172,52119,"43,492 ",9.76,0,0,43492,0,No,No,No,No,No,No,No,www.gordon.edu/
-164447,211400,2114,American International College,MA,Private non-profit,94380,53124,"43,492 ",9.8,0,0,43492,0,No,No,No,No,No,No,No,www.aic.edu/
+165936,215300,2153,Gordon College,MA,Private non-profit,84172,52119,"43,492 ",9.76,,,43492,,No,No,No,No,No,No,No,www.gordon.edu/
+164447,211400,2114,American International College,MA,Private non-profit,94380,53124,"43,492 ",9.8,,,43492,,No,No,No,No,No,No,No,www.aic.edu/
 198756,293600,2936,Johnson C Smith University,NC,Private non-profit,82112,42680,"34,303 ",9.8,76124,42394,34303,9.41,Yes,No,No,No,No,No,No,www.jcsu.edu/
 101912,103300,1033,Oakwood University,AL,Private non-profit,78744,42488,"34,470 ",9.82,74072,38795,34470,17.13,Yes,No,No,No,No,No,No,https://www2.oakwood.edu/
 198066,291200,2912,Brevard College,NC,Private non-profit,90868,43545,"34,303 ",9.83,70864,41440,34303,9.93,No,No,No,No,No,No,No,https://www.brevard.edu/
-216047,336400,3364,Saint Charles Borromeo Seminary-Overbrook,PA,Private non-profit,173324,55225,"37,689 ",9.88,0,0,37689,0,No,No,No,No,No,No,No,www.scs.edu/
+216047,336400,3364,Saint Charles Borromeo Seminary-Overbrook,PA,Private non-profit,173324,55225,"37,689 ",9.88,,,37689,,No,No,No,No,No,No,No,www.scs.edu/
 162654,207300,2073,Goucher College,MD,Private non-profit,108816,53023,"42,031 ",9.9,66820,51694,42031,6.92,No,No,No,No,No,No,No,www.goucher.edu/
-206695,314500,3145,Youngstown State University,OH,Public,46860,41544,"36,811 ",9.9,33220,34327,36811,0,No,No,No,No,No,No,No,https://ysu.edu/
+206695,314500,3145,Youngstown State University,OH,Public,46860,41544,"36,811 ",9.9,33220,34327,36811,,No,No,No,No,No,No,No,https://ysu.edu/
 198808,293900,2939,Lees-McRae College,NC,Private non-profit,90308,43415,"34,303 ",9.91,70140,37696,34303,20.67,No,No,No,No,No,No,No,www.lmc.edu/
 106342,108800,1088,Lyon College,AR,Private non-profit,100732,44232,"34,070 ",9.91,86692,43013,34070,9.69,No,No,No,No,No,No,No,www.lyon.edu/
 209287,320600,3206,Multnomah University,OR,Private non-profit,111488,47939,"36,722 ",9.94,109764,48735,36722,9.14,No,No,No,No,No,No,No,https://www.multnomah.edu/
@@ -1314,15 +1314,15 @@
 482158,158100,1581,Middle Georgia State University,GA,Public,55640,40863,"35,289 ",9.98,48628,37781,35289,19.51,No,No,No,No,No,No,No,https://www.mga.edu/
 178369,248900,2489,Missouri Valley College,MO,Private non-profit,74824,43221,"35,770 ",10.04,70104,38137,35770,29.62,No,No,No,No,No,No,No,https://www.moval.edu/
 159009,200600,2006,Grambling State University,LA,Public,63040,41109,"34,837 ",10.05,50004,38731,34837,12.84,Yes,No,No,No,No,No,No,www.gram.edu/
-161563,205200,2052,Thomas College,ME,Private non-profit,85116,44991,"36,542 ",10.07,0,0,36542,0,No,No,No,No,No,No,No,www.thomas.edu/
+161563,205200,2052,Thomas College,ME,Private non-profit,85116,44991,"36,542 ",10.07,,,36542,,No,No,No,No,No,No,No,www.thomas.edu/
 126669,940100,9401,Colorado Christian University,CO,Private non-profit,89620,50416,"41,596 ",10.16,70764,41893,41596,238.26,No,No,No,No,No,No,No,https://www.ccu.edu/
-480569,146900,1469,Florida Institute of Technology-Online,FL,Private non-profit,95180,43137,"33,773 ",10.16,93480,33700,33773,0,No,No,No,No,No,No,No,https://www.fit.edu/
+480569,146900,1469,Florida Institute of Technology-Online,FL,Private non-profit,95180,43137,"33,773 ",10.16,93480,33700,33773,,No,No,No,No,No,No,No,https://www.fit.edu/
 177065,245600,2456,Columbia College,MO,Private non-profit,97688,45378,"35,770 ",10.17,102268,39155,35770,30.21,No,No,No,No,No,No,No,https://www.ccis.edu/
-457402,4156300,41563,University of Fort Lauderdale,FL,Private non-profit,43688,38062,"33,773 ",10.19,0,0,33773,0,No,No,No,No,No,Yes,No,uftl.edu/
+457402,4156300,41563,University of Fort Lauderdale,FL,Private non-profit,43688,38062,"33,773 ",10.19,,,33773,,No,No,No,No,No,Yes,No,uftl.edu/
 177940,247900,2479,Lincoln University,MO,Public,37692,39463,"35,770 ",10.21,32900,35897,35770,259.06,Yes,No,No,No,No,No,No,https://www.lincolnu.edu/
 179326,250200,2502,Southwest Baptist University,MO,Private non-profit,74992,43112,"35,770 ",10.21,85608,38004,35770,38.32,No,No,No,No,No,No,No,www.sbuniv.edu/
 165662,214600,2146,Emerson College,MA,Private non-profit,197864,62832,"43,492 ",10.23,145308,53927,43492,13.93,No,No,No,No,No,No,No,www.emerson.edu/
-181853,256700,2567,York University,NE,Private non-profit,71120,44130,"37,196 ",10.26,63136,37141,37196,0,No,No,No,No,No,No,No,www.york.edu/
+181853,256700,2567,York University,NE,Private non-profit,71120,44130,"37,196 ",10.26,63136,37141,37196,,No,No,No,No,No,No,No,www.york.edu/
 220206,3001800,30018,Welch College,TN,Private non-profit,74220,42198,"34,967 ",10.26,63864,37966,34967,21.3,No,No,No,No,No,No,No,www.welch.edu/
 214166,330200,3302,Mount Aloysius College,PA,Private non-profit,87064,46165,"37,689 ",10.27,83168,43372,37689,14.63,No,No,No,No,No,No,No,www.mtaloy.edu/
 143288,163900,1639,Blackburn College,IL,Private non-profit,95052,46802,"37,706 ",10.45,88880,40280,37706,34.53,No,No,No,No,No,No,No,www.blackburn.edu/
@@ -1331,26 +1331,26 @@
 231651,3091300,30913,Regent University,VA,Private non-profit,68880,44498,"38,032 ",10.65,64344,38240,38032,309.35,No,No,No,No,No,No,No,https://www.regent.edu/
 121275,2304300,23043,Platt College-San Diego,CA,Private for-profit,120784,49782,"38,446 ",10.65,115436,44210,38446,20.03,No,No,No,No,No,No,No,www.platt.edu/
 161217,676000,6760,University of Maine at Augusta,ME,Public,40568,40342,"36,542 ",10.68,37100,38621,36542,17.85,No,No,No,No,No,No,No,www.uma.edu/
-192624,1302600,13026,Machzikei Hadath Rabbinical College,NY,Private non-profit,37644,41527,"38,037 ",10.79,0,0,38037,0,No,No,No,No,No,No,No,https://mhrc.edu/
-167394,214000,2140,College of Our Lady of the Elms,MA,Private non-profit,87028,51540,"43,492 ",10.81,0,0,43492,0,No,No,No,No,No,No,No,https://www.elms.edu/
+192624,1302600,13026,Machzikei Hadath Rabbinical College,NY,Private non-profit,37644,41527,"38,037 ",10.79,,,38037,,No,No,No,No,No,No,No,https://mhrc.edu/
+167394,214000,2140,College of Our Lady of the Elms,MA,Private non-profit,87028,51540,"43,492 ",10.81,,,43492,,No,No,No,No,No,No,No,https://www.elms.edu/
 165529,214300,2143,Curry College,MA,Private non-profit,118584,54400,"43,492 ",10.87,93356,51061,43492,12.33,No,No,No,No,No,No,No,https://www.curry.edu/
 217934,343000,3430,Columbia College,SC,Private non-profit,75520,41338,"34,412 ",10.9,70196,39132,34412,14.87,No,Yes,No,No,No,No,No,www.columbiasc.edu/
-163976,209200,2092,St. John's College,MD,Private non-profit,104972,51584,"42,031 ",10.99,47936,39402,42031,0,No,No,No,No,No,No,No,www.sjc.edu/
+163976,209200,2092,St. John's College,MD,Private non-profit,104972,51584,"42,031 ",10.99,47936,39402,42031,,No,No,No,No,No,No,No,www.sjc.edu/
 156213,195200,1952,Asbury University,KY,Private non-profit,84212,42368,"34,705 ",10.99,77728,38639,34705,19.76,No,No,No,No,No,No,No,https://www.asbury.edu/
 199698,154001,1540,St. Andrews University,NC,Private non-profit,125268,45606,"34,303 ",11.08,117484,41383,34303,16.59,No,No,No,No,No,No,No,www.sa.edu/
 152099,182400,1824,Oakland City University,IN,Private non-profit,64772,43283,"37,447 ",11.1,46372,38439,37447,46.75,No,No,No,No,No,No,No,www.oak.edu/
 196219,679100,6791,SUNY at Purchase College,NY,Public,78392,45092,"38,037 ",11.11,55216,45590,38037,7.31,No,No,No,No,No,Yes,No,www.purchase.edu/
-190114,976900,9769,Metropolitan College of New York,NY,Private non-profit,91532,46236,"38,037 ",11.16,0,0,38037,0,No,Yes,No,No,No,Yes,No,https://www.mcny.edu/
-106810,109500,1095,Crowley's Ridge College,AR,Private non-profit,61284,39533,"34,070 ",11.22,0,0,34070,0,No,No,No,No,No,No,No,www.crc.edu/
+190114,976900,9769,Metropolitan College of New York,NY,Private non-profit,91532,46236,"38,037 ",11.16,,,38037,,No,Yes,No,No,No,Yes,No,https://www.mcny.edu/
+106810,109500,1095,Crowley's Ridge College,AR,Private non-profit,61284,39533,"34,070 ",11.22,,,34070,,No,No,No,No,No,No,No,www.crc.edu/
 225575,357700,3577,Huston-Tillotson University,TX,Private non-profit,80876,42937,"35,753 ",11.26,79896,41453,35753,14.02,Yes,No,No,No,No,Yes,No,www.htu.edu/
 217633,341800,3418,Anderson University,SC,Private non-profit,86700,42101,"34,412 ",11.28,76136,41161,34412,11.28,No,No,No,No,No,No,No,www.andersonuniversity.edu/
 173452,236100,2361,Martin Luther College,MN,Private non-profit,84960,47491,"39,969 ",11.29,71320,50759,39969,6.61,No,No,No,No,No,No,No,www.mlc-wels.edu/
 220181,349000,3490,Fisk University,TN,Private non-profit,118528,45454,"34,967 ",11.3,125888,45353,34967,12.12,Yes,No,No,No,No,No,No,www.fisk.edu/
 173142,233700,2337,Bethany Lutheran College,MN,Private non-profit,69448,46110,"39,969 ",11.31,48192,44707,39969,10.17,No,No,No,No,No,No,No,https://www.blc.edu/
 217907,342700,3427,Coker University,SC,Private non-profit,65160,40117,"34,412 ",11.42,31604,34421,34412,3511.56,No,No,No,No,No,No,No,https://coker.edu/
-224244,694100,6941,Dallas Christian College,TX,Private non-profit,88536,43503,"35,753 ",11.42,81692,35748,35753,0,No,No,No,No,No,No,No,www.dallas.edu/
+224244,694100,6941,Dallas Christian College,TX,Private non-profit,88536,43503,"35,753 ",11.42,81692,35748,35753,,No,No,No,No,No,No,No,www.dallas.edu/
 189228,739400,7394,Berkeley College-New York,NY,Private for-profit,89968,45884,"38,037 ",11.47,92840,41513,38037,26.71,No,No,No,No,No,No,No,https://berkeleycollege.edu/
-147369,172700,1727,Moody Bible Institute,IL,Private non-profit,88424,45399,"37,706 ",11.49,0,0,37706,0,No,No,No,No,No,No,No,https://www.moody.edu/
+147369,172700,1727,Moody Bible Institute,IL,Private non-profit,88424,45399,"37,706 ",11.49,,,37706,,No,No,No,No,No,No,No,https://www.moody.edu/
 156189,195100,1951,Alice Lloyd College,KY,Private non-profit,67456,40573,"34,705 ",11.5,61216,38502,34705,16.12,No,No,No,No,No,No,No,www.alc.edu/
 232672,372300,3723,Mary Baldwin University,VA,Private non-profit,73560,44427,"38,032 ",11.5,67656,41114,38032,21.95,No,No,No,No,No,No,No,https://www.marybaldwin.edu/
 194578,279800,2798,Pratt Institute-Main,NY,Private non-profit,187752,54295,"38,037 ",11.55,135936,52359,38037,9.49,No,No,No,No,No,No,No,https://www.pratt.edu/
@@ -1364,25 +1364,25 @@
 207157,1026600,10266,Randall University,OK,Private non-profit,79584,42051,"35,412 ",11.99,74228,36929,35412,48.93,No,No,No,No,No,Yes,No,www.ru.edu/
 177542,908900,9089,Hannibal-LaGrange University,MO,Private non-profit,82716,42643,"35,770 ",12.03,97824,42960,35770,13.61,No,No,No,No,No,No,No,www.hlg.edu/
 194392,279500,2795,Paul Smiths College of Arts and Science,NY,Private non-profit,97980,46145,"38,037 ",12.08,59832,44960,38037,8.64,No,No,No,No,No,No,No,https://www.paulsmiths.edu/
-179548,251200,2512,Stephens College,MO,Private non-profit,88404,43071,"35,770 ",12.11,78860,34339,35770,0,No,No,No,No,No,No,No,https://www.stephens.edu/
-133881,146900,1469,Florida Institute of Technology,FL,Private non-profit,114208,43137,"33,773 ",12.2,94968,33700,33773,0,No,No,No,No,No,No,No,https://www.fit.edu/
+179548,251200,2512,Stephens College,MO,Private non-profit,88404,43071,"35,770 ",12.11,78860,34339,35770,,No,No,No,No,No,No,No,https://www.stephens.edu/
+133881,146900,1469,Florida Institute of Technology,FL,Private non-profit,114208,43137,"33,773 ",12.2,94968,33700,33773,,No,No,No,No,No,No,No,https://www.fit.edu/
 217961,343100,3431,Converse University,SC,Private non-profit,78948,40867,"34,412 ",12.23,71524,38200,34412,18.88,No,No,No,No,No,No,No,https://www.converse.edu/
-219505,1046000,10460,American Baptist College,TN,Private non-profit,76600,41216,"34,967 ",12.26,0,0,34967,0,Yes,No,No,No,No,No,No,www.abcnash.edu/
+219505,1046000,10460,American Baptist College,TN,Private non-profit,76600,41216,"34,967 ",12.26,,,34967,,Yes,No,No,No,No,No,No,www.abcnash.edu/
 174862,238300,2383,Crown College,MN,Private non-profit,99484,48057,"39,969 ",12.3,90004,44289,39969,20.83,No,No,No,No,No,No,No,www.crown.edu/
 139250,155800,1558,College of Coastal Georgia,GA,Public,50056,39318,"35,289 ",12.42,42448,35905,35289,68.91,No,No,No,No,No,No,No,https://www.ccga.edu/
 127185,135300,1353,Fort Lewis College,CO,Public,59064,46349,"41,596 ",12.43,42204,42654,41596,39.89,No,No,No,No,No,No,Yes,fortlewis.edu/
-455770,4153900,41539,Providence Christian College,CA,Private non-profit,97464,46264,"38,446 ",12.47,0,0,38446,0,No,No,No,No,No,Yes,No,www.providencecc.edu/
-167598,220600,2206,Regis College,MA,Private non-profit,117928,52873,"43,492 ",12.57,0,0,43492,0,No,No,No,No,No,No,No,www.regiscollege.edu/
-171881,231100,2311,Kuyper College,MI,Private non-profit,75856,41066,"35,052 ",12.61,66116,32196,35052,0,No,No,No,No,No,No,No,https://www.kuyper.edu/
+455770,4153900,41539,Providence Christian College,CA,Private non-profit,97464,46264,"38,446 ",12.47,,,38446,,No,No,No,No,No,Yes,No,www.providencecc.edu/
+167598,220600,2206,Regis College,MA,Private non-profit,117928,52873,"43,492 ",12.57,,,43492,,No,No,No,No,No,No,No,www.regiscollege.edu/
+171881,231100,2311,Kuyper College,MI,Private non-profit,75856,41066,"35,052 ",12.61,66116,32196,35052,,No,No,No,No,No,No,No,https://www.kuyper.edu/
 230171,367100,3671,Utah Tech University,UT,Public,60260,44570,"39,805 ",12.65,46780,41512,39805,27.4,No,No,No,No,No,No,No,utahtech.edu/
-178679,2202700,22027,Ozark Christian College,MO,Private non-profit,69940,41297,"35,770 ",12.65,59268,33925,35770,0,No,No,No,No,No,No,No,www.occ.edu/
+178679,2202700,22027,Ozark Christian College,MO,Private non-profit,69940,41297,"35,770 ",12.65,59268,33925,35770,,No,No,No,No,No,No,No,www.occ.edu/
 110370,112700,1127,California College of the Arts,CA,Private non-profit,140304,49414,"38,446 ",12.79,117120,41684,38446,36.17,No,No,No,No,No,No,No,www.cca.edu/
 189088,267100,2671,Bard College,NY,Private non-profit,109896,46543,"38,037 ",12.92,55624,39380,38037,41.42,No,No,No,No,No,No,No,www.bard.edu/
 156365,195900,1959,Campbellsville University,KY,Private non-profit,89008,41583,"34,705 ",12.94,86748,36408,34705,50.94,No,No,No,No,No,No,No,https://www.campbellsville.edu/
 128744,141600,1416,University of Bridgeport,CT,Private non-profit,105324,50323,"42,224 ",13,100676,42486,42224,384.26,No,No,No,No,No,Yes,No,www.bridgeport.edu/
-199184,398100,3981,University of North Carolina School of the Arts,NC,Public,52844,38357,"34,303 ",13.04,26640,27179,34303,0,No,No,No,No,No,No,No,www.uncsa.edu/
+199184,398100,3981,University of North Carolina School of the Arts,NC,Public,52844,38357,"34,303 ",13.04,26640,27179,34303,,No,No,No,No,No,No,No,www.uncsa.edu/
 139205,155700,1557,Brewton-Parker College,GA,Private non-profit,87672,42009,"35,289 ",13.05,81592,40894,35289,14.56,No,No,No,No,No,No,No,https://www.bpc.edu/
-182795,257500,2575,Franklin Pierce University,NH,Private non-profit,117696,53353,"44,342 ",13.06,103228,37072,44342,0,No,No,No,No,No,No,No,https://www.franklinpierce.edu/
+182795,257500,2575,Franklin Pierce University,NH,Private non-profit,117696,53353,"44,342 ",13.06,103228,37072,44342,,No,No,No,No,No,No,No,https://www.franklinpierce.edu/
 193654,2066200,20662,The New School,NY,Private non-profit,196344,52901,"38,037 ",13.21,170636,49997,38037,14.27,No,No,No,No,No,No,No,https://www.newschool.edu/
 132602,146700,1467,Bethune-Cookman University,FL,Private non-profit,63444,38518,"33,773 ",13.37,58492,37277,33773,16.69,Yes,No,No,No,No,No,No,www.cookman.edu/
 112084,1203100,12031,San Diego Christian College,CA,Private non-profit,152312,49766,"38,446 ",13.46,141572,44252,38446,24.38,No,No,No,No,No,Yes,No,sdcc.edu/
@@ -1391,245 +1391,245 @@
 157863,198800,1988,Union College,KY,Private non-profit,99080,42002,"34,705 ",13.58,61240,39183,34705,13.68,No,No,No,No,No,No,No,https://www.unionky.edu/
 183822,259700,2597,Bloomfield College,NJ,Private non-profit,81784,45902,"39,913 ",13.66,74392,40517,39913,123.17,No,Yes,No,No,No,Yes,No,www.bloomfield.edu/
 169442,677100,6771,College for Creative Studies,MI,Private non-profit,135336,44860,"35,052 ",13.8,114548,41268,35052,18.43,No,No,No,No,No,No,No,https://www.collegeforcreativestudies.edu/
-237215,380900,3809,Bluefield State University,WV,Public,42868,38217,"35,146 ",13.96,33884,32166,35146,0,Yes,No,No,No,No,No,No,https://bluefieldstate.edu/
+237215,380900,3809,Bluefield State University,WV,Public,42868,38217,"35,146 ",13.96,33884,32166,35146,,Yes,No,No,No,No,No,No,https://bluefieldstate.edu/
 213400,328500,3285,Lancaster Bible College,PA,Private non-profit,90300,44096,"37,689 ",14.09,84672,44606,37689,12.24,No,No,No,No,No,No,No,https://www.lbc.edu/
 179964,252500,2525,William Woods University,MO,Private non-profit,94124,42401,"35,770 ",14.19,80784,38760,35770,27.02,No,No,No,No,No,No,No,https://www.williamwoods.edu/
 192864,276900,2769,Marymount Manhattan College,NY,Private non-profit,157912,49131,"38,037 ",14.23,132572,46966,38037,14.85,No,No,No,No,No,No,No,www.mmm.edu/
-166054,215400,2154,Hellenic College-Holy Cross Greek Orthodox School of Theology,MA,Private non-profit,117248,51724,"43,492 ",14.24,0,0,43492,0,No,No,No,No,No,No,No,www.hchc.edu/
-183211,258600,2586,Rivier University,NH,Private non-profit,113144,52248,"44,342 ",14.31,0,0,44342,0,No,No,No,No,No,No,No,www.rivier.edu/
-172866,2050300,20503,Academy College,MN,Private for-profit,120424,48300,"39,969 ",14.45,0,0,39969,0,No,No,No,No,No,No,No,www.academycollege.edu/
+166054,215400,2154,Hellenic College-Holy Cross Greek Orthodox School of Theology,MA,Private non-profit,117248,51724,"43,492 ",14.24,,,43492,,No,No,No,No,No,No,No,www.hchc.edu/
+183211,258600,2586,Rivier University,NH,Private non-profit,113144,52248,"44,342 ",14.31,,,44342,,No,No,No,No,No,No,No,www.rivier.edu/
+172866,2050300,20503,Academy College,MN,Private for-profit,120424,48300,"39,969 ",14.45,,,39969,,No,No,No,No,No,No,No,www.academycollege.edu/
 132842,1072401,10724,Albizu University-Miami,FL,Private non-profit,113092,41544,"33,773 ",14.55,117276,35598,33773,64.26,No,No,No,No,No,Yes,No,https://www.albizu.edu/
 239512,387500,3875,Northland College,WI,Private non-profit,81536,44560,"38,969 ",14.58,71812,42675,38969,19.38,No,No,No,No,No,No,No,https://www.northland.edu/
-127556,135800,1358,Colorado Mesa University,CO,Public,61932,45823,"41,596 ",14.65,47380,39494,41596,0,No,No,No,No,No,No,No,www.coloradomesa.edu/
+127556,135800,1358,Colorado Mesa University,CO,Public,61932,45823,"41,596 ",14.65,47380,39494,41596,,No,No,No,No,No,No,No,www.coloradomesa.edu/
 140960,159000,1590,Savannah State University,GA,Public,39468,37981,"35,289 ",14.66,36024,35514,35289,160.11,Yes,No,No,No,No,No,No,www.savannahstate.edu/
 206817,314700,3147,Bacone College,OK,Private non-profit,67484,40006,"35,412 ",14.69,66240,35440,35412,2365.71,No,No,No,No,No,No,Yes,www.bacone.edu/
-194161,279000,2790,Alliance University,NY,Private non-profit,94160,44394,"38,037 ",14.81,65284,38025,38037,0,No,No,No,No,No,Yes,No,www.allianceu.edu/
+194161,279000,2790,Alliance University,NY,Private non-profit,94160,44394,"38,037 ",14.81,65284,38025,38037,,No,No,No,No,No,Yes,No,www.allianceu.edu/
 220473,349500,3495,Johnson University,TN,Private non-profit,83788,40596,"34,967 ",14.89,64256,37151,34967,29.42,No,No,No,No,No,No,No,johnsonu.edu/
-207856,318000,3180,Southwestern Christian University,OK,Private non-profit,75236,40391,"35,412 ",15.11,0,0,35412,0,No,No,No,No,No,No,No,www.swcu.edu/
+207856,318000,3180,Southwestern Christian University,OK,Private non-profit,75236,40391,"35,412 ",15.11,,,35412,,No,No,No,No,No,No,No,www.swcu.edu/
 243823,2305300,23053,Parker University,TX,Private non-profit,96436,42091,"35,753 ",15.22,93704,39358,35753,25.99,No,No,No,No,No,No,No,www.parker.edu/
 167288,218700,2187,Massachusetts College of Liberal Arts,MA,Public,70520,48102,"43,492 ",15.3,49932,54290,43492,4.62,No,No,No,No,No,No,No,https://www.mcla.edu/
 439701,3516300,35163,The King's University,TX,Private non-profit,88080,41471,"35,753 ",15.4,80008,39218,35753,23.09,No,No,No,No,No,No,No,https://www.tku.edu/
-444398,3733300,37333,Baptist University of the Americas,TX,Private non-profit,31056,37709,"35,753 ",15.88,0,0,35753,0,No,No,No,No,No,Yes,No,www.bua.edu/
-220701,350400,3504,The University of Tennessee Southern,TN,Public,62900,38924,"34,967 ",15.9,51672,31759,34967,0,No,No,No,No,No,No,No,https://www.utsouthern.edu/
+444398,3733300,37333,Baptist University of the Americas,TX,Private non-profit,31056,37709,"35,753 ",15.88,,,35753,,No,No,No,No,No,Yes,No,www.bua.edu/
+220701,350400,3504,The University of Tennessee Southern,TN,Public,62900,38924,"34,967 ",15.9,51672,31759,34967,,No,No,No,No,No,No,No,https://www.utsouthern.edu/
 215114,335100,3351,Cairn University-Langhorne,PA,Private non-profit,103720,44172,"37,689 ",16,71092,41187,37689,20.32,No,No,No,No,No,No,No,www.cairn.edu/
 217013,339600,3396,Wilson College,PA,Private non-profit,90436,43326,"37,689 ",16.04,69996,42981,37689,13.23,No,No,No,No,No,No,No,www.wilson.edu/
-104717,107400,1074,Grand Canyon University,AZ,Private for-profit,87192,42186,"36,792 ",16.16,72828,32465,36792,0,No,No,No,No,No,No,No,www.gcu.edu/
+104717,107400,1074,Grand Canyon University,AZ,Private for-profit,87192,42186,"36,792 ",16.16,72828,32465,36792,,No,No,No,No,No,No,No,www.gcu.edu/
 107600,110300,1103,Philander Smith College,AR,Private non-profit,70548,38427,"34,070 ",16.19,70192,36500,34070,28.89,Yes,No,No,No,No,No,No,https://www.philander.edu/
 166452,216000,2160,Lesley University,MA,Private non-profit,124748,51173,"43,492 ",16.24,104328,50588,43492,14.7,No,No,No,No,No,No,No,www.lesley.edu/
 388520,3422400,34224,College of Biblical Studies-Houston,TX,Private non-profit,57244,39260,"35,753 ",16.32,56088,39407,35753,15.35,No,No,No,No,No,No,No,www.cbshouston.edu/
-177214,246100,2461,Drury University,MO,Private non-profit,80504,40694,"35,770 ",16.35,54996,33971,35770,0,No,No,No,No,No,No,No,www.drury.edu/
-177214,246100,2461,Drury University-College of Continuing Professional Studies,MO,Private non-profit,80504,40694,"35,770 ",16.35,54996,33971,35770,0,No,No,No,No,No,No,No,www.drury.edu/
-198303,291600,2916,Chowan University,NC,Private non-profit,67548,38412,"34,303 ",16.44,59812,34232,34303,0,No,No,No,No,No,No,No,https://www.chowan.edu/
-113582,2298000,22980,Design Institute of San Diego,CA,Private for-profit,139968,46920,"38,446 ",16.52,0,0,38446,0,No,No,No,No,No,No,No,www.disd.edu/
-237385,381300,3813,Glenville State University,WV,Public,69000,39315,"35,146 ",16.55,69112,31766,35146,0,No,No,No,No,No,No,No,www.glenville.edu/
-165802,215000,2150,Fisher College,MA,Private non-profit,103316,49669,"43,492 ",16.73,94224,36448,43492,0,No,No,No,No,No,Yes,No,www.fisher.edu/
+177214,246100,2461,Drury University,MO,Private non-profit,80504,40694,"35,770 ",16.35,54996,33971,35770,,No,No,No,No,No,No,No,www.drury.edu/
+177214,246100,2461,Drury University-College of Continuing Professional Studies,MO,Private non-profit,80504,40694,"35,770 ",16.35,54996,33971,35770,,No,No,No,No,No,No,No,www.drury.edu/
+198303,291600,2916,Chowan University,NC,Private non-profit,67548,38412,"34,303 ",16.44,59812,34232,34303,,No,No,No,No,No,No,No,https://www.chowan.edu/
+113582,2298000,22980,Design Institute of San Diego,CA,Private for-profit,139968,46920,"38,446 ",16.52,,,38446,,No,No,No,No,No,No,No,www.disd.edu/
+237385,381300,3813,Glenville State University,WV,Public,69000,39315,"35,146 ",16.55,69112,31766,35146,,No,No,No,No,No,No,No,www.glenville.edu/
+165802,215000,2150,Fisher College,MA,Private non-profit,103316,49669,"43,492 ",16.73,94224,36448,43492,,No,No,No,No,No,Yes,No,www.fisher.edu/
 140951,2141500,21415,Savannah College of Art and Design,GA,Private non-profit,179160,45954,"35,289 ",16.8,166284,41790,35289,25.58,No,No,No,No,No,No,No,www.scad.edu/
-117168,2330500,23305,Laguna College of Art and Design,CA,Private non-profit,158836,47867,"38,446 ",16.86,0,0,38446,0,No,No,No,No,Yes,No,No,www.lcad.edu/
+117168,2330500,23305,Laguna College of Art and Design,CA,Private non-profit,158836,47867,"38,446 ",16.86,,,38446,,No,No,No,No,Yes,No,No,www.lcad.edu/
 482431,1072706,10727,DeVry University-California,CA,Private for-profit,127244,45987,"38,446 ",16.87,126224,39543,38446,115.06,No,No,No,No,No,No,No,https://www.devry.edu/
 175342,239600,2396,Alcorn State University,MS,Public,58628,36421,"32,974 ",17.01,57340,33201,32974,252.6,Yes,No,No,No,No,No,No,www.alcorn.edu/
-440794,3666300,36663,Pillar College,NJ,Private non-profit,97160,45577,"39,913 ",17.15,94364,32785,39913,0,No,No,No,No,No,Yes,No,www.pillar.edu/
+440794,3666300,36663,Pillar College,NJ,Private non-profit,97160,45577,"39,913 ",17.15,94364,32785,39913,,No,No,No,No,No,Yes,No,www.pillar.edu/
 158802,200400,2004,Dillard University,LA,Private non-profit,76468,39196,"34,837 ",17.54,68732,37522,34837,25.6,Yes,No,No,No,No,No,No,www.dillard.edu/
-232557,2053000,20530,Liberty University,VA,Private non-profit,119528,44813,"38,032 ",17.63,121592,36325,38032,0,No,No,No,No,No,No,No,https://www.liberty.edu/
+232557,2053000,20530,Liberty University,VA,Private non-profit,119528,44813,"38,032 ",17.63,121592,36325,38032,,No,No,No,No,No,No,No,https://www.liberty.edu/
 217925,342900,3429,Columbia International University,SC,Private non-profit,80140,38951,"34,412 ",17.66,73008,39294,34412,14.95,No,No,No,No,No,No,No,www.ciu.edu/
 105589,2065300,20653,Prescott College,AZ,Private non-profit,99856,42359,"36,792 ",17.94,75664,38628,36792,41.21,No,No,No,No,No,No,No,https://www.prescott.edu/
 218733,344600,3446,South Carolina State University,SC,Public,70208,38262,"34,412 ",18.24,65960,37060,34412,24.91,Yes,No,No,No,No,No,No,https://scsu.edu/
 172440,232200,2322,Finlandia University,MI,Private non-profit,88420,39864,"35,052 ",18.37,73832,39101,35052,18.23,No,No,No,No,No,No,No,www.finlandia.edu/
-166391,215800,2158,Lasell University,MA,Private non-profit,114232,49705,"43,492 ",18.39,87104,39313,43492,0,No,No,No,No,No,No,No,www.lasell.edu/
+166391,215800,2158,Lasell University,MA,Private non-profit,114232,49705,"43,492 ",18.39,87104,39313,43492,,No,No,No,No,No,No,No,www.lasell.edu/
 174437,236900,2369,North Central University,MN,Private non-profit,94012,45064,"39,969 ",18.45,78284,44574,39969,17,No,No,No,No,No,No,No,www.northcentral.edu/
-126182,134500,1345,Adams State University,CO,Public,51344,44372,"41,596 ",18.5,43332,39144,41596,0,No,No,No,No,No,Yes,No,www.adams.edu/
+126182,134500,1345,Adams State University,CO,Public,51344,44372,"41,596 ",18.5,43332,39144,41596,,No,No,No,No,No,Yes,No,www.adams.edu/
 117104,2270600,22706,Life Pacific University,CA,Private non-profit,90672,43299,"38,446 ",18.68,75260,43863,38446,13.89,No,No,No,No,No,Yes,No,https://www.lifepacific.edu/
 138947,155900,1559,Clark Atlanta University,GA,Private non-profit,139928,42712,"35,289 ",18.85,131592,39875,35289,28.69,Yes,No,No,No,No,No,No,www.cau.edu/
-205443,994200,9942,Shawnee State University,OH,Public,56576,39596,"36,811 ",20.31,46184,33935,36811,0,No,No,No,No,No,No,No,https://www.shawnee.edu/
-199458,2280900,22809,Mid-Atlantic Christian University,NC,Private non-profit,84988,38342,"34,303 ",21.04,0,0,34303,0,No,No,No,No,No,No,No,www.macuniversity.edu/
-183026,258000,2580,Southern New Hampshire University,NH,Private non-profit,130712,50318,"44,342 ",21.87,127868,41619,44342,0,No,No,No,No,No,No,No,www.snhu.edu/
-367884,3037500,30375,Hodges University,FL,Private non-profit,72332,37052,"33,773 ",22.06,73388,32789,33773,0,No,No,No,No,No,Yes,No,https://www.hodges.edu/
+205443,994200,9942,Shawnee State University,OH,Public,56576,39596,"36,811 ",20.31,46184,33935,36811,,No,No,No,No,No,No,No,https://www.shawnee.edu/
+199458,2280900,22809,Mid-Atlantic Christian University,NC,Private non-profit,84988,38342,"34,303 ",21.04,,,34303,,No,No,No,No,No,No,No,www.macuniversity.edu/
+183026,258000,2580,Southern New Hampshire University,NH,Private non-profit,130712,50318,"44,342 ",21.87,127868,41619,44342,,No,No,No,No,No,No,No,www.snhu.edu/
+367884,3037500,30375,Hodges University,FL,Private non-profit,72332,37052,"33,773 ",22.06,73388,32789,33773,,No,No,No,No,No,Yes,No,https://www.hodges.edu/
 229063,364200,3642,Texas Southern University,TX,Public,72048,38924,"35,753 ",22.72,71484,36840,35753,65.76,Yes,No,No,No,No,No,No,www.tsu.edu/
 136774,1257400,12574,Ringling College of Art and Design,FL,Private non-profit,217276,43325,"33,773 ",22.75,184700,41747,33773,23.16,No,No,No,No,No,No,No,https://www.ringling.edu/
-138868,154700,1547,Point University,GA,Private non-profit,78900,38740,"35,289 ",22.86,67964,32811,35289,0,No,No,No,No,No,No,No,point.edu/
-137953,3101900,31019,Trinity Baptist College,FL,Private non-profit,80128,37275,"33,773 ",22.88,0,0,33773,0,No,No,No,No,No,No,No,www.tbc.edu/
-202046,398200,3982,Cleveland Institute of Art,OH,Private non-profit,130724,42509,"36,811 ",22.94,108748,34317,36811,0,No,No,No,No,No,No,No,www.cia.edu/
-436614,3347300,33473,International Baptist College and Seminary,AZ,Private non-profit,63988,39556,"36,792 ",23.15,0,0,36792,0,No,No,No,No,No,No,No,www.ibcs.edu/ibc/
+138868,154700,1547,Point University,GA,Private non-profit,78900,38740,"35,289 ",22.86,67964,32811,35289,,No,No,No,No,No,No,No,point.edu/
+137953,3101900,31019,Trinity Baptist College,FL,Private non-profit,80128,37275,"33,773 ",22.88,,,33773,,No,No,No,No,No,No,No,www.tbc.edu/
+202046,398200,3982,Cleveland Institute of Art,OH,Private non-profit,130724,42509,"36,811 ",22.94,108748,34317,36811,,No,No,No,No,No,No,No,www.cia.edu/
+436614,3347300,33473,International Baptist College and Seminary,AZ,Private non-profit,63988,39556,"36,792 ",23.15,,,36792,,No,No,No,No,No,No,No,www.ibcs.edu/ibc/
 144281,166500,1665,Columbia College Chicago,IL,Private non-profit,105828,42195,"37,706 ",23.57,91592,39423,37706,53.34,No,No,No,No,No,No,No,www.colum.edu/
-167899,221100,2211,Springfield College,MA,Private non-profit,108804,48036,"43,492 ",23.94,76228,39639,43492,0,No,No,No,No,No,No,No,www.springfield.edu/
-160959,1138500,11385,College of the Atlantic,ME,Private non-profit,91196,40264,"36,542 ",24.5,0,0,36542,0,No,No,No,No,No,No,No,www.coa.edu/
+167899,221100,2211,Springfield College,MA,Private non-profit,108804,48036,"43,492 ",23.94,76228,39639,43492,,No,No,No,No,No,No,No,www.springfield.edu/
+160959,1138500,11385,College of the Atlantic,ME,Private non-profit,91196,40264,"36,542 ",24.5,,,36542,,No,No,No,No,No,No,No,www.coa.edu/
 133979,148600,1486,Florida Memorial University,FL,Private non-profit,71248,36624,"33,773 ",24.99,66604,34735,33773,69.23,Yes,No,No,No,No,No,No,www.fmuniv.edu/
-166018,466100,4661,Hampshire College,MA,Private non-profit,87340,46938,"43,492 ",25.35,0,0,43492,0,No,No,No,No,No,No,No,www.hampshire.edu/
-176664,1320800,13208,Baptist Bible College,MO,Private non-profit,73012,38641,"35,770 ",25.43,45812,35536,35770,0,No,No,No,No,No,No,No,www.gobbc.edu/
-237136,754400,7544,Appalachian Bible College,WV,Private non-profit,59056,37467,"35,146 ",25.44,0,0,35146,0,No,No,No,No,No,No,No,https://abc.edu/
-106412,108600,1086,University of Arkansas at Pine Bluff,AR,Public,38428,35550,"34,070 ",25.96,35708,33114,34070,0,Yes,No,No,No,No,No,No,www.uapb.edu/
-134237,2362100,23621,Full Sail University,FL,Private for-profit,119108,38219,"33,773 ",26.79,119572,33461,33773,0,No,No,No,No,No,No,No,www.fullsail.edu/
+166018,466100,4661,Hampshire College,MA,Private non-profit,87340,46938,"43,492 ",25.35,,,43492,,No,No,No,No,No,No,No,www.hampshire.edu/
+176664,1320800,13208,Baptist Bible College,MO,Private non-profit,73012,38641,"35,770 ",25.43,45812,35536,35770,,No,No,No,No,No,No,No,www.gobbc.edu/
+237136,754400,7544,Appalachian Bible College,WV,Private non-profit,59056,37467,"35,146 ",25.44,,,35146,,No,No,No,No,No,No,No,https://abc.edu/
+106412,108600,1086,University of Arkansas at Pine Bluff,AR,Public,38428,35550,"34,070 ",25.96,35708,33114,34070,,Yes,No,No,No,No,No,No,www.uapb.edu/
+134237,2362100,23621,Full Sail University,FL,Private for-profit,119108,38219,"33,773 ",26.79,119572,33461,33773,,No,No,No,No,No,No,No,www.fullsail.edu/
 197151,746800,7468,School of Visual Arts,NY,Private for-profit,225828,46459,"38,037 ",26.81,189380,42463,38037,42.79,No,No,No,No,No,No,No,www.sva.edu/
-157058,196800,1968,Kentucky State University,KY,Public,46476,36382,"34,705 ",27.71,42036,33703,34705,0,Yes,No,No,No,No,No,No,www.kysu.edu/
-201964,303000,3030,Ohio Christian University,OH,Private non-profit,83516,39813,"36,811 ",27.82,73896,34706,36811,0,No,No,No,No,No,No,No,www.ohiochristian.edu/
+157058,196800,1968,Kentucky State University,KY,Public,46476,36382,"34,705 ",27.71,42036,33703,34705,,Yes,No,No,No,No,No,No,www.kysu.edu/
+201964,303000,3030,Ohio Christian University,OH,Private non-profit,83516,39813,"36,811 ",27.82,73896,34706,36811,,No,No,No,No,No,No,No,www.ohiochristian.edu/
 232089,371100,3711,Ferrum College,VA,Private non-profit,175212,44296,"38,032 ",27.97,164168,39552,38032,108.01,No,No,No,No,No,No,No,www.ferrum.edu/
-210492,322800,3228,Bryn Athyn College of the New Church,PA,Private non-profit,78548,40457,"37,689 ",28.38,0,0,37689,0,No,No,No,No,No,No,No,www.brynathyn.edu/
-459727,4142500,41425,Touro University Worldwide,CA,Private non-profit,67220,40803,"38,446 ",28.52,0,0,38446,0,No,No,No,No,No,No,No,https://www.tuw.edu/
+210492,322800,3228,Bryn Athyn College of the New Church,PA,Private non-profit,78548,40457,"37,689 ",28.38,,,37689,,No,No,No,No,No,No,No,www.brynathyn.edu/
+459727,4142500,41425,Touro University Worldwide,CA,Private non-profit,67220,40803,"38,446 ",28.52,,,38446,,No,No,No,No,No,No,No,https://www.tuw.edu/
 139630,156300,1563,Emmanuel College,GA,Private non-profit,83256,38208,"35,289 ",28.52,82292,38708,35289,24.07,No,No,No,No,No,No,No,www.ec.edu/
 202170,303900,3039,Columbus College of Art and Design,OH,Private non-profit,112544,40664,"36,811 ",29.21,89456,43115,36811,14.19,No,No,No,No,No,No,No,www.ccad.edu/
 153320,712100,7121,Faith Baptist Bible College and Theological Seminary,IA,Private non-profit,62016,40650,"38,538 ",29.36,54596,46692,38538,6.7,No,No,No,No,No,No,No,https://faith.edu/
 164492,211700,2117,Anna Maria College,MA,Private non-profit,96504,46651,"43,492 ",30.55,82540,48088,43492,17.96,No,No,No,No,No,No,No,www.annamaria.edu/
-235167,815500,8155,The Evergreen State College,WA,Public,83564,45320,"42,614 ",30.88,75640,42328,42614,0,No,No,No,No,No,No,No,https://www.evergreen.edu/
-413413,3267300,32673,Capella University,MN,Private for-profit,68588,42189,"39,969 ",30.9,70408,31945,39969,0,No,No,No,No,No,No,No,www.capella.edu/
-161509,1167300,11673,Maine College of Art & Design,ME,Private non-profit,138180,40778,"36,542 ",32.62,0,0,36542,0,No,No,No,No,No,No,No,www.meca.edu/
+235167,815500,8155,The Evergreen State College,WA,Public,83564,45320,"42,614 ",30.88,75640,42328,42614,,No,No,No,No,No,No,No,https://www.evergreen.edu/
+413413,3267300,32673,Capella University,MN,Private for-profit,68588,42189,"39,969 ",30.9,70408,31945,39969,,No,No,No,No,No,No,No,www.capella.edu/
+161509,1167300,11673,Maine College of Art & Design,ME,Private non-profit,138180,40778,"36,542 ",32.62,,,36542,,No,No,No,No,No,No,No,www.meca.edu/
 230913,368800,3688,Northern Vermont University,VT,Public,58208,40903,"39,151 ",33.22,38548,39854,39151,54.83,No,No,No,No,No,No,No,www.northernvermont.edu/
-165167,2182900,21829,Cambridge College,MA,Private non-profit,84712,45998,"43,492 ",33.8,0,0,43492,0,No,No,No,No,No,No,No,www.cambridgecollege.edu/
-443340,3513500,35135,Williamson Christian College,TN,Private non-profit,84804,37474,"34,967 ",33.83,0,0,34967,0,No,No,No,No,No,No,No,www.williamsoncc.edu/
-196431,1201100,12011,Talmudical Seminary Oholei Torah,NY,Private non-profit,40408,39230,"38,037 ",33.87,0,0,38037,0,No,No,No,No,No,No,No,www.tsot.edu/
-186900,1198900,11989,Talmudical Academy-New Jersey,NJ,Private non-profit,14764,40344,"39,913 ",34.26,0,0,39913,0,No,No,No,No,No,No,No,https://talmudicalacademynj.com/
-202903,2220500,22205,Gods Bible School and College,OH,Private non-profit,32156,37722,"36,811 ",35.3,0,0,36811,0,No,No,No,No,No,No,No,www.gbs.edu/
-200873,3457300,34573,Allegheny Wesleyan College,OH,Private non-profit,22752,37453,"36,811 ",35.44,0,0,36811,0,No,No,No,No,No,No,No,awc.edu/
-197993,291100,2911,Bennett College,NC,Private non-profit,83504,36654,"34,303 ",35.52,85676,33384,34303,0,Yes,No,No,No,No,No,No,https://www.bennett.edu/
-176406,243900,2439,Tougaloo College,MS,Private non-profit,63280,34724,"32,974 ",36.16,59748,32105,32974,0,Yes,No,No,No,No,No,No,www.tougaloo.edu/
-112570,2110200,21102,Columbia College Hollywood,CA,Private non-profit,130900,42014,"38,446 ",36.69,127428,37121,38446,0,No,No,No,No,No,No,No,https://www.columbiacollege.edu/
-206491,314100,3141,Wilberforce University,OH,Private non-profit,56280,38298,"36,811 ",37.85,49356,34725,36811,0,Yes,No,No,No,No,No,No,www.wilberforce.edu/
-139719,156600,1566,Fort Valley State University,GA,Public,54336,36666,"35,289 ",39.46,49580,34932,35289,0,Yes,No,No,No,No,No,No,www.fvsu.edu/
-160409,202700,2027,Saint Joseph Seminary College,LA,Private non-profit,142120,38366,"34,837 ",40.27,0,0,34837,0,No,No,No,No,No,No,No,https://www.sjasc.edu/
-232308,371500,3715,Hollins University,VA,Private non-profit,88312,40075,"38,032 ",43.23,78120,35771,38032,0,No,No,No,No,No,No,No,www.hollins.edu/
-239309,2077100,20771,Milwaukee Institute of Art & Design,WI,Private non-profit,99776,41174,"38,969 ",45.25,79084,37260,38969,0,No,No,No,No,No,No,No,www.miad.edu/
-163295,208000,2080,Maryland Institute College of Art,MD,Private non-profit,156292,45212,"42,031 ",49.13,112496,36810,42031,0,No,No,No,No,No,No,No,www.mica.edu/
-182634,257200,2572,Colby-Sawyer College,NH,Private non-profit,111192,46474,"44,342 ",52.15,82108,43453,44342,0,No,No,No,No,No,No,No,www.colby-sawyer.edu/
-404338,2314100,23141,Schiller International University,FL,Private for-profit,92168,35529,"33,773 ",52.49,0,0,33773,0,No,No,No,No,No,No,No,www.schiller.edu/
+165167,2182900,21829,Cambridge College,MA,Private non-profit,84712,45998,"43,492 ",33.8,,,43492,,No,No,No,No,No,No,No,www.cambridgecollege.edu/
+443340,3513500,35135,Williamson Christian College,TN,Private non-profit,84804,37474,"34,967 ",33.83,,,34967,,No,No,No,No,No,No,No,www.williamsoncc.edu/
+196431,1201100,12011,Talmudical Seminary Oholei Torah,NY,Private non-profit,40408,39230,"38,037 ",33.87,,,38037,,No,No,No,No,No,No,No,www.tsot.edu/
+186900,1198900,11989,Talmudical Academy-New Jersey,NJ,Private non-profit,14764,40344,"39,913 ",34.26,,,39913,,No,No,No,No,No,No,No,https://talmudicalacademynj.com/
+202903,2220500,22205,Gods Bible School and College,OH,Private non-profit,32156,37722,"36,811 ",35.3,,,36811,,No,No,No,No,No,No,No,www.gbs.edu/
+200873,3457300,34573,Allegheny Wesleyan College,OH,Private non-profit,22752,37453,"36,811 ",35.44,,,36811,,No,No,No,No,No,No,No,awc.edu/
+197993,291100,2911,Bennett College,NC,Private non-profit,83504,36654,"34,303 ",35.52,85676,33384,34303,,Yes,No,No,No,No,No,No,https://www.bennett.edu/
+176406,243900,2439,Tougaloo College,MS,Private non-profit,63280,34724,"32,974 ",36.16,59748,32105,32974,,Yes,No,No,No,No,No,No,www.tougaloo.edu/
+112570,2110200,21102,Columbia College Hollywood,CA,Private non-profit,130900,42014,"38,446 ",36.69,127428,37121,38446,,No,No,No,No,No,No,No,https://www.columbiacollege.edu/
+206491,314100,3141,Wilberforce University,OH,Private non-profit,56280,38298,"36,811 ",37.85,49356,34725,36811,,Yes,No,No,No,No,No,No,www.wilberforce.edu/
+139719,156600,1566,Fort Valley State University,GA,Public,54336,36666,"35,289 ",39.46,49580,34932,35289,,Yes,No,No,No,No,No,No,www.fvsu.edu/
+160409,202700,2027,Saint Joseph Seminary College,LA,Private non-profit,142120,38366,"34,837 ",40.27,,,34837,,No,No,No,No,No,No,No,https://www.sjasc.edu/
+232308,371500,3715,Hollins University,VA,Private non-profit,88312,40075,"38,032 ",43.23,78120,35771,38032,,No,No,No,No,No,No,No,www.hollins.edu/
+239309,2077100,20771,Milwaukee Institute of Art & Design,WI,Private non-profit,99776,41174,"38,969 ",45.25,79084,37260,38969,,No,No,No,No,No,No,No,www.miad.edu/
+163295,208000,2080,Maryland Institute College of Art,MD,Private non-profit,156292,45212,"42,031 ",49.13,112496,36810,42031,,No,No,No,No,No,No,No,www.mica.edu/
+182634,257200,2572,Colby-Sawyer College,NH,Private non-profit,111192,46474,"44,342 ",52.15,82108,43453,44342,,No,No,No,No,No,No,No,www.colby-sawyer.edu/
+404338,2314100,23141,Schiller International University,FL,Private for-profit,92168,35529,"33,773 ",52.49,,,33773,,No,No,No,No,No,No,No,www.schiller.edu/
 199865,297900,2979,Warren Wilson College,NC,Private non-profit,106356,36260,"34,303 ",54.35,73228,35771,34303,49.88,No,No,No,No,No,No,No,https://www.warren-wilson.edu/
-133526,147800,1478,Edward Waters University,FL,Private non-profit,55296,34782,"33,773 ",54.8,51184,33457,33773,0,Yes,No,No,No,No,No,No,www.ewc.edu/
-199582,296800,2968,Saint Augustine's University,NC,Private non-profit,79108,35730,"34,303 ",55.44,76116,33188,34303,0,Yes,No,No,No,No,No,No,www.st-aug.edu/
-460349,340400,3404,Johnson & Wales University-Online,RI,Private non-profit,80968,43418,"41,968 ",55.84,79148,38516,41968,0,No,No,No,No,No,No,No,https://online.jwu.edu/?_ga=2.36357734.752362341.1629739669-391300583.1600981500
-484613,2098800,20988,University of Phoenix-Arizona,AZ,Private for-profit,54112,37752,"36,792 ",56.37,50512,31756,36792,0,No,No,No,No,No,No,No,https://www.phoenix.edu/
+133526,147800,1478,Edward Waters University,FL,Private non-profit,55296,34782,"33,773 ",54.8,51184,33457,33773,,Yes,No,No,No,No,No,No,www.ewc.edu/
+199582,296800,2968,Saint Augustine's University,NC,Private non-profit,79108,35730,"34,303 ",55.44,76116,33188,34303,,Yes,No,No,No,No,No,No,www.st-aug.edu/
+460349,340400,3404,Johnson & Wales University-Online,RI,Private non-profit,80968,43418,"41,968 ",55.84,79148,38516,41968,,No,No,No,No,No,No,No,https://online.jwu.edu/?_ga=2.36357734.752362341.1629739669-391300583.1600981500
+484613,2098800,20988,University of Phoenix-Arizona,AZ,Private for-profit,54112,37752,"36,792 ",56.37,50512,31756,36792,,No,No,No,No,No,No,No,https://www.phoenix.edu/
 211024,267000,2670,Clarks Summit University,PA,Private non-profit,63920,38818,"37,689 ",56.62,54588,38482,37689,68.84,No,No,No,No,No,No,No,https://www.clarkssummitu.edu/
-161572,685800,6858,Unity College,ME,Private non-profit,76064,37852,"36,542 ",58.06,73132,28179,36542,0,No,No,No,No,No,No,No,https://unity.edu/
-141185,159600,1596,Toccoa Falls College,GA,Private non-profit,82652,36630,"35,289 ",61.63,75672,32723,35289,0,No,No,No,No,No,No,No,https://tfc.edu/
-218919,345500,3455,Voorhees University,SC,Private non-profit,57628,35339,"34,412 ",62.17,55116,32529,34412,0,Yes,No,No,No,No,No,No,www.voorhees.edu/
-197142,289600,2896,Villa Maria College,NY,Private non-profit,51944,38857,"38,037 ",63.35,49120,35300,38037,0,No,No,No,No,No,No,No,https://www.villa.edu/
-220604,350100,3501,Le Moyne-Owen College,TN,Private non-profit,39748,35594,"34,967 ",63.39,37756,32064,34967,0,Yes,No,No,No,No,No,No,www.loc.edu/
-168847,467300,4673,Baker College,MI,Private non-profit,51680,35833,"35,052 ",66.17,41912,31260,35052,0,No,No,No,No,No,No,No,www.baker.edu/
-102270,104400,1044,Stillman College,AL,Private non-profit,64340,35421,"34,470 ",67.66,61784,31535,34470,0,Yes,No,No,No,No,No,No,https://stillman.edu/
-115773,121200,1212,Humphreys University-Stockton and Modesto Campuses,CA,Private non-profit,57080,39248,"38,446 ",71.17,57080,34771,38446,0,No,No,No,No,Yes,Yes,No,www.humphreys.edu/
-127945,764900,7649,Rocky Mountain College of Art and Design,CO,Private for-profit,99740,42958,"41,596 ",73.23,87656,33103,41596,0,No,No,No,No,No,No,No,www.rmcad.edu/
-438586,2113613,21136,American InterContinental University-Atlanta,GA,Private for-profit,62808,36144,"35,289 ",73.46,61236,31433,35289,0,No,No,No,No,No,No,No,www.aiuniv.edu/online-campus/campus-locations/atlanta
+161572,685800,6858,Unity College,ME,Private non-profit,76064,37852,"36,542 ",58.06,73132,28179,36542,,No,No,No,No,No,No,No,https://unity.edu/
+141185,159600,1596,Toccoa Falls College,GA,Private non-profit,82652,36630,"35,289 ",61.63,75672,32723,35289,,No,No,No,No,No,No,No,https://tfc.edu/
+218919,345500,3455,Voorhees University,SC,Private non-profit,57628,35339,"34,412 ",62.17,55116,32529,34412,,Yes,No,No,No,No,No,No,www.voorhees.edu/
+197142,289600,2896,Villa Maria College,NY,Private non-profit,51944,38857,"38,037 ",63.35,49120,35300,38037,,No,No,No,No,No,No,No,https://www.villa.edu/
+220604,350100,3501,Le Moyne-Owen College,TN,Private non-profit,39748,35594,"34,967 ",63.39,37756,32064,34967,,Yes,No,No,No,No,No,No,www.loc.edu/
+168847,467300,4673,Baker College,MI,Private non-profit,51680,35833,"35,052 ",66.17,41912,31260,35052,,No,No,No,No,No,No,No,www.baker.edu/
+102270,104400,1044,Stillman College,AL,Private non-profit,64340,35421,"34,470 ",67.66,61784,31535,34470,,Yes,No,No,No,No,No,No,https://stillman.edu/
+115773,121200,1212,Humphreys University-Stockton and Modesto Campuses,CA,Private non-profit,57080,39248,"38,446 ",71.17,57080,34771,38446,,No,No,No,No,Yes,Yes,No,www.humphreys.edu/
+127945,764900,7649,Rocky Mountain College of Art and Design,CO,Private for-profit,99740,42958,"41,596 ",73.23,87656,33103,41596,,No,No,No,No,No,No,No,www.rmcad.edu/
+438586,2113613,21136,American InterContinental University-Atlanta,GA,Private for-profit,62808,36144,"35,289 ",73.46,61236,31433,35289,,No,No,No,No,No,No,No,www.aiuniv.edu/online-campus/campus-locations/atlanta
 111081,113200,1132,California Institute of the Arts,CA,Private non-profit,205544,41198,"38,446 ",74.69,154020,40774,38446,66.16,No,No,No,No,No,No,No,https://www.calarts.edu/
-216542,330600,3306,University of Valley Forge,PA,Private non-profit,102396,39016,"37,689 ",77.16,92692,35015,37689,0,No,No,No,No,No,No,No,https://www.valleyforge.edu/
+216542,330600,3306,University of Valley Forge,PA,Private non-profit,102396,39016,"37,689 ",77.16,92692,35015,37689,,No,No,No,No,No,No,No,https://www.valleyforge.edu/
 143048,175300,1753,School of the Art Institute of Chicago,IL,Private non-profit,189176,40151,"37,706 ",77.37,166064,41016,37706,50.17,No,No,No,No,No,No,No,www.saic.edu/
-217235,340400,3404,Johnson & Wales University-Providence,RI,Private non-profit,126432,43418,"41,968 ",87.19,114492,38516,41968,0,No,Yes,No,No,No,No,No,https://www.jwu.edu/campuses/providence/
-177746,247300,2473,Kansas City Art Institute,MO,Private non-profit,113776,37032,"35,770 ",90.16,96152,32387,35770,0,No,No,No,No,No,No,No,www.kcai.edu/
-174127,236500,2365,Minneapolis College of Art and Design,MN,Private non-profit,109632,40873,"39,969 ",121.27,98888,35736,39969,0,No,No,No,No,No,No,No,https://mcad.edu/
-194569,2169100,21691,Davis College,NY,Private non-profit,57104,38450,"38,037 ",138.27,0,0,38037,0,No,No,No,No,No,No,No,https://davisny.edu/
-219204,405700,4057,National American University-Rapid City,SD,Private for-profit,95420,37325,"36,840 ",196.74,89328,33083,36840,0,No,No,No,No,No,No,No,www.national.edu/locations/campuses/rapid-city/
-183789,750200,7502,Berkeley College-Woodland Park,NJ,Private for-profit,69484,40251,"39,913 ",205.57,68400,37490,39913,0,No,No,No,No,No,No,No,https://berkeleycollege.edu/
-108232,753100,7531,Academy of Art University,CA,Private for-profit,149052,39008,"38,446 ",265.22,137604,33594,38446,0,No,No,No,No,No,No,No,www.academyart.edu/
-215105,335000,3350,The University of the Arts,PA,Private non-profit,173416,38252,"37,689 ",308.02,162872,34117,37689,0,No,No,No,No,No,No,No,https://www.uarts.edu/
-211608,331700,3317,Cheyney University of Pennsylvania,PA,Public,50128,37837,"37,689 ",338.7,44896,36843,37689,0,Yes,No,No,No,No,No,No,www.cheyney.edu/
-234164,376600,3766,Virginia Union University,VA,Private non-profit,88968,38275,"38,032 ",366.12,86568,34181,38032,0,Yes,No,No,No,No,No,No,www.vuu.edu/
-408844,2547600,25476,Florida National University-Main Campus,FL,Private for-profit,85652,33928,"33,773 ",552.59,86284,32775,33773,0,No,No,No,No,No,No,No,www.fnu.edu/
-199643,296200,2962,Shaw University,NC,Private non-profit,60068,34409,"34,303 ",566.68,58336,33094,34303,0,Yes,No,No,No,No,No,No,www.shawu.edu/
-368452,2578200,25782,Nossi College of Art,TN,Private for-profit,96172,35113,"34,967 ",658.71,90484,31651,34967,0,No,No,No,No,No,No,No,https://www.nossi.edu/
-214148,330000,3300,Moore College of Art and Design,PA,Private non-profit,147488,37839,"37,689 ",983.25,107604,36314,37689,0,No,No,No,No,No,No,No,www.moore.edu/
-166674,218000,2180,Massachusetts College of Art and Design,MA,Public,88588,43582,"43,492 ",984.31,50528,42119,43492,0,No,No,No,No,No,No,No,www.massart.edu/
-100724,100500,1005,Alabama State University,AL,Public,54108,34502,"34,470 ",1690.88,52264,32315,34470,0,Yes,No,No,No,No,No,No,www.alasu.edu/
-192110,274200,2742,The Juilliard School,NY,Private non-profit,164096,37827,"38,037 ",0,93252,56430,38037,5.07,No,No,No,No,No,No,No,www.juilliard.edu/
-145497,168500,1685,Hebrew Theological College,IL,Private non-profit,53804,33291,"37,706 ",0,53804,39064,37706,39.62,No,No,No,No,No,No,No,https://www.htc.edu/
-230816,368200,3682,Bennington College,VT,Private non-profit,119148,38289,"39,151 ",0,88252,40985,39151,48.12,No,No,No,No,No,No,No,https://www.bennington.edu/
-433420,998900,9989,California Aeronautical University,CA,Private for-profit,164408,38361,"38,446 ",0,0,0,38446,0,No,No,No,No,No,No,No,www.calaero.edu/
-446385,3868400,38684,Los Angeles College of Music,CA,Private for-profit,155252,31758,"38,446 ",0,0,0,38446,0,No,No,No,No,No,No,No,www.lacm.edu/
-461148,4118800,41188,New York Film Academy,CA,Private for-profit,164392,29633,"38,446 ",0,0,0,38446,0,No,No,No,No,No,No,No,www.nyfa.edu/
-461263,4159700,41597,American Medical Sciences Center,CA,Private for-profit,129572,29972,"38,446 ",0,0,0,38446,0,No,No,No,No,No,No,No,www.amsc.edu/
-123280,2359300,23593,Shasta Bible College and Graduate School,CA,Private non-profit,45548,28891,"38,446 ",0,0,0,38446,0,No,No,No,No,No,No,No,www.shasta.edu/
-129774,139300,1393,Mitchell College,CT,Private non-profit,115824,39115,"42,224 ",0,0,0,42224,0,No,No,No,No,No,No,No,https://www.mitchell.edu/
-384412,3218300,32183,University of the Potomac-Washington DC Campus,DC,Private for-profit,70876,34961,"36,093 ",0,0,0,36093,0,No,No,No,No,No,No,No,www.potomac.edu/
-137962,3028200,30282,Trinity College of Florida,FL,Private non-profit,63232,32465,"33,773 ",0,0,0,33773,0,No,No,No,No,No,No,No,trinitycollege.edu/
-384254,3373300,33733,Beacon College,FL,Private non-profit,146672,29420,"33,773 ",0,0,0,33773,0,No,No,No,No,No,No,No,https://www.beaconcollege.edu/
-363712,3256300,32563,Yeshivah Gedolah Rabbinical College,FL,Private non-profit,42820,30667,"33,773 ",0,0,0,33773,0,No,No,No,No,No,No,No,www.lecfl.com/
-439969,3414500,34145,Acupuncture and Massage College,FL,Private for-profit,137188,21937,"33,773 ",0,0,0,33773,0,No,No,No,No,No,No,No,www.amcollege.edu/
-457484,4252700,42527,Pacific Rim Christian University,HI,Private non-profit,85472,40523,"40,755 ",0,0,0,40755,0,No,No,No,No,Yes,No,No,https://www.pacrim.edu/#home
-153861,1111300,11113,Maharishi International University,IA,Private non-profit,71272,27981,"38,538 ",0,0,0,38538,0,No,No,No,No,No,No,No,https://www.miu.edu/
-489779,458600,4586,Purdue University Global,IN,Public,19060,36596,"37,447 ",0,0,0,37447,0,No,No,No,No,No,No,No,https://www.purdueglobal.edu/
-151810,2140800,21408,Martin University,IN,Private non-profit,61828,22544,"37,447 ",0,0,0,37447,0,No,No,No,No,No,No,No,www.martin.edu/
-157030,3002100,30021,Kentucky Mountain Bible College,KY,Private non-profit,36868,21256,"34,705 ",0,0,0,34705,0,No,No,No,No,No,No,No,www.kmbc.edu/
-217606,3570500,35705,Northpoint Bible College,MA,Private non-profit,110672,42210,"43,492 ",0,0,0,43492,0,No,No,No,No,No,No,No,www.northpoint.edu/
-167057,219400,2194,The New England Conservatory of Music,MA,Private non-profit,128592,34483,"43,492 ",0,0,0,43492,0,No,No,No,No,No,No,No,https://necmusic.edu/
-166911,2063000,20630,Montserrat College of Art,MA,Private non-profit,131952,33022,"43,492 ",0,0,0,43492,0,No,No,No,No,No,No,No,https://www.montserrat.edu/
-164614,3248300,32483,Boston Baptist College,MA,Private non-profit,54196,34159,"43,492 ",0,0,0,43492,0,No,No,No,No,No,No,No,www.boston.edu/
-459417,4163300,41633,Compass College of Film and Media,MI,Private non-profit,93720,34086,"35,052 ",0,0,0,35052,0,No,No,No,No,No,No,No,https://compass.edu/
-170091,226900,2269,Great Lakes Christian College,MI,Private non-profit,62364,31053,"35,052 ",0,0,0,35052,0,No,No,No,No,No,No,No,www.glcc.edu/
-174525,999200,9992,Oak Hills Christian College,MN,Private non-profit,82484,35983,"39,969 ",0,0,0,39969,0,No,No,No,No,No,No,No,www.oakhills.edu/
-457697,4119100,41191,City Vision University,MO,Private non-profit,25048,21123,"35,770 ",0,0,0,35770,0,No,No,No,No,No,No,No,https://www.cityvision.edu/
-176318,243300,2433,Rust College,MS,Private non-profit,38552,32275,"32,974 ",0,0,0,32974,0,Yes,No,No,No,No,No,No,www.rustcollege.edu/
-461032,4154200,41542,Carolina College of Biblical Studies,NC,Private non-profit,61792,24581,"34,303 ",0,0,0,34303,0,No,No,No,No,No,No,No,ccbs.edu/
-182917,2223300,22233,Magdalen College,NH,Private non-profit,48264,35809,"44,342 ",0,0,0,44342,0,No,No,No,No,No,No,No,www.magdalen.edu/
-186186,860900,8609,Rabbinical College of America,NJ,Private non-profit,52236,34990,"39,913 ",0,0,0,39913,0,No,No,No,No,No,No,No,www.rca.edu/
-187745,2146400,21464,Institute of American Indian and Alaska Native Culture and Arts Development,NM,Public,49712,24505,"32,566 ",0,0,0,32566,0,No,No,No,Yes,No,No,No,https://iaia.edu/
-189857,477600,4776,Central Yeshiva Tomchei Tmimim Lubavitz,NY,Private non-profit,68384,35023,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,https://cyttl.edu/
-375230,3000100,30001,Yeshiva Gedolah Imrei Yosef D'spinka,NY,Private non-profit,31924,36545,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,spinka58st.com/
-189413,1302900,13029,Boricua College,NY,Private non-profit,56508,35348,"38,037 ",0,0,0,38037,0,No,No,No,No,No,Yes,No,https://www.boricuacollege.edu/
-192712,275900,2759,Manhattan School of Music,NY,Private non-profit,204268,26878,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,www.msmnyc.edu/
-192165,1054900,10549,Kehilath Yakov Rabbinical Seminary,NY,Private non-profit,8324,36442,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,kehilathyakov.com/
-446604,3802300,38023,Uta Mesivta of Kiryas Joel,NY,Private non-profit,27896,31853,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,utam.edu/
-197018,1118900,11189,United Talmudical Seminary,NY,Private non-profit,38760,25113,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,utsny.edu/
-194666,861400,8614,Rabbinical College Bobover Yeshiva Bnei Zion,NY,Private non-profit,31036,20707,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,rabbinicalcollegeboboveryeshiva.edu/
-476717,4192800,41928,Be'er Yaakov Talmudic Seminary,NY,Private non-profit,15272,17360,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,www.byts.edu/
-451404,4115500,41155,Talmudical Seminary of Bobov,NY,Private non-profit,9872,22432,"38,037 ",0,0,0,38037,0,No,No,No,No,No,No,No,www.independentrabbinicalcolleges.org/
-202073,303100,3031,Cleveland Institute of Music,OH,Private non-profit,100508,32641,"36,811 ",0,0,0,36811,0,No,No,No,No,No,No,No,www.cim.edu/
-208725,2159700,21597,New Hope Christian College-Eugene,OR,Private non-profit,63452,31115,"36,722 ",0,0,0,36722,0,No,No,No,No,Yes,No,No,www.newhope.edu/
-214971,2107300,21073,Pennsylvania Academy of the Fine Arts,PA,Private non-profit,224656,29881,"37,689 ",0,0,0,37689,0,No,No,No,No,No,No,No,https://www.pafa.org/
-217624,341700,3417,Allen University,SC,Private non-profit,55448,30497,"34,412 ",0,0,0,34412,0,Yes,No,No,No,No,No,No,https://www.allenuniversity.edu/
-225885,363700,3637,Jarvis Christian University,TX,Private non-profit,38024,32992,"35,753 ",0,0,0,35753,0,Yes,No,No,No,No,No,No,www.jarvis.edu/
-417752,3092600,30926,Messenger College,TX,Private non-profit,73452,29463,"35,753 ",0,0,0,35753,0,No,No,No,No,No,Yes,No,www.messengercollege.edu/
-227429,360200,3602,Paul Quinn College,TX,Private non-profit,35468,29288,"35,753 ",0,0,0,35753,0,Yes,No,No,No,No,No,No,www.pqc.edu/
-444787,3838300,38383,Nightingale College,UT,Private for-profit,114360,27126,"39,805 ",0,0,0,39805,0,No,No,No,No,No,No,No,www.nightingale.edu/
-234137,376200,3762,Virginia University of Lynchburg,VA,Private non-profit,72524,28396,"38,032 ",0,0,0,38032,0,Yes,No,No,No,No,No,No,www.vul.edu/
-231095,2143500,21435,Sterling College,VT,Private non-profit,77120,30573,"39,151 ",0,0,0,39151,0,No,No,No,No,No,No,No,www.sterlingcollege.edu/
-230889,368600,3686,Goddard College,VT,Private non-profit,93640,25552,"39,151 ",0,0,0,39151,0,No,No,No,No,No,No,No,www.goddard.edu/
-377546,2602100,26021,Northwest College of Art & Design,WA,Private for-profit,74204,31167,"42,614 ",0,0,0,42614,0,No,No,No,No,No,No,No,https://ncad.edu/
-101675,102800,1028,Miles College,AL,Private non-profit,53036,32627,"34,470 ",0,50084,32173,34470,0,Yes,No,No,No,No,No,No,www.miles.edu/
-102298,104600,1046,Talladega College,AL,Private non-profit,52512,32229,"34,470 ",0,51500,29489,34470,0,Yes,No,No,No,No,No,No,www.talladega.edu/
-106306,108700,1087,Arkansas Baptist College,AR,Private non-profit,34884,28418,"34,070 ",0,31660,27204,34070,0,Yes,No,No,No,No,No,No,www.arkansasbaptist.edu/
-421708,3115000,31150,Arizona College of Nursing-Tempe,AZ,Private for-profit,127576,34657,"36,792 ",0,114300,33715,36792,0,No,No,No,No,No,No,No,www.arizonacollege.edu/
-104090,2218800,22188,Brookline College-Phoenix,AZ,Private for-profit,151228,29576,"36,792 ",0,151228,28260,36792,0,No,No,No,No,No,No,No,www.brooklinecollege.edu/
-154022,188100,1881,Ashford University,CA,Private for-profit,98888,35404,"38,446 ",0,98528,30277,38446,0,No,No,No,No,No,No,No,www.uagc.edu/
-447953,3752400,37524,SUM Bible College and Theological Seminary,CA,Private non-profit,83084,35418,"38,446 ",0,82480,34944,38446,0,No,No,No,No,No,Yes,No,www.sum.edu/
-486965,746901,7469,Hussian College-Los Angeles,CA,Private for-profit,191600,28806,"38,446 ",0,178028,26217,38446,0,No,No,No,No,No,No,No,relativityschool.org/
-126827,1014800,10148,Colorado Technical University-Colorado Springs,CO,Private for-profit,65644,37180,"41,596 ",0,64412,31567,41596,0,No,No,No,No,No,No,No,www.coloradotech.edu/Colorado-Springs
-127653,2117500,21175,Naropa University,CO,Private non-profit,107352,28720,"41,596 ",0,80884,24160,41596,0,No,No,No,No,No,No,No,https://www.naropa.edu/
-130183,140100,1401,Post University,CT,Private for-profit,74916,38696,"42,224 ",0,80432,29263,42224,0,No,No,No,No,No,No,No,www.post.edu/
-134811,887800,8878,AI Miami International University of Art and Design,FL,Private for-profit,132072,33415,"33,773 ",0,126620,31324,33773,0,No,No,No,No,No,No,No,www.artinstitutes.edu/miami/
-475121,1303900,13039,South University-Savannah Online,GA,Private for-profit,98976,34421,"35,289 ",0,97580,30473,35289,0,No,No,No,No,No,No,No,www.southuniversity.edu/online#location=Online Programs
-139579,1303900,13039,South University-Savannah,GA,Private for-profit,85796,34421,"35,289 ",0,76888,30473,35289,0,No,No,No,No,No,No,No,"www.southuniversity.edu/savannah#location=Savannah, GA"
-138558,154100,1541,Abraham Baldwin Agricultural College,GA,Public,28084,34996,"35,289 ",0,20564,30637,35289,0,No,No,No,No,No,No,No,https://www.abac.edu/
-138813,927000,9270,The Art Institute of Atlanta,GA,Private for-profit,138948,33685,"35,289 ",0,138180,31611,35289,0,No,No,No,No,No,No,No,www.artinstitutes.edu/atlanta
-140720,158700,1587,Paine College,GA,Private non-profit,53944,33338,"35,289 ",0,51596,31922,35289,0,Yes,No,No,No,No,No,No,www.paine.edu/
-142090,2234500,22345,Boise Bible College,ID,Private non-profit,73996,33140,"35,563 ",0,62160,29937,35563,0,No,No,No,No,No,No,No,https://boisebible.edu/
-142887,162800,1628,American Academy of Art College,IL,Private for-profit,147796,34324,"37,706 ",0,142460,33482,37706,0,No,No,No,No,No,No,No,https://www.aaart.edu/
-144883,2168600,21686,East-West University,IL,Private non-profit,81752,29963,"37,706 ",0,73300,27656,37706,0,No,No,No,No,No,Yes,No,www.eastwest.edu/
-155070,191700,1917,Barclay College,KS,Private non-profit,120492,36355,"36,397 ",0,113292,34858,36397,0,No,No,No,No,No,No,No,www.barclaycollege.edu/
-160630,202600,2026,Southern University at New Orleans,LA,Public,73180,34042,"34,837 ",0,73180,33281,34837,0,Yes,No,No,No,No,No,No,www.suno.edu/
-165574,214400,2144,Dean College,MA,Private non-profit,123968,38109,"43,492 ",0,103340,39866,43492,0,No,No,No,No,No,No,No,www.dean.edu/
-164748,212600,2126,Berklee College of Music,MA,Private non-profit,196920,33647,"43,492 ",0,173844,33756,43492,0,No,No,No,No,No,No,No,www.berklee.edu/
-498049,3115011,31150,Arizona College-Southfield,MI,Private for-profit,139468,34657,"35,052 ",0,138388,33715,35052,0,No,No,No,No,No,No,No,https://www.arizonacollege.edu/
-174154,962108,9621,Herzing University-Minneapolis,MN,Private non-profit,77812,36909,"39,969 ",0,74060,33117,39969,0,No,No,No,No,Yes,No,No,https://www.herzing.edu/
-177117,245800,2458,Cottey College,MO,Private non-profit,67376,35422,"35,770 ",0,62108,33605,35770,0,No,No,No,No,No,No,No,https://www.cottey.edu/
-176910,2266400,22664,Central Christian College of the Bible,MO,Private non-profit,54428,34675,"35,770 ",0,52120,32502,35770,0,No,No,No,No,No,No,No,www.cccb.edu/
-177551,246600,2466,Harris-Stowe State University,MO,Public,41256,31088,"35,770 ",0,38328,28140,35770,0,Yes,No,No,No,No,No,No,https://www.hssu.edu/
-176044,242400,2424,Mississippi Valley State University,MS,Public,43636,31919,"32,974 ",0,38896,30239,32974,0,Yes,No,No,No,No,No,No,www.mvsu.edu/
-489937,295600,2956,Carolina University,NC,Private non-profit,66824,32864,"34,303 ",0,63768,26357,34303,0,No,No,No,No,No,No,No,https://www.carolinau.edu/
-198862,294200,2942,Livingstone College,NC,Private non-profit,66552,32600,"34,303 ",0,67288,30915,34303,0,Yes,No,No,No,No,No,No,livingstone.edu/
-200484,1205900,12059,Trinity Bible College and Graduate School,ND,Private non-profit,71100,35604,"41,039 ",0,62124,35538,41039,0,No,No,No,No,No,No,No,trinitybiblecollege.edu/
-182980,257900,2579,New England College,NH,Private non-profit,117536,42092,"44,342 ",0,97752,39389,44342,0,No,No,No,No,No,No,No,www.nec.edu/
-444088,2218808,22188,Brookline College-Albuquerque,NM,Private for-profit,164744,29576,"32,566 ",0,167208,28260,32566,0,No,No,No,No,No,No,No,www.brooklinecollege.edu/
-191205,1256100,12561,Five Towns College,NY,Private for-profit,71240,35887,"38,037 ",0,28820,36145,38037,0,No,No,No,No,No,No,No,www.ftc.edu/
-206048,312100,3121,Tiffin University,OH,Private non-profit,103024,35942,"36,811 ",0,91964,28788,36811,0,No,No,No,No,No,No,No,www.tiffin.edu/
-201061,301100,3011,Art Academy of Cincinnati,OH,Private non-profit,116032,34368,"36,811 ",0,105960,33050,36811,0,No,No,No,No,No,No,No,https://www.artacademy.edu/
-201690,302600,3026,Central State University,OH,Public,50228,33267,"36,811 ",0,48804,32043,36811,0,Yes,No,No,No,No,No,No,www.centralstate.edu/
-206394,1289600,12896,The North Coast College,OH,Private for-profit,88160,30029,"36,811 ",0,88160,27582,36811,0,No,No,No,No,No,No,No,www.thencc.edu/
-207209,315700,3157,Langston University,OK,Public,41708,33261,"35,412 ",0,42912,30211,35412,0,Yes,No,No,No,No,No,No,www.langston.edu/
-209603,320700,3207,Pacific Northwest College of Art,OR,Private non-profit,151876,34883,"36,722 ",0,142660,31924,36722,0,No,No,No,No,No,No,No,willamette.edu/pnca/index.html
-215053,2269900,22699,Pennsylvania College of Art and Design,PA,Private non-profit,102340,33301,"37,689 ",0,83604,24493,37689,0,No,No,No,No,No,No,No,pcad.edu/
-212993,746900,7469,Hussian College-Philadelphia,PA,Private for-profit,85172,28806,"37,689 ",0,84864,26217,37689,0,No,No,No,No,No,No,No,www.hussiancollege.edu/
-217721,342000,3420,Benedict College,SC,Private non-profit,73824,31902,"34,412 ",0,72580,30236,34412,0,Yes,No,No,No,No,No,No,www.benedict.edu/
-218399,343900,3439,Morris College,SC,Private non-profit,74684,30614,"34,412 ",0,70940,28990,34412,0,Yes,No,No,No,No,No,No,https://www.morris.edu/
-220598,349900,3499,Lane College,TN,Private non-profit,55116,31670,"34,967 ",0,54688,30284,34967,0,Yes,No,No,No,No,No,No,www.lanecollege.edu/
-224776,887807,8878,Miami International University of Art & Design-Art Institute Dallas,TX,Private for-profit,139824,33415,"35,753 ",0,137672,31324,35753,0,No,No,No,No,No,No,No,www.artinstitutes.edu/dallas/
-228884,363800,3638,Texas College,TX,Private non-profit,44696,33752,"35,753 ",0,42080,31329,35753,0,Yes,No,No,No,No,No,No,www.texascollege.edu/
-229887,366900,3669,Wiley College,TX,Private non-profit,45124,33159,"35,753 ",0,41420,31982,35753,0,Yes,No,No,No,No,No,No,wileyc.edu/
-380438,2360800,23608,Provo College,UT,Private for-profit,131244,39645,"39,805 ",0,129788,36359,39805,0,No,No,No,No,No,No,No,www.provocollege.edu/
-447421,2178501,21785,Eagle Gate College-Layton,UT,Private for-profit,126328,37518,"39,805 ",0,128556,35142,39805,0,No,No,No,No,No,No,No,www.eaglegatecollege.edu/
-230366,2178500,21785,Eagle Gate College-Murray,UT,Private for-profit,116000,37518,"39,805 ",0,114908,35142,39805,0,No,No,No,No,No,No,No,eaglegatecollege.edu/
-235024,1231500,12315,Cornish College of the Arts,WA,Private non-profit,153664,33696,"42,614 ",0,110648,37855,42614,0,No,No,No,No,No,No,No,www.cornish.edu/
-237783,382000,3820,Salem University,WV,Private for-profit,57336,34642,"35,146 ",0,55088,28485,35146,0,No,No,No,No,No,No,No,https://www.salemu.edu/
+217235,340400,3404,Johnson & Wales University-Providence,RI,Private non-profit,126432,43418,"41,968 ",87.19,114492,38516,41968,,No,Yes,No,No,No,No,No,https://www.jwu.edu/campuses/providence/
+177746,247300,2473,Kansas City Art Institute,MO,Private non-profit,113776,37032,"35,770 ",90.16,96152,32387,35770,,No,No,No,No,No,No,No,www.kcai.edu/
+174127,236500,2365,Minneapolis College of Art and Design,MN,Private non-profit,109632,40873,"39,969 ",121.27,98888,35736,39969,,No,No,No,No,No,No,No,https://mcad.edu/
+194569,2169100,21691,Davis College,NY,Private non-profit,57104,38450,"38,037 ",138.27,,,38037,,No,No,No,No,No,No,No,https://davisny.edu/
+219204,405700,4057,National American University-Rapid City,SD,Private for-profit,95420,37325,"36,840 ",196.74,89328,33083,36840,,No,No,No,No,No,No,No,www.national.edu/locations/campuses/rapid-city/
+183789,750200,7502,Berkeley College-Woodland Park,NJ,Private for-profit,69484,40251,"39,913 ",205.57,68400,37490,39913,,No,No,No,No,No,No,No,https://berkeleycollege.edu/
+108232,753100,7531,Academy of Art University,CA,Private for-profit,149052,39008,"38,446 ",265.22,137604,33594,38446,,No,No,No,No,No,No,No,www.academyart.edu/
+215105,335000,3350,The University of the Arts,PA,Private non-profit,173416,38252,"37,689 ",308.02,162872,34117,37689,,No,No,No,No,No,No,No,https://www.uarts.edu/
+211608,331700,3317,Cheyney University of Pennsylvania,PA,Public,50128,37837,"37,689 ",338.7,44896,36843,37689,,Yes,No,No,No,No,No,No,www.cheyney.edu/
+234164,376600,3766,Virginia Union University,VA,Private non-profit,88968,38275,"38,032 ",366.12,86568,34181,38032,,Yes,No,No,No,No,No,No,www.vuu.edu/
+408844,2547600,25476,Florida National University-Main Campus,FL,Private for-profit,85652,33928,"33,773 ",552.59,86284,32775,33773,,No,No,No,No,No,No,No,www.fnu.edu/
+199643,296200,2962,Shaw University,NC,Private non-profit,60068,34409,"34,303 ",566.68,58336,33094,34303,,Yes,No,No,No,No,No,No,www.shawu.edu/
+368452,2578200,25782,Nossi College of Art,TN,Private for-profit,96172,35113,"34,967 ",658.71,90484,31651,34967,,No,No,No,No,No,No,No,https://www.nossi.edu/
+214148,330000,3300,Moore College of Art and Design,PA,Private non-profit,147488,37839,"37,689 ",983.25,107604,36314,37689,,No,No,No,No,No,No,No,www.moore.edu/
+166674,218000,2180,Massachusetts College of Art and Design,MA,Public,88588,43582,"43,492 ",984.31,50528,42119,43492,,No,No,No,No,No,No,No,www.massart.edu/
+100724,100500,1005,Alabama State University,AL,Public,54108,34502,"34,470 ",1690.88,52264,32315,34470,,Yes,No,No,No,No,No,No,www.alasu.edu/
+192110,274200,2742,The Juilliard School,NY,Private non-profit,164096,37827,"38,037 ",,93252,56430,38037,5.07,No,No,No,No,No,No,No,www.juilliard.edu/
+145497,168500,1685,Hebrew Theological College,IL,Private non-profit,53804,33291,"37,706 ",,53804,39064,37706,39.62,No,No,No,No,No,No,No,https://www.htc.edu/
+230816,368200,3682,Bennington College,VT,Private non-profit,119148,38289,"39,151 ",,88252,40985,39151,48.12,No,No,No,No,No,No,No,https://www.bennington.edu/
+433420,998900,9989,California Aeronautical University,CA,Private for-profit,164408,38361,"38,446 ",,,,38446,,No,No,No,No,No,No,No,www.calaero.edu/
+446385,3868400,38684,Los Angeles College of Music,CA,Private for-profit,155252,31758,"38,446 ",,,,38446,,No,No,No,No,No,No,No,www.lacm.edu/
+461148,4118800,41188,New York Film Academy,CA,Private for-profit,164392,29633,"38,446 ",,,,38446,,No,No,No,No,No,No,No,www.nyfa.edu/
+461263,4159700,41597,American Medical Sciences Center,CA,Private for-profit,129572,29972,"38,446 ",,,,38446,,No,No,No,No,No,No,No,www.amsc.edu/
+123280,2359300,23593,Shasta Bible College and Graduate School,CA,Private non-profit,45548,28891,"38,446 ",,,,38446,,No,No,No,No,No,No,No,www.shasta.edu/
+129774,139300,1393,Mitchell College,CT,Private non-profit,115824,39115,"42,224 ",,,,42224,,No,No,No,No,No,No,No,https://www.mitchell.edu/
+384412,3218300,32183,University of the Potomac-Washington DC Campus,DC,Private for-profit,70876,34961,"36,093 ",,,,36093,,No,No,No,No,No,No,No,www.potomac.edu/
+137962,3028200,30282,Trinity College of Florida,FL,Private non-profit,63232,32465,"33,773 ",,,,33773,,No,No,No,No,No,No,No,trinitycollege.edu/
+384254,3373300,33733,Beacon College,FL,Private non-profit,146672,29420,"33,773 ",,,,33773,,No,No,No,No,No,No,No,https://www.beaconcollege.edu/
+363712,3256300,32563,Yeshivah Gedolah Rabbinical College,FL,Private non-profit,42820,30667,"33,773 ",,,,33773,,No,No,No,No,No,No,No,www.lecfl.com/
+439969,3414500,34145,Acupuncture and Massage College,FL,Private for-profit,137188,21937,"33,773 ",,,,33773,,No,No,No,No,No,No,No,www.amcollege.edu/
+457484,4252700,42527,Pacific Rim Christian University,HI,Private non-profit,85472,40523,"40,755 ",,,,40755,,No,No,No,No,Yes,No,No,https://www.pacrim.edu/#home
+153861,1111300,11113,Maharishi International University,IA,Private non-profit,71272,27981,"38,538 ",,,,38538,,No,No,No,No,No,No,No,https://www.miu.edu/
+489779,458600,4586,Purdue University Global,IN,Public,19060,36596,"37,447 ",,,,37447,,No,No,No,No,No,No,No,https://www.purdueglobal.edu/
+151810,2140800,21408,Martin University,IN,Private non-profit,61828,22544,"37,447 ",,,,37447,,No,No,No,No,No,No,No,www.martin.edu/
+157030,3002100,30021,Kentucky Mountain Bible College,KY,Private non-profit,36868,21256,"34,705 ",,,,34705,,No,No,No,No,No,No,No,www.kmbc.edu/
+217606,3570500,35705,Northpoint Bible College,MA,Private non-profit,110672,42210,"43,492 ",,,,43492,,No,No,No,No,No,No,No,www.northpoint.edu/
+167057,219400,2194,The New England Conservatory of Music,MA,Private non-profit,128592,34483,"43,492 ",,,,43492,,No,No,No,No,No,No,No,https://necmusic.edu/
+166911,2063000,20630,Montserrat College of Art,MA,Private non-profit,131952,33022,"43,492 ",,,,43492,,No,No,No,No,No,No,No,https://www.montserrat.edu/
+164614,3248300,32483,Boston Baptist College,MA,Private non-profit,54196,34159,"43,492 ",,,,43492,,No,No,No,No,No,No,No,www.boston.edu/
+459417,4163300,41633,Compass College of Film and Media,MI,Private non-profit,93720,34086,"35,052 ",,,,35052,,No,No,No,No,No,No,No,https://compass.edu/
+170091,226900,2269,Great Lakes Christian College,MI,Private non-profit,62364,31053,"35,052 ",,,,35052,,No,No,No,No,No,No,No,www.glcc.edu/
+174525,999200,9992,Oak Hills Christian College,MN,Private non-profit,82484,35983,"39,969 ",,,,39969,,No,No,No,No,No,No,No,www.oakhills.edu/
+457697,4119100,41191,City Vision University,MO,Private non-profit,25048,21123,"35,770 ",,,,35770,,No,No,No,No,No,No,No,https://www.cityvision.edu/
+176318,243300,2433,Rust College,MS,Private non-profit,38552,32275,"32,974 ",,,,32974,,Yes,No,No,No,No,No,No,www.rustcollege.edu/
+461032,4154200,41542,Carolina College of Biblical Studies,NC,Private non-profit,61792,24581,"34,303 ",,,,34303,,No,No,No,No,No,No,No,ccbs.edu/
+182917,2223300,22233,Magdalen College,NH,Private non-profit,48264,35809,"44,342 ",,,,44342,,No,No,No,No,No,No,No,www.magdalen.edu/
+186186,860900,8609,Rabbinical College of America,NJ,Private non-profit,52236,34990,"39,913 ",,,,39913,,No,No,No,No,No,No,No,www.rca.edu/
+187745,2146400,21464,Institute of American Indian and Alaska Native Culture and Arts Development,NM,Public,49712,24505,"32,566 ",,,,32566,,No,No,No,Yes,No,No,No,https://iaia.edu/
+189857,477600,4776,Central Yeshiva Tomchei Tmimim Lubavitz,NY,Private non-profit,68384,35023,"38,037 ",,,,38037,,No,No,No,No,No,No,No,https://cyttl.edu/
+375230,3000100,30001,Yeshiva Gedolah Imrei Yosef D'spinka,NY,Private non-profit,31924,36545,"38,037 ",,,,38037,,No,No,No,No,No,No,No,spinka58st.com/
+189413,1302900,13029,Boricua College,NY,Private non-profit,56508,35348,"38,037 ",,,,38037,,No,No,No,No,No,Yes,No,https://www.boricuacollege.edu/
+192712,275900,2759,Manhattan School of Music,NY,Private non-profit,204268,26878,"38,037 ",,,,38037,,No,No,No,No,No,No,No,www.msmnyc.edu/
+192165,1054900,10549,Kehilath Yakov Rabbinical Seminary,NY,Private non-profit,8324,36442,"38,037 ",,,,38037,,No,No,No,No,No,No,No,kehilathyakov.com/
+446604,3802300,38023,Uta Mesivta of Kiryas Joel,NY,Private non-profit,27896,31853,"38,037 ",,,,38037,,No,No,No,No,No,No,No,utam.edu/
+197018,1118900,11189,United Talmudical Seminary,NY,Private non-profit,38760,25113,"38,037 ",,,,38037,,No,No,No,No,No,No,No,utsny.edu/
+194666,861400,8614,Rabbinical College Bobover Yeshiva Bnei Zion,NY,Private non-profit,31036,20707,"38,037 ",,,,38037,,No,No,No,No,No,No,No,rabbinicalcollegeboboveryeshiva.edu/
+476717,4192800,41928,Be'er Yaakov Talmudic Seminary,NY,Private non-profit,15272,17360,"38,037 ",,,,38037,,No,No,No,No,No,No,No,www.byts.edu/
+451404,4115500,41155,Talmudical Seminary of Bobov,NY,Private non-profit,9872,22432,"38,037 ",,,,38037,,No,No,No,No,No,No,No,www.independentrabbinicalcolleges.org/
+202073,303100,3031,Cleveland Institute of Music,OH,Private non-profit,100508,32641,"36,811 ",,,,36811,,No,No,No,No,No,No,No,www.cim.edu/
+208725,2159700,21597,New Hope Christian College-Eugene,OR,Private non-profit,63452,31115,"36,722 ",,,,36722,,No,No,No,No,Yes,No,No,www.newhope.edu/
+214971,2107300,21073,Pennsylvania Academy of the Fine Arts,PA,Private non-profit,224656,29881,"37,689 ",,,,37689,,No,No,No,No,No,No,No,https://www.pafa.org/
+217624,341700,3417,Allen University,SC,Private non-profit,55448,30497,"34,412 ",,,,34412,,Yes,No,No,No,No,No,No,https://www.allenuniversity.edu/
+225885,363700,3637,Jarvis Christian University,TX,Private non-profit,38024,32992,"35,753 ",,,,35753,,Yes,No,No,No,No,No,No,www.jarvis.edu/
+417752,3092600,30926,Messenger College,TX,Private non-profit,73452,29463,"35,753 ",,,,35753,,No,No,No,No,No,Yes,No,www.messengercollege.edu/
+227429,360200,3602,Paul Quinn College,TX,Private non-profit,35468,29288,"35,753 ",,,,35753,,Yes,No,No,No,No,No,No,www.pqc.edu/
+444787,3838300,38383,Nightingale College,UT,Private for-profit,114360,27126,"39,805 ",,,,39805,,No,No,No,No,No,No,No,www.nightingale.edu/
+234137,376200,3762,Virginia University of Lynchburg,VA,Private non-profit,72524,28396,"38,032 ",,,,38032,,Yes,No,No,No,No,No,No,www.vul.edu/
+231095,2143500,21435,Sterling College,VT,Private non-profit,77120,30573,"39,151 ",,,,39151,,No,No,No,No,No,No,No,www.sterlingcollege.edu/
+230889,368600,3686,Goddard College,VT,Private non-profit,93640,25552,"39,151 ",,,,39151,,No,No,No,No,No,No,No,www.goddard.edu/
+377546,2602100,26021,Northwest College of Art & Design,WA,Private for-profit,74204,31167,"42,614 ",,,,42614,,No,No,No,No,No,No,No,https://ncad.edu/
+101675,102800,1028,Miles College,AL,Private non-profit,53036,32627,"34,470 ",,50084,32173,34470,,Yes,No,No,No,No,No,No,www.miles.edu/
+102298,104600,1046,Talladega College,AL,Private non-profit,52512,32229,"34,470 ",,51500,29489,34470,,Yes,No,No,No,No,No,No,www.talladega.edu/
+106306,108700,1087,Arkansas Baptist College,AR,Private non-profit,34884,28418,"34,070 ",,31660,27204,34070,,Yes,No,No,No,No,No,No,www.arkansasbaptist.edu/
+421708,3115000,31150,Arizona College of Nursing-Tempe,AZ,Private for-profit,127576,34657,"36,792 ",,114300,33715,36792,,No,No,No,No,No,No,No,www.arizonacollege.edu/
+104090,2218800,22188,Brookline College-Phoenix,AZ,Private for-profit,151228,29576,"36,792 ",,151228,28260,36792,,No,No,No,No,No,No,No,www.brooklinecollege.edu/
+154022,188100,1881,Ashford University,CA,Private for-profit,98888,35404,"38,446 ",,98528,30277,38446,,No,No,No,No,No,No,No,www.uagc.edu/
+447953,3752400,37524,SUM Bible College and Theological Seminary,CA,Private non-profit,83084,35418,"38,446 ",,82480,34944,38446,,No,No,No,No,No,Yes,No,www.sum.edu/
+486965,746901,7469,Hussian College-Los Angeles,CA,Private for-profit,191600,28806,"38,446 ",,178028,26217,38446,,No,No,No,No,No,No,No,relativityschool.org/
+126827,1014800,10148,Colorado Technical University-Colorado Springs,CO,Private for-profit,65644,37180,"41,596 ",,64412,31567,41596,,No,No,No,No,No,No,No,www.coloradotech.edu/Colorado-Springs
+127653,2117500,21175,Naropa University,CO,Private non-profit,107352,28720,"41,596 ",,80884,24160,41596,,No,No,No,No,No,No,No,https://www.naropa.edu/
+130183,140100,1401,Post University,CT,Private for-profit,74916,38696,"42,224 ",,80432,29263,42224,,No,No,No,No,No,No,No,www.post.edu/
+134811,887800,8878,AI Miami International University of Art and Design,FL,Private for-profit,132072,33415,"33,773 ",,126620,31324,33773,,No,No,No,No,No,No,No,www.artinstitutes.edu/miami/
+475121,1303900,13039,South University-Savannah Online,GA,Private for-profit,98976,34421,"35,289 ",,97580,30473,35289,,No,No,No,No,No,No,No,www.southuniversity.edu/online#location=Online Programs
+139579,1303900,13039,South University-Savannah,GA,Private for-profit,85796,34421,"35,289 ",,76888,30473,35289,,No,No,No,No,No,No,No,"www.southuniversity.edu/savannah#location=Savannah, GA"
+138558,154100,1541,Abraham Baldwin Agricultural College,GA,Public,28084,34996,"35,289 ",,20564,30637,35289,,No,No,No,No,No,No,No,https://www.abac.edu/
+138813,927000,9270,The Art Institute of Atlanta,GA,Private for-profit,138948,33685,"35,289 ",,138180,31611,35289,,No,No,No,No,No,No,No,www.artinstitutes.edu/atlanta
+140720,158700,1587,Paine College,GA,Private non-profit,53944,33338,"35,289 ",,51596,31922,35289,,Yes,No,No,No,No,No,No,www.paine.edu/
+142090,2234500,22345,Boise Bible College,ID,Private non-profit,73996,33140,"35,563 ",,62160,29937,35563,,No,No,No,No,No,No,No,https://boisebible.edu/
+142887,162800,1628,American Academy of Art College,IL,Private for-profit,147796,34324,"37,706 ",,142460,33482,37706,,No,No,No,No,No,No,No,https://www.aaart.edu/
+144883,2168600,21686,East-West University,IL,Private non-profit,81752,29963,"37,706 ",,73300,27656,37706,,No,No,No,No,No,Yes,No,www.eastwest.edu/
+155070,191700,1917,Barclay College,KS,Private non-profit,120492,36355,"36,397 ",,113292,34858,36397,,No,No,No,No,No,No,No,www.barclaycollege.edu/
+160630,202600,2026,Southern University at New Orleans,LA,Public,73180,34042,"34,837 ",,73180,33281,34837,,Yes,No,No,No,No,No,No,www.suno.edu/
+165574,214400,2144,Dean College,MA,Private non-profit,123968,38109,"43,492 ",,103340,39866,43492,,No,No,No,No,No,No,No,www.dean.edu/
+164748,212600,2126,Berklee College of Music,MA,Private non-profit,196920,33647,"43,492 ",,173844,33756,43492,,No,No,No,No,No,No,No,www.berklee.edu/
+498049,3115011,31150,Arizona College-Southfield,MI,Private for-profit,139468,34657,"35,052 ",,138388,33715,35052,,No,No,No,No,No,No,No,https://www.arizonacollege.edu/
+174154,962108,9621,Herzing University-Minneapolis,MN,Private non-profit,77812,36909,"39,969 ",,74060,33117,39969,,No,No,No,No,Yes,No,No,https://www.herzing.edu/
+177117,245800,2458,Cottey College,MO,Private non-profit,67376,35422,"35,770 ",,62108,33605,35770,,No,No,No,No,No,No,No,https://www.cottey.edu/
+176910,2266400,22664,Central Christian College of the Bible,MO,Private non-profit,54428,34675,"35,770 ",,52120,32502,35770,,No,No,No,No,No,No,No,www.cccb.edu/
+177551,246600,2466,Harris-Stowe State University,MO,Public,41256,31088,"35,770 ",,38328,28140,35770,,Yes,No,No,No,No,No,No,https://www.hssu.edu/
+176044,242400,2424,Mississippi Valley State University,MS,Public,43636,31919,"32,974 ",,38896,30239,32974,,Yes,No,No,No,No,No,No,www.mvsu.edu/
+489937,295600,2956,Carolina University,NC,Private non-profit,66824,32864,"34,303 ",,63768,26357,34303,,No,No,No,No,No,No,No,https://www.carolinau.edu/
+198862,294200,2942,Livingstone College,NC,Private non-profit,66552,32600,"34,303 ",,67288,30915,34303,,Yes,No,No,No,No,No,No,livingstone.edu/
+200484,1205900,12059,Trinity Bible College and Graduate School,ND,Private non-profit,71100,35604,"41,039 ",,62124,35538,41039,,No,No,No,No,No,No,No,trinitybiblecollege.edu/
+182980,257900,2579,New England College,NH,Private non-profit,117536,42092,"44,342 ",,97752,39389,44342,,No,No,No,No,No,No,No,www.nec.edu/
+444088,2218808,22188,Brookline College-Albuquerque,NM,Private for-profit,164744,29576,"32,566 ",,167208,28260,32566,,No,No,No,No,No,No,No,www.brooklinecollege.edu/
+191205,1256100,12561,Five Towns College,NY,Private for-profit,71240,35887,"38,037 ",,28820,36145,38037,,No,No,No,No,No,No,No,www.ftc.edu/
+206048,312100,3121,Tiffin University,OH,Private non-profit,103024,35942,"36,811 ",,91964,28788,36811,,No,No,No,No,No,No,No,www.tiffin.edu/
+201061,301100,3011,Art Academy of Cincinnati,OH,Private non-profit,116032,34368,"36,811 ",,105960,33050,36811,,No,No,No,No,No,No,No,https://www.artacademy.edu/
+201690,302600,3026,Central State University,OH,Public,50228,33267,"36,811 ",,48804,32043,36811,,Yes,No,No,No,No,No,No,www.centralstate.edu/
+206394,1289600,12896,The North Coast College,OH,Private for-profit,88160,30029,"36,811 ",,88160,27582,36811,,No,No,No,No,No,No,No,www.thencc.edu/
+207209,315700,3157,Langston University,OK,Public,41708,33261,"35,412 ",,42912,30211,35412,,Yes,No,No,No,No,No,No,www.langston.edu/
+209603,320700,3207,Pacific Northwest College of Art,OR,Private non-profit,151876,34883,"36,722 ",,142660,31924,36722,,No,No,No,No,No,No,No,willamette.edu/pnca/index.html
+215053,2269900,22699,Pennsylvania College of Art and Design,PA,Private non-profit,102340,33301,"37,689 ",,83604,24493,37689,,No,No,No,No,No,No,No,pcad.edu/
+212993,746900,7469,Hussian College-Philadelphia,PA,Private for-profit,85172,28806,"37,689 ",,84864,26217,37689,,No,No,No,No,No,No,No,www.hussiancollege.edu/
+217721,342000,3420,Benedict College,SC,Private non-profit,73824,31902,"34,412 ",,72580,30236,34412,,Yes,No,No,No,No,No,No,www.benedict.edu/
+218399,343900,3439,Morris College,SC,Private non-profit,74684,30614,"34,412 ",,70940,28990,34412,,Yes,No,No,No,No,No,No,https://www.morris.edu/
+220598,349900,3499,Lane College,TN,Private non-profit,55116,31670,"34,967 ",,54688,30284,34967,,Yes,No,No,No,No,No,No,www.lanecollege.edu/
+224776,887807,8878,Miami International University of Art & Design-Art Institute Dallas,TX,Private for-profit,139824,33415,"35,753 ",,137672,31324,35753,,No,No,No,No,No,No,No,www.artinstitutes.edu/dallas/
+228884,363800,3638,Texas College,TX,Private non-profit,44696,33752,"35,753 ",,42080,31329,35753,,Yes,No,No,No,No,No,No,www.texascollege.edu/
+229887,366900,3669,Wiley College,TX,Private non-profit,45124,33159,"35,753 ",,41420,31982,35753,,Yes,No,No,No,No,No,No,wileyc.edu/
+380438,2360800,23608,Provo College,UT,Private for-profit,131244,39645,"39,805 ",,129788,36359,39805,,No,No,No,No,No,No,No,www.provocollege.edu/
+447421,2178501,21785,Eagle Gate College-Layton,UT,Private for-profit,126328,37518,"39,805 ",,128556,35142,39805,,No,No,No,No,No,No,No,www.eaglegatecollege.edu/
+230366,2178500,21785,Eagle Gate College-Murray,UT,Private for-profit,116000,37518,"39,805 ",,114908,35142,39805,,No,No,No,No,No,No,No,eaglegatecollege.edu/
+235024,1231500,12315,Cornish College of the Arts,WA,Private non-profit,153664,33696,"42,614 ",,110648,37855,42614,,No,No,No,No,No,No,No,www.cornish.edu/
+237783,382000,3820,Salem University,WV,Private for-profit,57336,34642,"35,146 ",,55088,28485,35146,,No,No,No,No,No,No,No,https://www.salemu.edu/
