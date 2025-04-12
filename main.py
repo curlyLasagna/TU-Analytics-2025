@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.11.17"
+__generated_with = "0.12.4"
 app = marimo.App(width="full")
 
 
@@ -130,13 +130,13 @@ def _(mo):
 def _(pl):
     from json import load
 
-    with open("Ranking_datasets/niche-800.json", "r") as f:
+    with open("Ranking_datasets/niche-800.json", "r",encoding="utf-8") as f:
         niche_json = load(f)
 
-    with open("Ranking_datasets/Forbes-Ranking-2025.json") as f:
+    with open("Ranking_datasets/Forbes-Ranking-2025.json", encoding="utf-8") as f:
         forbes_json = load(f)
 
-    with open("Ranking_datasets/timeshighered-2022.json") as f:
+    with open("Ranking_datasets/timeshighered-2022.json",encoding="utf-8") as f:
         times_json = load(f)
 
     niche_rankings = {}
@@ -217,7 +217,7 @@ def _(TU_dict, merged_forbes, pl):
     TU_index = sorted_rank.filter(
         pl.col("Institution Name") == "Towson University"
     ).item(0, "index")
-
+    #how is TU's index 51 if it ranks 174th?
 
     sorted_rank = sorted_rank.filter(
         pl.col("Carnegie Classification 2021: Basic (HD2023)")
@@ -229,6 +229,7 @@ def _(TU_dict, merged_forbes, pl):
 @app.cell
 def _(sorted_rank):
     sorted_rank
+    # how are there only 18 rows if it goes from 30 below TU to 30 above
     return
 
 
