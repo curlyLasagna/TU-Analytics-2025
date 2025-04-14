@@ -117,6 +117,12 @@ def _(KMeans, alt, cs, pl):
         ]
     )
 
+    # data_df = data_df.with_columns(
+    #       (
+    #         pl.col('Admissions total (ADM2023)') / pl.col("Applicants total (ADM2023)")
+    #     ).alias("admission rate"),
+    # )
+
     # Remove columns that have 1/2 of its data missing
     data_df = drop_majority_nulls(data_df)
 
@@ -367,7 +373,7 @@ def _(peer_institutions):
 
 
 @app.cell
-def _(PCA, pl):
+def _(PCA, data_df, pl):
     def get_categories():
         category_map = {
             "Student Success": [
@@ -385,8 +391,8 @@ def _(PCA, pl):
                 "Student service expenses per FTE (GASB) (DRVF2023)",
                 "Full-time retention rate  2023 (EF2023D)",
                 "Student-to-faculty ratio (EF2023D)",
-                "Price-to-Earnings Premium for the Median Student",
-                "Median Earnings 10 Years After Initial Enrollment for All Students"
+                # "Price-to-Earnings Premium for the Median Student",
+                # "Median Earnings 10 Years After Initial Enrollment for All Students"
             ],
             "Equity": [
                 # "Grand total (EF2023B  Undergraduate  Age under 25 total)",
@@ -421,7 +427,12 @@ def _(PCA, pl):
                 "Revenues from tuition and fees per FTE (GASB) (DRVF2023)",
                 "Revenues from state appropriations per FTE (GASB) (DRVF2023)",
                 "Revenues from local appropriations per FTE (GASB) (DRVF2023)",
-                "EMI Score (low-income percentile rank*percentage pell)",
+                "Total price for in-state students living on campus 2023-24 (DRVIC2023)",
+                "Total price for out-of-state students living on campus 2023-24 (DRVIC2023)",
+                "Private gifts  grants  and contracts as a percent of core revenues (GASB) (DRVF2023)",
+                "Revenues from private gifts  grants  and contracts per FTE (GASB) (DRVF2023)",
+                # "admission rate",
+                # "EMI Score (low-income percentile rank*percentage pell)",
             ],
             "Academic Resources": [
                 "Instruction expenses as a percent of total core expenses (GASB) (DRVF2023)",
@@ -450,6 +461,7 @@ def _(PCA, pl):
                 "Databases as a percent of the total library collection (DRVAL2023)",
                 "Digital/Electronic media as a percent of the total library collection (DRVAL2023)",
                 "Digital/Electronic serials as a percent of the total library collection (DRVAL2023)",
+                "Grand total (C2023_A  First major  Grand total  Doctor's degree - research/scholarship )",
             ],
             "Sustainability & Efficiency": [
                 "Investment return as a percent of core revenues (GASB) (DRVF2023)",
@@ -463,10 +475,10 @@ def _(PCA, pl):
                 "Endowment assets (year end) per FTE enrollment (GASB) (DRVF2023)",
                 "Equity ratio (GASB) (DRVF2023)",
             ],
-            # "Community Engagement": [
-            #     "Public service expenses as a percent of total core expenses (GASB) (DRVF2023)",
-            #     "Public service expenses per FTE (GASB) (DRVF2023)"
-            # ],
+            "Community Engagement": [
+                "Public service expenses as a percent of total core expenses (GASB) (DRVF2023)",
+                "Public service expenses per FTE (GASB) (DRVF2023)"
+            ],
         }
 
         return category_map
@@ -496,7 +508,7 @@ def _(PCA, pl):
             X = df.select(group).to_numpy()
             map[key] = PCA(n_components=1).fit_transform(X)[:, 0]
 
-        return pl.DataFrame(map).with_columns(df.select("Institution Name"))
+        return pl.DataFrame(map).with_columns(data_df.select("Institution Name"))
 
 
     def get_total_scores(df: pl.DataFrame) -> pl.DataFrame:
@@ -504,11 +516,10 @@ def _(PCA, pl):
         Multiply the composite score of each category and sum them to get an overall score
         """
         weights = {
-            "Student Success": 0.23,
+            "Student Success": 0.37,
             "Access": 0.09,
             "Equity": 0.09,
             "Academic Resources": 0.15,
-            "Career & Economic Outcomes": 0.14,
             "Innovation & Research": 0.12,
             "Sustainability & Efficiency": 0.06,
             "Community Engagement": 0.17,
@@ -529,36 +540,69 @@ def _(PCA, pl):
 
 
 @app.cell
-def _(get_categories, get_category_scores, get_total_scores, pl, scaled_df):
-    from pprint import pprint
+def _():
+    return
 
+
+@app.cell
+def _(get_categories, get_category_scores, get_total_scores, scaled_df):
     total_ranking_df = (
         get_total_scores(get_category_scores(scaled_df, get_categories()))
         .sort(by="Total Score", descending=True)
         .with_row_index(offset=1)
     )
 
-    # total_ranking_df
-    TU_rank = total_ranking_df.filter(
-        pl.col("Institution Name") == "Towson University"
-    )["index"].item()
-    total_ranking_df.slice(TU_rank - 10, 20)
-    return TU_rank, pprint, total_ranking_df
+    total_ranking_df
+    return (total_ranking_df,)
 
 
 @app.cell
-def _(get_categories, get_category_scores, scaled_df):
+def _(get_categories, mo):
+    category_choose = mo.ui.dropdown(
+        options=get_categories().keys()
+    )
+    category_choose
+    return (category_choose,)
+
+
+@app.cell
+def _(category_choose, get_categories, get_category_scores, scaled_df):
     # National ranking
-    get_category_scores(scaled_df, get_categories()).sort(by="Access", descending=True).with_row_index(offset=1)
+    get_category_scores(scaled_df, get_categories()).sort(by=category_choose.value, descending=True).with_row_index(offset=1)
     return
 
 
 @app.cell
-def _(get_categories, get_category_scores, peer_institutions, pl, scaled_df):
+def _(category_choose, get_categories, get_category_scores, pl, scaled_df):
+    get_category_scores(scaled_df, get_categories()).sort(by=category_choose.value, descending=True).with_row_index(offset=1).filter(pl.col("Institution Name") == "Towson University")
+    return
+
+
+@app.cell
+def _(
+    category_choose,
+    get_categories,
+    get_category_scores,
+    peer_institutions,
+    pl,
+    scaled_df,
+):
     # Ranking by peers
     get_category_scores(scaled_df, get_categories()).filter(
         pl.col("Institution Name").is_in(peer_institutions)
-    ).sort(by="Student Success", descending=True).with_row_index(offset=1)
+    ).sort(by=category_choose.value, descending=True).with_row_index(offset=1)
+    return
+
+
+@app.cell
+def _(category_choose, data_df, get_categories):
+    data_df.select(get_categories()[category_choose.value]).describe()
+    return
+
+
+@app.cell
+def _(category_choose, data_df, get_categories, pl):
+    data_df.select(get_categories()[category_choose.value] + ["Institution Name"]).filter(pl.col("Institution Name") == "Towson University")
     return
 
 
@@ -779,7 +823,6 @@ def _(pl):
 @app.cell
 def _(
     add_race_ratio,
-    add_thirdway,
     data_df,
     drop_majority_nulls,
     get_categories,
@@ -789,12 +832,24 @@ def _(
     foo = data_df
     foo = drop_majority_nulls(foo)
     foo = add_race_ratio(foo)
-    foo = add_thirdway(foo)
     foo = get_standardScale_df(foo)
+    # foo = add_thirdway(foo)
 
-    get_category_scores(foo, get_categories())
+    get_category_scores(foo, get_categories()).sort(by="Student Success")
+
     # foo = get_standardScale_df(foo)
     return (foo,)
+
+
+@app.cell
+def _():
+    # def cock():
+    #     for k in get_categories().keys():
+    #         plot_pca_loadings(foo, k, get_categories()[k]).save(
+    #             f"{k}_with_midway.png", scale_factor=2
+    #         )
+    # cock()
+    return
 
 
 @app.cell
