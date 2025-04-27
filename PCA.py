@@ -39,7 +39,9 @@ def _(KMeans, alt, cs, pl):
         scaler = StandardScaler()
         features = df.select(cs.numeric())
         scaled_features = scaler.fit_transform(features.to_numpy())
-        return pl.DataFrame(scaled_features, schema=features.columns).with_columns(df.select("Institution Name"))
+        return pl.DataFrame(scaled_features, schema=features.columns).with_columns(
+            df.select("Institution Name")
+        )
 
 
     def get_skewed_cols(df):
@@ -81,12 +83,6 @@ def _(KMeans, alt, cs, pl):
         return df
 
 
-    def pre_process(df: pl.DataFrame):
-        df = get_standardScale_df(df)
-
-        return df
-
-
     labels_df = (
         pl.read_csv("Labels.csv")
         .filter(~pl.col("VariableName").str.starts_with("State"))
@@ -116,12 +112,6 @@ def _(KMeans, alt, cs, pl):
             for col, mapping in mapping_dict.items()
         ]
     )
-
-    # data_df = data_df.with_columns(
-    #       (
-    #         pl.col('Admissions total (ADM2023)') / pl.col("Applicants total (ADM2023)")
-    #     ).alias("admission rate"),
-    # )
 
     # Remove columns that have 1/2 of its data missing
     data_df = drop_majority_nulls(data_df)
@@ -216,11 +206,13 @@ def _(KMeans, alt, cs, pl):
         .properties(title="Institution Clusters", width=600, height=400)
     )
 
-    b_chart + hline + vline
+    cluster = b_chart + hline + vline
+    cluster
     return (
         PCA,
         StandardScaler,
         b_chart,
+        cluster,
         cluster_range,
         col,
         data_df,
@@ -240,7 +232,6 @@ def _(KMeans, alt, cs, pl):
         pca,
         pca_df,
         pca_res,
-        pre_process,
         scaled_df,
         scaled_features,
         scaler,
@@ -285,6 +276,14 @@ def _(KMeans, alt, cluster_range, pl, scaled_df):
 
     visualize_elbow()
     return (visualize_elbow,)
+
+
+@app.cell
+def _(cs, filters, peer_cluster_df, pl):
+    peer_cluster_df.filter(pl.reduce(lambda a, b: a & b, filters)).select(
+        cs.numeric()
+    ).describe()
+    return
 
 
 @app.cell
@@ -351,25 +350,17 @@ def _(data_df, kdata, pca_df, pl):
 
 
 @app.cell
-def _(mo):
-    mo.md(
-        r"""
-
-        Peer Institutions publications count
-
-        To get a local PCA score in research with the number of publications added
-        Central Michigan University = 316
-        TU = 656
-
-        """
-    )
+def _(peer_institutions):
+    peer_institutions
     return
 
 
 @app.cell
-def _(peer_institutions):
-    peer_institutions
-    return
+def _(get_categories):
+    import json
+    with open("categories.json", "w") as f: 
+        json.dump(get_categories(), f)
+    return f, json
 
 
 @app.cell
@@ -477,7 +468,7 @@ def _(PCA, data_df, pl):
             ],
             "Community Engagement": [
                 "Public service expenses as a percent of total core expenses (GASB) (DRVF2023)",
-                "Public service expenses per FTE (GASB) (DRVF2023)"
+                "Public service expenses per FTE (GASB) (DRVF2023)",
             ],
         }
 
@@ -545,37 +536,63 @@ def _():
 
 
 @app.cell
-def _(get_categories, get_category_scores, get_total_scores, scaled_df):
+def _(
+    get_categories,
+    get_category_scores,
+    get_total_scores,
+    peer_institutions,
+    pl,
+    scaled_df,
+):
+    # total_ranking_df = (
+    #     get_total_scores(get_category_scores(scaled_df, get_categories()))
+    #     .sort(by="Total Score", descending=True)
+    #     .with_row_index(offset=1)
+    # )
+
     total_ranking_df = (
-        get_total_scores(get_category_scores(scaled_df, get_categories()))
+        get_total_scores(
+            get_category_scores(scaled_df, get_categories()).filter(
+                pl.col("Institution Name").is_in(peer_institutions)
+            )
+        )
         .sort(by="Total Score", descending=True)
         .with_row_index(offset=1)
     )
-
     total_ranking_df
     return (total_ranking_df,)
 
 
 @app.cell
-def _(get_categories, mo):
-    category_choose = mo.ui.dropdown(
-        options=get_categories().keys()
-    )
-    category_choose
-    return (category_choose,)
+def _(peer_institutions):
+    peer_institutions.to_list()
+    return
 
 
 @app.cell
 def _(category_choose, get_categories, get_category_scores, scaled_df):
     # National ranking
-    get_category_scores(scaled_df, get_categories()).sort(by=category_choose.value, descending=True).with_row_index(offset=1)
+    get_category_scores(scaled_df, get_categories()).sort(
+        by=category_choose.value, descending=True
+    ).with_row_index(offset=1)
     return
 
 
 @app.cell
 def _(category_choose, get_categories, get_category_scores, pl, scaled_df):
-    get_category_scores(scaled_df, get_categories()).sort(by=category_choose.value, descending=True).with_row_index(offset=1).filter(pl.col("Institution Name") == "Towson University")
+    get_category_scores(scaled_df, get_categories()).sort(
+        by=category_choose.value, descending=True
+    ).with_row_index(offset=1).filter(
+        pl.col("Institution Name") == "Towson University"
+    )
     return
+
+
+@app.cell
+def _(get_categories, mo):
+    category_choose = mo.ui.dropdown(options=get_categories().keys())
+    category_choose
+    return (category_choose,)
 
 
 @app.cell
@@ -602,13 +619,9 @@ def _(category_choose, data_df, get_categories):
 
 @app.cell
 def _(category_choose, data_df, get_categories, pl):
-    data_df.select(get_categories()[category_choose.value] + ["Institution Name"]).filter(pl.col("Institution Name") == "Towson University")
-    return
-
-
-@app.cell
-def _(get_categories, get_categories_no_expense):
-    get_categories_no_expense(get_categories())
+    data_df.select(
+        get_categories()[category_choose.value] + ["Institution Name"]
+    ).filter(pl.col("Institution Name") == "Towson University")
     return
 
 
@@ -672,7 +685,7 @@ def _(PCA, alt, get_categories, pl, scaled_df):
                 tooltip=["Feature", "Loading"],
             )
             .properties(
-                title=f"PCA Loadings for {group_name}", width=600, height=400
+                title=f"PCA Loadings for {group_name}", width=1000, height=500
             )
         )
         return chart
@@ -821,27 +834,6 @@ def _(pl):
 
 
 @app.cell
-def _(
-    add_race_ratio,
-    data_df,
-    drop_majority_nulls,
-    get_categories,
-    get_category_scores,
-    get_standardScale_df,
-):
-    foo = data_df
-    foo = drop_majority_nulls(foo)
-    foo = add_race_ratio(foo)
-    foo = get_standardScale_df(foo)
-    # foo = add_thirdway(foo)
-
-    get_category_scores(foo, get_categories()).sort(by="Student Success")
-
-    # foo = get_standardScale_df(foo)
-    return (foo,)
-
-
-@app.cell
 def _():
     # def cock():
     #     for k in get_categories().keys():
@@ -849,6 +841,287 @@ def _():
     #             f"{k}_with_midway.png", scale_factor=2
     #         )
     # cock()
+    return
+
+
+@app.cell
+def _(data_df):
+    # Get columns containing "expenses" or "expenditures"
+    filtered_columns = [
+        col
+        for col in data_df.columns
+        if "expenses" in col.lower() or "expenditures" in col.lower()
+    ]
+
+    # Print filtered columns and corresponding data
+    filtered_df = data_df.select(filtered_columns)
+    filtered_df
+    return filtered_columns, filtered_df
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _(data_df, get_categories):
+    data_df.select(get_categories()["Student Success"])
+    return
+
+
+@app.cell
+def _(category_choose, get_categories, get_category_scores, pl, scaled_df):
+    success_peers = [
+        "University of North Carolina at Charlotte",
+        "University of Washington-Bothell Campus",
+        "Rowan University",
+    ]
+
+    get_category_scores(scaled_df, get_categories()).filter(
+        pl.col("Institution Name").is_in(success_peers)
+    ).sort(by=category_choose.value, descending=True).with_row_index(
+        offset=1
+    ).with_columns((pl.sum("Community Engagement") / 3).alias("ff"))
+    return (success_peers,)
+
+
+@app.cell
+def _(data_df, get_categories, pl, success_peers):
+    def peersss():
+        top_3_peers = data_df.filter(
+            pl.col("Institution Name").is_in(success_peers)
+        )
+
+        def spends(df):
+            w = df.select(pl.all().mean())
+            return w
+
+        # spends(top_3_peers)
+        list = {}
+        for cat, cols in get_categories().items():
+            list[cat] = spends(top_3_peers).select(
+                [
+                    col
+                    for col in spends(top_3_peers).columns
+                    if "expenses" in col.lower() or "expenditure" in col.lower()
+                ]
+            )
+        return list
+
+    peersss()
+    return (peersss,)
+
+
+@app.cell
+def _(data_df, pl):
+    data_df.filter(pl.col("Institution Name") == "Towson University").select(
+                [
+                    col
+                    for col in data_df.columns
+                    if "expenses" in col.lower() or "expenditure" in col.lower()
+                ]
+            )
+    return
+
+
+@app.cell
+def _(peersss):
+    for ii, x in peersss().items():
+        x.write_csv(f"{ii}.csv")
+    return ii, x
+
+
+@app.cell
+def _(peersss):
+    peersss()
+    return
+
+
+@app.cell
+def _(data_df, get_categories, pl):
+    def crack():
+        another_list = {}
+        for cat, cols in get_categories().items():
+            another_list[cat] = data_df.filter(
+                pl.col("Institution Name") == "Towson University"
+            ).select(cols)
+        return another_list
+
+
+    crack()
+    return (crack,)
+
+
+@app.cell
+def _(crack, peersss):
+    from json import dump
+
+
+    def baz():
+        result_dict = {}
+        for key in crack().keys():
+            result_dict[key] = crack()[key] - peersss()[key]
+        return result_dict
+
+
+    baz()
+    return baz, dump
+
+
+@app.cell
+def _(alt, pl):
+    def bar_chart(df: pl.DataFrame):
+        """
+        Returns a chart comparing institutions sorted by 'index'.
+        """
+
+        # Melt dataframe except for the 'Institution Name' and 'index' columns
+        df_melted = df.unpivot(
+            value_name="Institution Name", variable_name="index"
+        )
+
+        # Create and return the chart
+        chart = (
+            alt.Chart(df_melted)
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "Institution Name:N",
+                    sort=alt.EncodingSortField(field="index", order="ascending"),
+                    axis=alt.Axis(labelAngle=-45),
+                    title=None,
+                ),
+                y=alt.Y("value:Q", title="Value"),
+                xOffset="variable:N",
+                color=alt.Color("variable:N", title="Category"),
+                tooltip=["Institution Name", "variable", "value"],
+            )
+            .properties(width=1000, height=800)
+        )
+
+        return chart
+    return (bar_chart,)
+
+
+@app.cell
+def _(alt, get_categories, get_category_scores, pl, scaled_df):
+    def single_column_bar_chart(df: pl.DataFrame) -> alt.Chart:
+        """
+        Creates a bar chart where:
+        - x-axis is 'Institution Name'
+        - y-axis is the second column in the DataFrame
+        """
+        col_name = df.columns[
+            1
+        ]  # assumes 1st is Institution Name, 2nd is the value column
+
+        df = df.with_columns(
+            (pl.col("Institution Name") == "Towson University").alias("IsTowson")
+        )
+
+        return (
+            alt.Chart(df.to_pandas())
+            .mark_bar()
+            .encode(
+                x=alt.X(
+                    "Institution Name:N",
+                    axis=alt.Axis(labels=False),
+                    title=None,
+                    sort=alt.SortField(field=col_name, order="descending"),
+                ),
+                y=alt.Y(f"{col_name}:Q", title="Value"),
+                tooltip=["Institution Name", col_name],
+                color=alt.condition(
+                    alt.datum.IsTowson,
+                    alt.value("#002D72"),  # Towson blue
+                    alt.value("lightgray"),  # All others
+                ),
+            )
+            .properties(width=1200, height=400, title=col_name)
+        )
+
+
+    # .filter(pl.col("Institution Name").is_in(peer_institutions))
+    def barz():
+        wow = get_category_scores(scaled_df, get_categories())
+        list = []
+        for i in wow.columns:
+            if i not in ["Institution Name", "index"]:
+                df = wow.select(["Institution Name", i])
+                list.append(df)
+        return list
+
+
+    # [barz()[i] for i in range(7)]
+    [
+        single_column_bar_chart(barz()[i]).save(f"{i}.png", scale_factor=2)
+        for i in range(7)
+    ]
+    return barz, single_column_bar_chart
+
+
+@app.cell
+def _(get_categories, get_category_scores, scaled_df):
+    [
+        get_category_scores(scaled_df, get_categories())
+        .sort(by=k, descending=True)
+        .with_row_index()
+        for k in get_categories().keys()
+    ]
+    return
+
+
+@app.cell
+def _(get_categories, get_category_scores, scaled_df):
+    get_category_scores(scaled_df, get_categories()).median()
+    return
+
+
+@app.cell
+def _(get_categories, get_category_scores, scaled_df):
+    get_category_scores(scaled_df, get_categories())
+    return
+
+
+@app.cell
+def _():
+    return
+
+
+@app.cell
+def _(pl):
+    import plotly_express as px
+
+    def radar_chart(unpivot_df: pl.DataFrame):
+        fig = px.line_polar(unpivot_df, r='value', theta='variable', line_close=True)
+        fig.update_traces(fill='toself')
+        fig.show()
+    return px, radar_chart
+
+
+@app.cell
+def _(get_categories, get_category_scores, scaled_df):
+    get_category_scores(scaled_df, get_categories()).drop("Institution Name")
+    return
+
+
+@app.cell
+def _(get_categories, get_category_scores, pl, radar_chart, scaled_df):
+    radar_chart(get_category_scores(scaled_df, get_categories()).filter(pl.col("Institution Name") == "Towson University").drop("Institution Name").unpivot())
+    return
+
+
+@app.cell
+def _(get_categories, get_category_scores, pl, scaled_df):
+    get_category_scores(scaled_df, get_categories()).filter(pl.col("Institution Name") == "Towson University").drop("Institution Name").unpivot()
+    return
+
+
+@app.cell
+def _(peer_institutions):
+
+    [print(x) for x in peer_institutions.to_list()]
     return
 
 

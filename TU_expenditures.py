@@ -280,7 +280,6 @@ def _(kmeans, np, scaled_df):
         cluster_labels = kmeans.labels_
         [print(type(i)) for i in np.unique(cluster_labels)]
     test()
-    
     return (test,)
 
 
@@ -295,10 +294,10 @@ def _(kmeans, np, scaled_df):
         cluster_labels = kmeans.labels_
         for col in X.columns:
             groups = [X[col][cluster_labels == i] for i in np.unique(cluster_labels)]
-    
+
             # Perform ANOVA
             f_stat, p_value = stats.f_oneway(*groups)
-        
+
             if p_value < 0.05:
                 sig_features.append((col, p_value))
 
@@ -748,10 +747,10 @@ def _(PCA, alt, pl):
         X = df.to_numpy()
         pca = PCA(n_components=2)
         pca.fit(X)
-    
+
         loadings = pca.components_[0]
         loading_df = pl.DataFrame({"Feature": df.columns, "Loading": loadings})
-    
+
         # Build Altair chart
         chart = (
             alt.Chart(loading_df)
@@ -769,7 +768,6 @@ def _(PCA, alt, pl):
             )
         )
         return chart
-
     return (cluster_loadings,)
 
 
@@ -782,6 +780,11 @@ def _(scaled_df):
 @app.cell
 def _(cluster_loadings, scaled_df):
     cluster_loadings(scaled_df)
+    return
+
+
+@app.cell
+def _():
     return
 
 
